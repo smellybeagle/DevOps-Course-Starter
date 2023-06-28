@@ -12,7 +12,6 @@ app.config.from_object(Config())
 def index():
     items = get_items()
     return render_template('index.html',items=items)
-    #return render_template_string('''<form action="/add-todo" method="POST"><button type="submit" name="Submit" value="Submit">Submit</button></form>''')
 
 @app.route("/add-todo" , methods = ["POST"])
 def add_todo():
