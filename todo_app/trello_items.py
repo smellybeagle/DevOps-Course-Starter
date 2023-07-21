@@ -1,10 +1,7 @@
 import os, requests
 from flask import request
 
-# trello_key = os.getenv("TRELLO_API")
-# trello_token = os.getenv("TRELLO_TOKEN")
-# trello_board_id = os.getenv("TRELLO_BOARD")
-# trello_url = os.getenv("BASE_URL")
+
 trello_key = os.getenv("API_KEY")
 trello_token = os.getenv("TOKEN")
 trello_board_id = os.getenv("BOARD_ID")
@@ -19,8 +16,9 @@ headers = {"Accept": "application/json"}
 
 def get_lists():
     get_lists_path = "boards/"+trello_board_id+"/lists"
+    #get_lists_path = "lists/649be24fcd4e7f514a246cc0/cards"
     url = trello_url + get_lists_path
-    query_params = {"key": trello_key, "token": trello_token, "cards": "open", "card_fields": "id,name,shortUrl"}
+    query_params = {"key": trello_key, "token": trello_token, "cards": "open", "card_fields": "idList,name,shortUrl"}
     #query_params = {"key": trello_key, "token": trello_token, "cards": "open", "card_fields": "name"}
     print(f"URL: {url}")
     response = requests.get(url, headers=headers, params=query_params)
@@ -29,7 +27,6 @@ def get_lists():
     print(response.json())
     response_json = response.json()
       
-
     cards_dict = []
     for trello_list in response_json:
 
@@ -37,7 +34,7 @@ def get_lists():
 
             cards_dict.append(each_card)
 
-    print("JSON (cards_dict) response is...")
+    #print("JSON (cards_dict) response is...")
     print(cards_dict)
 
     return cards_dict

@@ -2,7 +2,7 @@ from flask import Flask
 from .flask_config import Config
 from .data.session_items import add_item
 from todo_app.data.session_items import add_item
-from todo_app.trello_items import get_todo, new_card
+from todo_app.trello_items import get_lists, new_card
 from flask import Flask, render_template, request, redirect
 from todo_app.flask_config import Config
 
@@ -14,7 +14,7 @@ app.config.from_object(Config())
 @app.route('/')
 def index():
     #retrieve_items = get_items()
-    retrieve_items = get_todo()
+    retrieve_items = get_lists()
     return render_template('index.html', items_list = retrieve_items)
 
 
