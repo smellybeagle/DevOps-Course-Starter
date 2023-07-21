@@ -8,24 +8,43 @@
   </div>
   <div class="row">
     <div class="col-md-12">
+      <h2>To-Do</h2>
+      <ul class="list-group mb-4">
+          {% for item in items_list %}
+            <li>ID:{{ item.id }} - {{ item.name }} - {{item.shortUrl}}</li>
+          {%endfor%}
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Doing</h2>
+      <ul class="list-group mb-4">
+          {% for item in items_list %}
+            <li>ID:{{ item.id }} - {{ item.name }} - {{item.shortUrl}}</li>
+          {%endfor%}
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Done</h2>
+      <ul class="list-group mb-4">
+          {% for item in items_list %}
+            <li>ID:{{ item.id }} - {{ item.name }} - {{item.shortUrl}}</li>
+          {%endfor%}
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
       <h2>Add ToDo Item </h2>
       <ul class="list-group mb-4">
-          <form method="post" action="/add-todo">
+          <form method="post" action="/additem">
             <label for ="title">Add New</label>
             <input name="title" id="title" required>
             <button type="submit" name ="Submit"> Submit</button>
           </form>
-      </ul>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Items</h2>
-      <ul class="list-group mb-4">
-          {% for item in items %}
-            <li>ID:{{ item.id }} - {{ item.title }} - {{item.status}}</li>
-          {%endfor%}
       </ul>
     </div>
   </div>
