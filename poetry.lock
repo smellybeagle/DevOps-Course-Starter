@@ -307,6 +307,19 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "trello"
+version = "0.9.7.3"
+description = "Python library for interacting with the Trello API"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "trello-0.9.7.3.tar.gz", hash = "sha256:aa6c100e872f251b96aa916f6df0d4c550671817d65d25af29191ccbb7a6b765"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "urllib3"
 version = "2.0.3"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -358,4 +371,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "46a270473dc2f22e8b697fbc9c01b13a4dfa4bd649f59f419f521363267e57aa"
+content-hash = "7f2b80b95207f4e442dfbeddbf87bcf87d58cf24b7f5fa8d3d42209cc23c4245"
