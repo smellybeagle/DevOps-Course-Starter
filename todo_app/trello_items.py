@@ -33,21 +33,6 @@ doing= data_dict[1].get("id");
 done= data_dict[2].get("id");
 
 #print (todo)
-
-
-
-urldoing = url2 + doing + '/cards'
-payload1 = {'key': trello_key, 'token': trello_token, 'fields': 'name'}
-response1 = requests.get(urldoing, params=payload1)
-ddoing = response1.content
-dictdoing=json.loads(ddoing)
-
-urldone = url2 + done + '/cards'
-payload1 = {'key': trello_key, 'token': trello_token, 'fields': 'name'}
-response2 = requests.get(urldone, params=payload1)
-ddone = response2.content
-dictdone=json.loads(ddone)
-
 # print (urltodo)
 # print (urldoing)
 # print (urldone)
@@ -58,6 +43,7 @@ dictdone=json.loads(ddone)
 # print(dictdoing[1])
 #print(dictdone)
 #print (dicttodo)
+
 def todolists():
   urltodo = url2 + todo + '/cards'
   payload1 = {'key': trello_key, 'token': trello_token, 'fields': 'name'}
@@ -67,9 +53,19 @@ def todolists():
   return dicttodo
 
 def doinglists():
+   urldoing = url2 + doing + '/cards'
+   payload1 = {'key': trello_key, 'token': trello_token, 'fields': 'name'}
+   response1 = requests.get(urldoing, params=payload1)
+   ddoing = response1.content
+   dictdoing=json.loads(ddoing)
    return dictdoing
 
 def donelists():
+   urldone = url2 + done + '/cards'
+   payload1 = {'key': trello_key, 'token': trello_token, 'fields': 'name'}
+   response2 = requests.get(urldone, params=payload1)
+   ddone = response2.content
+   dictdone=json.loads(ddone)
    return dictdone
 
 #print(dictdoing)
@@ -83,10 +79,19 @@ def new_card():
      requests.request("POST",url, headers=headers, params=query_params)
      #print(response.text)
 
+def move_doing():
+     trelloid = request.form.get('id')
+     url3 = 'https://api.trello.com/1/cards/' + trelloid
+     query_params = {"idList": doing,"key": trello_key, "token": trello_token}
+     print(f"URL: {url3}")
+     requests.request("PUT",url3, headers=headers, params=query_params)
+     #print(response.text)
+
 def move_done():
-     url3 = 'https://api.trello.com/1/cards/' 
+     trelloid = request.form.get('id')
+     url3 = 'https://api.trello.com/1/cards/' + trelloid 
      #name = request.form.get('new-todo')
-     query_params = {"idList": todo,"key": trello_key, "token": trello_token}
+     query_params = {"idList": done,"key": trello_key, "token": trello_token}
      print(f"URL: {url3}")
      requests.request("PUT",url3, headers=headers, params=query_params)
      #print(response.text)

@@ -14,9 +14,8 @@
             <li>CardID: {{ item.id }} -Title: {{ item.name }} - NOT STARTED -           
               <form method="post" action="/movedoing">
               <input name="id" hidden value= "{{ item.id }}" required>
-              <button type="submit" name ="Submit"> Submit</button>
+              <button type="submit" name ="Submit"> Mark as In Progress</button>
             </form>
-            <a href="{{ item['movetodoing'] }}" class="btn btn-danger">Mark as In Progress</a></li>
           {%endfor%}
       </ul>
     </div>
@@ -24,7 +23,11 @@
       <h2>In Progress</h2>
       <ul class="list-group mb-4">
           {% for item in doing_list %}
-            <li>CardID: {{ item.id }} -Title:  {{ item.name }} - In Progress <a href="{{ movetodone }}" class="btn btn-danger">Mark as Complete</a></li>
+            <li>CardID: {{ item.id }} -Title:  {{ item.name }} - In Progress 
+              <form method="post" action="/movedone">
+                <input name="id" hidden value= "{{ item.id }}" required>
+                <button type="submit" name ="Submit"> Mark as Completed</button>
+              </form>
           {%endfor%}
       </ul>
     </div>
