@@ -8,24 +8,46 @@
   </div>
   <div class="row">
     <div class="col-md-12">
-      <h2>Add ToDo Item </h2>
+      <h2>To-Do</h2>
       <ul class="list-group mb-4">
-          <form method="post" action="/add-todo">
-            <label for ="title">Add New</label>
-            <input name="title" id="title" required>
-            <button type="submit" name ="Submit"> Submit</button>
-          </form>
+          {% for item in todo_list %}
+            <li>CardID: {{ item.id }} -Title: {{ item.name }} - NOT STARTED -           
+              <form method="post" action="/movedoing">
+              <input name="id" hidden value= "{{ item.id }}" required>
+              <button type="submit" name ="Submit"> Mark as In Progress</button>
+            </form>
+          {%endfor%}
       </ul>
     </div>
-  </div>
-
+    <div class="col-md-12">
+      <h2>In Progress</h2>
+      <ul class="list-group mb-4">
+          {% for item in doing_list %}
+            <li>CardID: {{ item.id }} -Title:  {{ item.name }} - In Progress 
+              <form method="post" action="/movedone">
+                <input name="id" hidden value= "{{ item.id }}" required>
+                <button type="submit" name ="Submit"> Mark as Completed</button>
+              </form>
+          {%endfor%}
+      </ul>
+    </div>
+    <div class="col-md-12">
+      <h2>Completed</h2>
+      <ul class="list-group mb-4">
+          {% for item in done_list %}
+            <li>CardID: {{ item.id }} -Title:  {{ item.name }} - Complete</li>
+          {%endfor%}
+      </ul>
+    </div>
   <div class="row">
     <div class="col-md-12">
-      <h2>Items</h2>
+      <h2>Add ToDo Item </h2>
       <ul class="list-group mb-4">
-          {% for item in items %}
-            <li>ID:{{ item.id }} - {{ item.title }} - {{item.status}}</li>
-          {%endfor%}
+          <form method="post" action="/additem">
+            <label for ="name">Add New</label>
+            <input name="name" id="name" required>
+            <button type="submit" name ="Submit"> Submit</button>
+          </form>
       </ul>
     </div>
   </div>
