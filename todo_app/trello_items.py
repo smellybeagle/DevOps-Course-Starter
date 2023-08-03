@@ -12,7 +12,6 @@ trello_list_id = os.getenv("LIST_ID")
 trello_url = "https://api.trello.com/1/"
 new_card_url="https://api.trello.com/1/cards/"
 
-#trello_url_params = {"key": trello_key, "token": trello_token}
 
 url1 = 'https://api.trello.com/1/boards/649be24fcd4e7f514a246cb9/lists'
 url2= 'https://api.trello.com/1/lists/'
@@ -23,26 +22,10 @@ response = requests.get(url1, params=payload)
 data = response.content
 data_dict=json.loads(data)
 
-#print(data_dict)
-# print(data_dict[0])
-# print(data_dict[1])
-# print(data_dict[1])
-
 todo= data_dict[0].get("id");
 doing= data_dict[1].get("id");
 done= data_dict[2].get("id");
 
-#print (todo)
-# print (urltodo)
-# print (urldoing)
-# print (urldone)
-
-#print(dicttodo[0].get("id"));
-# print(dicttodo[1])
-# print(dictdoing[0])
-# print(dictdoing[1])
-#print(dictdone)
-#print (dicttodo)
 
 def todolists():
   urltodo = url2 + todo + '/cards'
@@ -68,16 +51,14 @@ def donelists():
    dictdone=json.loads(ddone)
    return dictdone
 
-#print(dictdoing)
 headers = {"Accept": "application/json"}
 
 def new_card():
      url = new_card_url
      name = request.form.get('name')
      query_params = {"idList": todo,"key": trello_key, "token": trello_token, "name" : name, "pos" : 'bottom'}
-     #print(f"URL: {url}")
      requests.request("POST",url, headers=headers, params=query_params)
-     #print(response.text)
+
 
 def move_doing():
      trelloid = request.form.get('id')
@@ -85,13 +66,11 @@ def move_doing():
      query_params = {"idList": doing,"key": trello_key, "token": trello_token}
      print(f"URL: {url3}")
      requests.request("PUT",url3, headers=headers, params=query_params)
-     #print(response.text)
+
 
 def move_done():
      trelloid = request.form.get('id')
      url3 = 'https://api.trello.com/1/cards/' + trelloid 
-     #name = request.form.get('new-todo')
      query_params = {"idList": done,"key": trello_key, "token": trello_token}
      print(f"URL: {url3}")
      requests.request("PUT",url3, headers=headers, params=query_params)
-     #print(response.text)
