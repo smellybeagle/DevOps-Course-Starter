@@ -2,24 +2,42 @@ import os, requests
 from flask import request
 import json
 
+# declare variables that will be later set & used elsewhere
+trello_key, trello_token, trello_board_id, trello_list_id = None, None, None, None
+todo, doing, done = None, None, None
+url1 = ""
 
-
-trello_key = os.getenv("API_KEY")
-trello_token = os.getenv("TOKEN")
-trello_board_id = os.getenv("BOARD_ID")
-envtodo = os.getenv("TODO_LIST_ID")
-envdoing = os.getenv("DOING_LIST_ID")
-envdone = os.getenv("DONE_LIST_ID")
-trello_url = "https://api.trello.com/1/"
 new_card_url="https://api.trello.com/1/cards/"
-url1 = 'https://api.trello.com/1/boards/' + trello_board_id +'/lists'
 url2= 'https://api.trello.com/1/lists/'
-payload = {'key': trello_key, 'token': trello_token, 'field': 'name'}
+
+def init_trello():
+  # declare which variables from outside the function we'll be changing
+  global trello_key, trello_board_id, trello_token, trello_list_id,trello_url,new_card_url, url1,url2,envtodo,envdoing,envdone
+  global todo, doing, done
+  trello_key = os.getenv("API_KEY")
+  trello_token = os.getenv("TOKEN")
+  trello_board_id = os.getenv("BOARD_ID")
+  envtodo = os.getenv("TODO_LIST_ID")
+  envdoing = os.getenv("DOING_LIST_ID")
+  envdone = os.getenv("DONE_LIST_ID")
+  trello_url = "https://api.trello.com/1/"
+  new_card_url="https://api.trello.com/1/cards/"
+  url1 = 'https://api.trello.com/1/boards/' + trello_board_id +'/lists'
+  url2= 'https://api.trello.com/1/lists/'
+  payload = {'key': trello_key, 'token': trello_token, 'field': 'name'}
 
 
-response = requests.get(url1, params=payload)
-data = response.content
-data_dict=json.loads(data)
+  response = requests.get(url1, params=payload)
+  data = response.content
+  data_dict=json.loads(data)
+
+  todo= data_dict[0].get("id");
+  doing= data_dict[1].get("id");
+  done= data_dict[2].get("id");
+
+# response = requests.get(url1, params=payload)
+# data = response.content
+# data_dict=json.loads(data)
 
 #todo= data_dict[0].get("id"); 
 #doing= data_dict[1].get("id");
