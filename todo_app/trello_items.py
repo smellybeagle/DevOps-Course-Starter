@@ -2,6 +2,8 @@ import os, requests
 from flask import request
 import json
 
+from todo_app.data.item import Item
+
 # declare variables that will be later set & used elsewhere
 trello_key, trello_token, trello_board_id, trello_list_id = None, None, None, None
 todo, doing, done = None, None, None
@@ -43,15 +45,7 @@ def init_trello():
 #doing= data_dict[1].get("id");
 #done= data_dict[2].get("id");
 
-class Item:
-    def __init__(self, id, name, status = 'To Do'):
-        self.id = id
-        self.name = name
-        self.status = status
 
-    @classmethod
-    def from_trello_card(cls, card, list_name):
-        return cls(card['id'], card['name'], list_name)
 
 def todolists():
   urltodo = url2 + envtodo + '/cards'
