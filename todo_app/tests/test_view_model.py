@@ -12,10 +12,19 @@ def test_view_model_todos_method_only_returns_todo_items_and_not_other_statuses(
     view_model = ViewModel(todo_items, doing_items, done_items)
     
     # Act
-    items = view_model.todos
-    
+    tditems = view_model.todos
+    doitems = view_model.doings
+    dnitems = view_model.dones
     # Assert
-    assert len(items) == 1
-    single_item = items[0]
-    assert single_item.status == "To Do"
+    assert len(tditems) == 1
+    single_tditem = tditems[0]
+    assert single_tditem.status == "To Do"
+    
+    assert len(doitems) == 1
+    single_doitem = doitems[0]
+    assert single_doitem.status == "In Progress"
+    
+    assert len(dnitems) == 1
+    single_dnitem = dnitems[0]
+    assert single_dnitem.status == "Completed"
     
