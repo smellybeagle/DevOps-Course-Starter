@@ -52,3 +52,17 @@ You should see output similar to the following:
  * Debugger PIN: 226-556-590
 ```
 Now visit [`http://localhost:5000/`](http://localhost:5000/) in your web browser to view the app.
+
+
+### Testing The Application
+
+Install dependency PYTEST
+```bash
+$ poetry add pytest
+```
+
+There is a file called test_view_model.py which contains the test of the ViewModel function
+
+```bash
+$ poetry run pytest
+```
