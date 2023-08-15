@@ -36,35 +36,3 @@ def movedoing():
 def movedone():
     move_done()
     return redirect('/')
-
-
-def create_app():
-  app = Flask(__name__)
-  app.config.from_object(Config())
-
-  init_trello()
-
-  @app.route('/')
-  def index():
-    todo_items = todolists()
-    doing_items = doinglists()
-    done_items = donelists()
-    item_view_model = ViewModel(todo_items, doing_items, done_items)
-    return render_template('index.html', view_model = item_view_model)
-
-  @app.route('/additem', methods = ["POST"])
-  def add_new_item():
-    new_card()
-    return redirect('/')
-
-  @app.route('/movedoing', methods = ["POST"])
-  def movedoing():
-    move_doing()
-    return redirect('/')
-
-  @app.route('/movedone', methods = ["POST"])
-  def movedone():
-    move_done()
-    return redirect('/')
-
-  return create_app
