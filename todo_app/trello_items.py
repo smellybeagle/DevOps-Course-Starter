@@ -32,6 +32,8 @@ def init_trello():
   response = requests.get(url1, params=payload)
   data = response.content
   data_dict=json.loads(data)
+  
+  #print (data_dict)
 
   todo= data_dict[0].get("id");
   doing= data_dict[1].get("id");
@@ -58,6 +60,7 @@ def todolists():
       todos.append(Item.from_trello_card(todo_item, "To Do"))
   return todos
 
+#print (todolists)
 
 def doinglists():
   urldoing = url2 + envdoing + '/cards'
