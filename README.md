@@ -52,3 +52,22 @@ You should see output similar to the following:
  * Debugger PIN: 226-556-590
 ```
 Now visit [`http://localhost:5000/`](http://localhost:5000/) in your web browser to view the app.
+
+
+### Testing The Application
+
+Install dependency PYTEST
+```bash
+$ poetry add pytest
+```
+
+There are 2 tests integrated with this application, 1 to do a basic model test and the other to test the API calls.
+The testing simulates the application being created and run without making external calls.
+##todo_app\tests\test_view_model.py
+This test proves the application model is valid
+
+##todo_app\tests\test_client.py
+This test simulates the Trello API calls and utilises test sample data as returned data.
+```bash
+$ poetry run pytest
+```
