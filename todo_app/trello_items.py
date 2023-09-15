@@ -39,14 +39,6 @@ def init_trello():
   doing= data_dict[1].get("id");
   done= data_dict[2].get("id");
 
-# response = requests.get(url1, params=payload)
-# data = response.content
-# data_dict=json.loads(data)
-
-#todo= data_dict[0].get("id"); 
-#doing= data_dict[1].get("id");
-#done= data_dict[2].get("id");
-
 
 
 def todolists():

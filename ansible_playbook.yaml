@@ -1,0 +1,61 @@
+---
+- name: ToDo App
+  hosts: webservers
+  remote_user: ec2-user
+    hosts: webservers
+  vars_prompt:
+    - name: api_key
+      prompt: What is your Trello API Key?
+      private: true
+
+  tasks:
+  - name: Install Git
+    become: yes
+    become_user: root
+    package:
+      name: "git"
+      state: "latest"
+
+  - name: Create a directory
+    become: yes
+    become_user: root
+    ansible.builtin.file:
+      path: /opt/todoapp
+      owner: ec2-user
+      group: ec2-user
+      state: directory
+      mode: '0644 '
+
+  - name: Clone the TO-Do App latest version
+    ansible.builtin.git:
+      repo: https://github.com/smellybeagle/DevOps-Course-Starter.git
+      version: mod4
+      dest: /opt/todoapp
+
+  - name: Change Dir to /opt/todoapp and run Poetry Install
+    ansible.builtin.shell:
+      cmd: /home/ec2-user/.local/bin/poetry install
+      chdir: /opt/todoapp
+
+  - name: Copy a version of .env
+    ansible.builtin.template:
+      src: .env.j2
+      dest: /opt/tododapp/.env
+      group: ec2-user
+      setype: .env_t
+      mode: 0644 
+
+  - name: Copy todoapp.service
+    become: yes
+    ansible.builtin.template:
+      src: /opt/todoapp/todoapp.service
+      dest: /etc/systemd/system/todoapp.service
+      group: ec2-user
+      mode: 0644 
+
+  - name: Reload service todo_app
+  become: yes
+  ansible.builtin.systemd:
+    name: todo_app
+    daemon_reload: true
+    state: reloaded
