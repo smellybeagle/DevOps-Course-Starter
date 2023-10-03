@@ -8,6 +8,7 @@ ENV POETRY_HOME="/opt/poetry" \
 # to run poetry directly as soon as it's installed
 ENV PATH="$POETRY_HOME/bin:$PATH"
 
+
 # install poetry
 RUN apt-get update \
     && apt-get install -y --no-install-recommends curl \
@@ -22,7 +23,7 @@ COPY poetry.lock pyproject.toml ./
 RUN poetry install --no-root --no-ansi --without dev
 
 # Create a new stage from the base python image
-FROM poetry-base as todo-app
+FROM poetry-base as production
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -33,21 +34,42 @@ WORKDIR /app
 # copy the venv folder from builder image 
 COPY --from=poetry-base /app/.venv ./.venv
 # Copy Dependencies
-COPY poetry.lock pyproject.toml .venv ./
-
-# [OPTIONAL] Validate the project is properly configured
-#RUN poetry check
+COPY poetry.lock pyproject.toml ./
 
 # Install Dependencies
 RUN pip install gunicorn
-#RUN poetry install --no-interaction --no-cache --without dev
 
 # Copy Application
 COPY . /app
 COPY .env /app/todo_app
+
 # Run Application
-##poetry run gunicorn --bind 0.0.0.0 "todo_app.app:create_app()"
-EXPOSE 5000
-RUN poetry run gunicorn --bind 0.0.0.0 "todo_app.app:create_app()"
-#CMD [ "poetry", "run", "python", "-m", "gunicorn", "run", "--host=0.0.0.0" ]
-#CMD [ "poetry", "run", "gunicorn", "--bind 0.0.0.0" ]
+EXPOSE 8000
+
+CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
+
+# Create a new stage from the base python image
+FROM poetry-base as development
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PATH="/app/.venv/bin:$PATH"
+
+
+WORKDIR /app
+# copy the venv folder from builder image 
+COPY --from=poetry-base /app/.venv ./.venv
+# Copy Dependencies
+COPY poetry.lock pyproject.toml ./
+
+# Install Dependencies
+RUN pip install gunicorn
+
+# Copy Application
+COPY . /app
+COPY .env /app/todo_app
+
+# Run Application
+EXPOSE 8000
+
+CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
