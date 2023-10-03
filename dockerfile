@@ -70,6 +70,6 @@ COPY . /app
 COPY .env /app/todo_app
 
 # Run Application
-EXPOSE 8000
+EXPOSE 5000
 
 CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
