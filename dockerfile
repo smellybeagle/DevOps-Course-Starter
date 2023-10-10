@@ -72,4 +72,5 @@ COPY .env /app/todo_app
 # Run Application
 EXPOSE 5000
 
-CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
+#CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
+CMD [ "poetry", "run", "flask", "run", "--host","0.0.0.0"]
