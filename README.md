@@ -20,6 +20,9 @@ run the following:
 $ docker build --target development --tag todo-app:dev .
 $ docker build --target production --tag todo-app:prod .
 
+docker run --env-file .env -p 5000:5000 todo-app:dev
+docker run --env-file .env -p 8000:8000 todo-app:prod
+
 Now visit in your web browser to view the app.
 Production: [`http://localhost:8000/`](http://localhost:8000/) 
 Development:[`http://localhost:5000/`](http://localhost:5000/)
