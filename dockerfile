@@ -44,7 +44,6 @@ RUN pip install gunicorn
 
 # Copy Application
 COPY . /app
-COPY .env /app/todo_app
 
 # Run Application
 EXPOSE 8000
@@ -70,7 +69,6 @@ RUN pip install gunicorn
 
 # Copy Application
 COPY . /app
-COPY .env /app/todo_app
 
 # Run Application
 EXPOSE 5000
@@ -97,7 +95,6 @@ RUN pip install gunicorn
 
 # Copy Application
 COPY . /app
-COPY .env /app/todo_app
 COPY .env.test /app/todo_app
 COPY .env.template /app/todo_app
 
