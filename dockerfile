@@ -44,6 +44,7 @@ RUN pip install gunicorn
 
 # Copy Application
 COPY . /app
+COPY .env /todo_app/app
 
 # Run Application
 EXPOSE 8000
