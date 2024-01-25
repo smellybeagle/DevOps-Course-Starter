@@ -23,7 +23,8 @@ WORKDIR /app
 COPY poetry.lock pyproject.toml ./
 
 # this will create the folder /app/.venv (might need adjustment depending on which poetry version you are using)
-RUN poetry install --no-root --no-ansi --without dev
+RUN poetry config virtualenvs.create false --local && poetry install
+##RUN poetry install --no-root --no-ansi --without dev
 
 # Create a new stage from the base python image
 FROM poetry-base as production
@@ -48,6 +49,7 @@ COPY .env /todo_app/app
 
 # Run Application
 EXPOSE 8000
+
 
 CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
 
