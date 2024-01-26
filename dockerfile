@@ -36,7 +36,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 # copy the venv folder from builder image 
-COPY --from=poetry-base /app/.venv ./.venv
+#COPY --from=poetry-base /app/.venv ./.venv
 # Copy Dependencies
 COPY poetry.lock pyproject.toml ./
 
@@ -97,7 +97,7 @@ COPY poetry.lock pyproject.toml ./
 RUN pip install gunicorn
 
 # Copy Application
-COPY . /app
+#COPY . /app
 COPY .env.test /app/todo_app
 COPY .env.template /app/todo_app
 
@@ -105,5 +105,3 @@ COPY .env.template /app/todo_app
 EXPOSE 8100
 
 ENTRYPOINT ["poetry", "run", "pytest"]
-
-#CMD [ "poetry", "run", "python", "-m", "gunicorn","pytest" ,"--bind","0.0.0.0"]
