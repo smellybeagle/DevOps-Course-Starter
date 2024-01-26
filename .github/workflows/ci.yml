@@ -1,5 +1,7 @@
 name: Continuous Integration
 on: [push]
+    paths-ignore:
+    - '**/README.md'
 
 jobs:
   build:
@@ -15,5 +17,6 @@ jobs:
         
     - run: docker build --target test --tag todo-app:test .
       name: build docker test image
+      
     - run: docker run --env-file .env.test -p 8100:8100 todo-app:test
       name: run docker test image
