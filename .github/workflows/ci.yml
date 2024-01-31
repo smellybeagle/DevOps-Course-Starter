@@ -6,6 +6,11 @@ on:
 #    - 'Mod/**'
     paths-ignore:
     - '**/README.md'
+env:
+      # Use docker.io for Docker Hub if empty
+      REGISTRY: docker.io
+      # github.repository as <account>/<repo>
+      IMAGE_NAME: ${{ github.repository }}
 jobs:
       test:
           name: test
@@ -19,9 +24,7 @@ jobs:
                   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
   
               - run: docker build --target test --tag todo-app:test .
-                continue-on-error: true
-              - run: docker run --env-file .env.test -p 8100:8100 todo-app:test
-                continue-on-error: true
+              - run: docker run --env-file .env.test -p 5000:5000 todo-app:test
   
       deploy:
           name: deploy
@@ -29,13 +32,26 @@ jobs:
           runs-on: ubuntu-latest
           steps:
               - run: echo Publishing!
-              - uses: actions/checkout@v4
+              - uses: docker/setup-buildx-action@v2
 #              - name: login to docker
               - uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
                 with:
                   username: ${{ secrets.DOCKER_USERNAME }}
                   password: ${{ secrets.DOCKER_PASSWORD }}
+#              - name: Extract metadata (tags, labels) for Docker
+                id: meta
+              - uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
+                with:
+                  images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+              
+              - name: Build and push Docker image
+                uses: docker/build-push-action@v2
+                with:
+                    context: "{{defaultContext}}"
+                    push: true
+                    tags: ${{ steps.meta.outputs.tags }}
+                    labels: ${{ steps.meta.outputs.labels }}
 
               - run: docker build --target test --tag todo-app:test .
-              - run: docker run --env-file .env.test -p 8100:8100 todo-app:test
+              - run: docker run --env-file .env.test -p 5000:5000 todo-app:test
 
