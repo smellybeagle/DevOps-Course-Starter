@@ -50,8 +50,8 @@ jobs:
                 with:
                     context: "{{defaultContext}}"
                     push: true
-                    tags: lvarnham/smellybeagle
-                    labels: latest
+                    tags: lvarnham/smellybeagle:latest
+                    labels: production
 
               - run: docker build --target production --tag lvarnham:smellybeagle .
               - run: docker push lvarnham/smellybeagle:latest
