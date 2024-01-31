@@ -53,31 +53,6 @@ EXPOSE 8000
 
 CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
 
-# Create a new stage from the base python image
-FROM poetry-base as development
-
-ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1 \
-    PATH="/app/.venv/bin:$PATH"
-
-
-WORKDIR /app
-# copy the venv folder from builder image 
-COPY --from=poetry-base /app/.venv ./.venv
-# Copy Dependencies
-COPY poetry.lock pyproject.toml ./
-
-# Install Dependencies
-RUN pip install gunicorn
-
-# Copy Application
-COPY . /app
-
-# Run Application
-EXPOSE 5000
-
-#CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
-CMD [ "poetry", "run", "flask", "run", "--host","0.0.0.0"]
 
 # Create a new stage from the base python image
 FROM poetry-base as test
@@ -93,11 +68,11 @@ COPY poetry.lock pyproject.toml ./
 RUN pip install gunicorn
 
 # Copy Application
-#COPY . /app
+COPY . /app
 COPY .env.test /app/todo_app
 COPY .env.template /app/todo_app
 
 # Run Application
-EXPOSE 8100
+EXPOSE 5000
 
 ENTRYPOINT ["poetry", "run", "pytest"]
