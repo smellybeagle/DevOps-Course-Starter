@@ -49,8 +49,8 @@ jobs:
                 with:
                     context: "{{defaultContext}}"
                     push: true
-                    tags: ${{ steps.meta.outputs.tags }}
-                    labels: ${{ steps.meta.outputs.labels }}
+#                    tags: ${{ steps.meta.outputs.tags }}
+#                    labels: ${{ steps.meta.outputs.labels }}
 
               - run: docker build --target production --tag lvarnham:smellybeagle .
               - run: docker push lvarnham/smellybeagle:latest
