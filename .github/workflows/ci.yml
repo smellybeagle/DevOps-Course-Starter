@@ -52,6 +52,6 @@ jobs:
                     tags: ${{ steps.meta.outputs.tags }}
                     labels: ${{ steps.meta.outputs.labels }}
 
-              - run: docker build --target test --tag todo-app:test .
-              - run: docker run --env-file .env.test -p 5000:5000 todo-app:test
+              - run: docker build --target production --tag lvarnham:smellybeagle .
+              - run: docker push lvarnham/smellybeagle:latest
 
