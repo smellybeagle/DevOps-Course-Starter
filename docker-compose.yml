@@ -2,8 +2,8 @@ version: '3'
 services:
   app:
     build: 
-      target: test
+      target: production
       context: .
     container_name: todo_app
     env_file:
-      - .env.test
+      - .env
