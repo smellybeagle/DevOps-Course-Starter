@@ -82,14 +82,10 @@ CMD [ "poetry", "run", "flask", "run", "--host","0.0.0.0"]
 # Create a new stage from the base python image
 FROM poetry-base as test
 
-ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1 \
-    PATH="/app/.venv/bin:$PATH"
-
 
 WORKDIR /app
 # copy the venv folder from builder image 
-COPY --from=poetry-base /app/.venv ./.venv
+#COPY --from=poetry-base /app/.venv ./.venv
 # Copy Dependencies
 COPY poetry.lock pyproject.toml ./
 
