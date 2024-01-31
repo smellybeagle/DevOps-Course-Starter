@@ -6,53 +6,34 @@ on:
     - 'releases/**'
     paths-ignore:
     - '**/README.md'
-
 jobs:
-  my_first_job:
-   name: Test on Commit
-  build:
-    name: Build and test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Run Snyk to check for vulnerabilities
-        uses: snyk/actions/python@master
-        continue-on-error: true
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-
-      - run: docker build --target test --tag todo-app:test .
-        name: build docker test image
-      - run: docker run --env-file .env.test -p 8100:8100 todo-app:test
-        name: run docker test  
+      test:
+          name: test
+          runs-on: ubuntu-latest
+          steps:
+              - uses: actions/checkout@v3
+              - uses: snyk/actions/python@master
+#              - name: Run Snyk to check for vulnerabilities
+                continue-on-error: true
+                env:
+                  SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
   
-  my_second_job:
-     name: Push Docker image to Docker Hub
-   needs: my_first_job
-   build:
-    name: Push Docker image to Docker Hub
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out the repo
-        uses: actions/checkout@v4
-      
-      - name: Log in to Docker Hub
-        uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
-        with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
-      
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
-        with:
-          images: my-docker-hub-namespace/my-docker-hub-repository
-      
-      - name: Build and push Docker image
-        uses: docker/build-push-action@3b5e8027fcad23fda98b2e3ac259d8d67585f671
-        with:
-          context: .
-          file: ./Dockerfile
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+              - run: docker build --target test --tag todo-app:test .
+              - run: docker run --env-file .env.test -p 8100:8100 todo-app:test
+  
+      deploy:
+          name: deploy
+          needs: test
+          runs-on: ubuntu-latest
+          steps:
+              - run: echo Publishing!
+#              - uses: actions/checkout@v4
+#              - name: login to docker
+#              - uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
+#                with:
+#                  username: ${{ secrets.DOCKER_USERNAME }}
+#                  password: ${{ secrets.DOCKER_PASSWORD }}
+#
+#              - run: docker build --target test --tag todo-app:test .
+#              - run: docker run --env-file .env.test -p 8100:8100 todo-app:test
+
