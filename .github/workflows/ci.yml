@@ -53,6 +53,6 @@ jobs:
                     tags: lvarnham/smellybeagle:latest
                     labels: production
 
-              - run: docker build --target production --no-cache --tag lvarnham:smellybeagle .
+              - run: docker build --pull --no-cache --tag lvarnham:smellybeagle
               - run: docker push lvarnham/smellybeagle:latest
 
