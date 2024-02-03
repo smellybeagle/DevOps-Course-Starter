@@ -1,0 +1,88 @@
+2024-02-03 13:00:05,559 INFO : DEBUG ON - level 2
+2024-02-03 13:00:05,562 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:00:06,125 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 13:00:06,142 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 13:00:06,142 INFO : [33mPress CTRL+C to quit[0m
+2024-02-03 13:00:06,143 INFO :  * Restarting with stat
+2024-02-03 13:00:06,414 INFO : DEBUG ON - level 2
+2024-02-03 13:00:06,419 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:00:07,047 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 13:00:07,057 WARNING :  * Debugger is active!
+2024-02-03 13:00:07,059 INFO :  * Debugger PIN: 983-857-336
+2024-02-03 13:00:13,145 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:00:13,608 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc0/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 64
+2024-02-03 13:00:13,610 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:00:14,317 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc1/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 74
+2024-02-03 13:00:14,319 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:00:14,931 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc2/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 791
+2024-02-03 13:00:14,939 INFO : 127.0.0.1 - - [03/Feb/2024 13:00:14] "GET / HTTP/1.1" 200 -
+2024-02-03 13:01:51,301 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-03 13:01:51,327 INFO :  * Restarting with stat
+2024-02-03 13:01:51,599 INFO : DEBUG ON - level 2
+2024-02-03 13:01:51,602 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:01:52,109 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 13:01:52,118 WARNING :  * Debugger is active!
+2024-02-03 13:01:52,120 INFO :  * Debugger PIN: 983-857-336
+2024-02-03 13:02:40,703 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-03 13:02:40,732 INFO :  * Restarting with stat
+2024-02-03 13:02:40,999 INFO : DEBUG ON - level 2
+2024-02-03 13:02:41,010 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:02:41,671 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 13:02:41,681 WARNING :  * Debugger is active!
+2024-02-03 13:02:41,684 INFO :  * Debugger PIN: 983-857-336
+2024-02-03 13:03:13,290 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:03:14,131 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc0/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 64
+2024-02-03 13:03:14,133 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:03:14,642 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc1/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 74
+2024-02-03 13:03:14,644 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:03:15,155 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc2/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 791
+2024-02-03 13:03:15,161 INFO : 127.0.0.1 - - [03/Feb/2024 13:03:15] "GET / HTTP/1.1" 200 -
+2024-02-03 13:08:31,741 INFO : DEBUG ON - level 2
+2024-02-03 13:08:31,744 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:08:32,286 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 13:08:32,298 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 13:08:32,298 INFO : [33mPress CTRL+C to quit[0m
+2024-02-03 13:08:32,299 INFO :  * Restarting with stat
+2024-02-03 13:08:32,573 INFO : DEBUG ON - level 2
+2024-02-03 13:08:32,576 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:08:33,003 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 13:08:33,012 WARNING :  * Debugger is active!
+2024-02-03 13:08:33,014 INFO :  * Debugger PIN: 983-857-336
+2024-02-03 13:08:41,331 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:08:41,809 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc0/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 64
+2024-02-03 13:08:41,811 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:08:42,526 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc1/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 74
+2024-02-03 13:08:42,528 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:08:43,040 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc2/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 791
+2024-02-03 13:08:43,047 INFO : 127.0.0.1 - - [03/Feb/2024 13:08:43] "GET / HTTP/1.1" 200 -
+2024-02-03 13:09:05,317 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:09:05,977 DEBUG : https://api.trello.com:443 "POST /1/cards/?idList=649be24fcd4e7f514a246cc0&key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&name=M9+-+add+cd+to+github&pos=bottom HTTP/1.1" 200 1143
+2024-02-03 13:09:05,979 INFO : 127.0.0.1 - - [03/Feb/2024 13:09:05] "[32mPOST /additem HTTP/1.1[0m" 302 -
+2024-02-03 13:09:05,984 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:09:06,488 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc0/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 129
+2024-02-03 13:09:06,490 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:09:07,000 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc1/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 74
+2024-02-03 13:09:07,007 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:09:07,427 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc2/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 791
+2024-02-03 13:09:07,428 INFO : 127.0.0.1 - - [03/Feb/2024 13:09:07] "GET / HTTP/1.1" 200 -
+2024-02-03 13:09:41,626 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:09:42,329 DEBUG : https://api.trello.com:443 "POST /1/cards/?idList=649be24fcd4e7f514a246cc0&key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&name=M9+-+get+dockerbuild+deploy+working+woithout+errors&pos=bottom HTTP/1.1" 200 1203
+2024-02-03 13:09:42,330 INFO : 127.0.0.1 - - [03/Feb/2024 13:09:42] "[32mPOST /additem HTTP/1.1[0m" 302 -
+2024-02-03 13:09:42,335 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:09:42,840 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc0/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 224
+2024-02-03 13:09:42,844 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:09:43,319 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc1/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 74
+2024-02-03 13:09:43,321 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:09:43,741 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc2/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 791
+2024-02-03 13:09:43,742 INFO : 127.0.0.1 - - [03/Feb/2024 13:09:43] "GET / HTTP/1.1" 200 -
+2024-02-03 13:28:58,273 INFO : DEBUG ON - level 2
+2024-02-03 13:28:58,277 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:28:58,827 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 13:29:09,200 INFO : DEBUG ON - level 2
+2024-02-03 13:29:09,204 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:29:09,681 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 13:51:55,141 INFO : DEBUG ON - level 2
+2024-02-03 13:51:55,145 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 13:51:55,581 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486

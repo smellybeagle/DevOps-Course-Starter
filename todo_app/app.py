@@ -1,11 +1,10 @@
 from typing import ItemsView
 from flask import Flask
-
-
 from .flask_config import Config
 from todo_app.trello_items import init_trello, todolists, doinglists, donelists,new_card,move_doing,move_done
 from flask import Flask, render_template, request, redirect
 from todo_app.view_model import ViewModel
+from todo_app.debugger import writelog
 
 def create_app():
     app = Flask(__name__)
