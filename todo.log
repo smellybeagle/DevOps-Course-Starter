@@ -86,3 +86,52 @@
 2024-02-03 13:51:55,141 INFO : DEBUG ON - level 2
 2024-02-03 13:51:55,145 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
 2024-02-03 13:51:55,581 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 15:12:28,981 INFO : DEBUG ON - level 2
+2024-02-03 15:12:28,985 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 15:12:29,474 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 15:12:29,491 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-03 15:12:29,491 INFO : [33mPress CTRL+C to quit[0m
+2024-02-03 15:12:29,492 INFO :  * Restarting with stat
+2024-02-03 15:12:29,757 INFO : DEBUG ON - level 2
+2024-02-03 15:12:29,760 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 15:12:30,190 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-03 15:12:30,197 WARNING :  * Debugger is active!
+2024-02-03 15:12:30,199 INFO :  * Debugger PIN: 983-857-336
+2024-02-03 15:12:35,443 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 15:12:35,924 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc0/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 224
+2024-02-03 15:12:35,927 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 15:12:36,437 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc1/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 74
+2024-02-03 15:12:36,438 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-03 15:12:36,948 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc2/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 791
+2024-02-03 15:12:36,960 INFO : 127.0.0.1 - - [03/Feb/2024 15:12:36] "GET / HTTP/1.1" 200 -
+2024-02-04 14:31:29,417 INFO : DEBUG ON - level 2
+2024-02-04 14:31:29,422 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-04 14:31:29,927 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-04 14:31:29,946 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:31:29,946 INFO : [33mPress CTRL+C to quit[0m
+2024-02-04 14:31:29,948 INFO :  * Restarting with stat
+2024-02-04 14:31:30,215 INFO : DEBUG ON - level 2
+2024-02-04 14:31:30,218 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-04 14:31:30,746 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-04 14:31:30,757 WARNING :  * Debugger is active!
+2024-02-04 14:31:30,759 INFO :  * Debugger PIN: 983-857-336
+2024-02-04 14:31:53,434 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-04 14:31:53,887 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc0/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 224
+2024-02-04 14:31:53,892 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-04 14:31:54,501 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc1/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 74
+2024-02-04 14:31:54,503 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-04 14:31:55,022 DEBUG : https://api.trello.com:443 "GET /1/lists/649be24fcd4e7f514a246cc2/cards?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&fields=name HTTP/1.1" 200 791
+2024-02-04 14:31:55,033 INFO : 127.0.0.1 - - [04/Feb/2024 14:31:55] "GET / HTTP/1.1" 200 -
+2024-02-04 14:31:55,092 INFO : 127.0.0.1 - - [04/Feb/2024 14:31:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-04 14:35:35,960 INFO : DEBUG ON - level 2
+2024-02-04 14:35:35,965 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-04 14:35:36,505 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-04 14:35:36,513 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:35:36,513 INFO : [33mPress CTRL+C to quit[0m
+2024-02-04 14:35:36,515 INFO :  * Restarting with stat
+2024-02-04 14:35:36,782 INFO : DEBUG ON - level 2
+2024-02-04 14:35:36,786 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2024-02-04 14:35:37,527 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
