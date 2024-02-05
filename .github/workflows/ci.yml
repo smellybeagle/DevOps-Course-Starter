@@ -56,4 +56,5 @@ jobs:
 
               - run: docker build --target production --tag lvarnham/smellybeagle:latest .
               - run: docker push lvarnham/smellybeagle:latest
+              - run: curl -dH -X POST "https://\$smellybeagle:p1DcTzc2mkukhaL8261Zemq7CdLoDNe97AyagKjwqtBlw5NTN98Q1Tt2vu3p@smellybeagle.scm.azurewebsites.net/api/registry/webhook"
 
