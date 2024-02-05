@@ -1,9 +1,9 @@
 name: Continuous Integration
 on: 
   push:
-#    branches:    
-#    - main
-#    - 'Mod/**'
+    branches:    
+    - main
+    - 'Mod/**'
     paths-ignore:
     - '**/README.md'
 env:
@@ -32,6 +32,7 @@ jobs:
           runs-on: ubuntu-latest
           steps:
               - run: echo Publishing!
+              - uses: actions/checkout@v3
               - uses: docker/setup-buildx-action@v2
 #              - name: login to docker
               - uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
