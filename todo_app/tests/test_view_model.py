@@ -1,6 +1,6 @@
-
 from todo_app.data.item import Item
 from todo_app.view_model import ViewModel
+from todo_app.debugger import writelog
 
 
 def test_view_model_todos_method_only_returns_todo_items_and_not_other_statuses():
@@ -27,4 +27,3 @@ def test_view_model_todos_method_only_returns_todo_items_and_not_other_statuses(
     assert len(dnitems) == 1
     single_dnitem = dnitems[0]
     assert single_dnitem.status == "Completed"
-    
