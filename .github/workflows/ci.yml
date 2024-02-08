@@ -31,7 +31,6 @@ jobs:
           needs: test
           runs-on: ubuntu-latest
           steps:
-              - run: echo Publishing!
               - uses: actions/checkout@v3
               - uses: docker/setup-buildx-action@v2
 #              - name: login to docker
@@ -39,12 +38,6 @@ jobs:
                 with:
                   username: ${{ secrets.DOCKER_USERNAME }}
                   password: ${{ secrets.DOCKER_PASSWORD }}
-#              - name: Extract metadata (tags, labels) for Docker
-#                id: meta
-#              - uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
-#                with:
-#                  #images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-#                  images: lvarnham/smellybeagle:latest
               
               - name: Build and push Docker image
                 uses: docker/build-push-action@v2
@@ -56,5 +49,7 @@ jobs:
 
               - run: docker build --target production --tag lvarnham/smellybeagle:latest .
               - run: docker push lvarnham/smellybeagle:latest
-              - run: curl -dH -X POST "https://\$smellybeagle:p1DcTzc2mkukhaL8261Zemq7CdLoDNe97AyagKjwqtBlw5NTN98Q1Tt2vu3p@smellybeagle.scm.azurewebsites.net/api/registry/webhook"
+              - env:
+                  WEBHOOK: ${{ secrets.WEBHOOK_SECRET }}
+                run: curl -dH -X POST $WEBHOOK_SECRET
 
