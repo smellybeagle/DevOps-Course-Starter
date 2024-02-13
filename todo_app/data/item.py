@@ -1,9 +1,10 @@
 class Item:
-    def __init__(self, id, name, status = 'To Do'):
-        self.id = id
+    def __init__(self, _id, name, desc,Status):
+        self._id = _id
         self.name = name
-        self.status = status
+        self.desc = desc
+        self.Status = Status
 
     @classmethod
-    def from_trello_card(cls, card, list_name):
-        return cls(card['id'], card['name'], list_name)
+    def from_mongo(cls, card):
+        return cls(card['_id'], card['name'], card['desc'],card['Status'])

@@ -135,3 +135,2044 @@
 2024-02-04 14:35:36,782 INFO : DEBUG ON - level 2
 2024-02-04 14:35:36,786 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
 2024-02-04 14:35:37,527 DEBUG : https://api.trello.com:443 "GET /1/boards/649be24fcd4e7f514a246cb9/lists?key=1a14974b67e88e68f859a2f5236feb25&token=ATTA43e926f02a2de06813db070512611484789561e3f6dfd4eba1539e5b5f32d3ea8B26C75B&field=name HTTP/1.1" 200 486
+2024-02-10 07:40:14,063 INFO : DEBUG ON - level 2
+2024-02-10 07:41:58,710 INFO : DEBUG ON - level 2
+2024-02-10 07:44:02,792 INFO : DEBUG ON - level 2
+2024-02-10 07:46:25,613 INFO : DEBUG ON - level 2
+2024-02-10 07:58:21,831 INFO : DEBUG ON - level 2
+2024-02-10 08:00:46,125 INFO : DEBUG ON - level 2
+2024-02-10 08:02:30,776 INFO : DEBUG ON - level 2
+2024-02-10 08:42:16,975 INFO : DEBUG ON - level 2
+2024-02-10 08:46:22,337 INFO : DEBUG ON - level 2
+2024-02-10 08:46:38,557 INFO : DEBUG ON - level 2
+2024-02-10 08:48:37,260 INFO : DEBUG ON - level 2
+2024-02-10 08:49:25,550 INFO : DEBUG ON - level 2
+2024-02-10 08:51:49,217 INFO : DEBUG ON - level 2
+2024-02-10 08:59:02,648 INFO : DEBUG ON - level 2
+2024-02-10 09:00:45,512 INFO : DEBUG ON - level 2
+2024-02-10 09:08:05,214 INFO : DEBUG ON - level 2
+2024-02-10 09:08:05,345 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-10 09:08:05,345 INFO : [33mPress CTRL+C to quit[0m
+2024-02-10 09:08:05,347 INFO :  * Restarting with stat
+2024-02-10 09:08:05,565 INFO : DEBUG ON - level 2
+2024-02-10 09:08:05,687 WARNING :  * Debugger is active!
+2024-02-10 09:08:05,689 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 09:09:26,181 INFO : 127.0.0.1 - - [10/Feb/2024 09:09:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 09:09:26,541 INFO : 127.0.0.1 - - [10/Feb/2024 09:09:26] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-02-10 09:09:26,544 INFO : 127.0.0.1 - - [10/Feb/2024 09:09:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-02-10 09:09:26,871 INFO : 127.0.0.1 - - [10/Feb/2024 09:09:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-02-10 09:09:27,143 INFO : 127.0.0.1 - - [10/Feb/2024 09:09:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:11:02,004 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-10 09:11:02,398 INFO :  * Restarting with stat
+2024-02-10 09:11:02,628 INFO : DEBUG ON - level 2
+2024-02-10 09:11:02,782 WARNING :  * Debugger is active!
+2024-02-10 09:11:02,784 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 09:11:09,436 INFO : 127.0.0.1 - - [10/Feb/2024 09:11:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 09:11:09,469 INFO : 127.0.0.1 - - [10/Feb/2024 09:11:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 09:11:09,695 INFO : 127.0.0.1 - - [10/Feb/2024 09:11:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 09:11:10,004 INFO : 127.0.0.1 - - [10/Feb/2024 09:11:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:11:10,267 INFO : 127.0.0.1 - - [10/Feb/2024 09:11:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:23:04,037 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-10 09:23:04,448 INFO :  * Restarting with stat
+2024-02-10 09:23:04,680 INFO : DEBUG ON - level 2
+2024-02-10 09:23:04,847 WARNING :  * Debugger is active!
+2024-02-10 09:23:04,849 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 09:33:42,850 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 09:33:43,369 INFO :  * Restarting with stat
+2024-02-10 09:33:43,588 INFO : DEBUG ON - level 2
+2024-02-10 09:33:43,743 WARNING :  * Debugger is active!
+2024-02-10 09:33:43,745 INFO :  * Debugger PIN: 207-926-330
+2024-02-10 09:35:46,227 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 09:35:46,407 INFO :  * Restarting with stat
+2024-02-10 09:35:46,730 INFO : DEBUG ON - level 2
+2024-02-10 09:35:46,928 WARNING :  * Debugger is active!
+2024-02-10 09:35:46,930 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 09:36:02,719 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 09:36:02,764 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:02] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 09:36:02,978 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:02] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 09:36:03,291 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:36:03,556 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:36:09,332 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 09:36:09,642 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 09:36:09,643 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 09:36:09,953 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:36:10,217 INFO : 127.0.0.1 - - [10/Feb/2024 09:36:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:38:22,921 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\tests\\view_model.py', reloading
+2024-02-10 09:38:23,138 INFO :  * Restarting with stat
+2024-02-10 09:38:23,370 INFO : DEBUG ON - level 2
+2024-02-10 09:38:23,537 WARNING :  * Debugger is active!
+2024-02-10 09:38:23,539 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 09:38:44,829 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\tests\\view_model.py', reloading
+2024-02-10 09:38:45,116 INFO :  * Restarting with stat
+2024-02-10 09:38:45,351 INFO : DEBUG ON - level 2
+2024-02-10 09:38:45,481 WARNING :  * Debugger is active!
+2024-02-10 09:38:45,483 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 09:39:00,247 INFO : 127.0.0.1 - - [10/Feb/2024 09:39:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 09:39:00,279 INFO : 127.0.0.1 - - [10/Feb/2024 09:39:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 09:39:00,492 INFO : 127.0.0.1 - - [10/Feb/2024 09:39:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 09:39:00,801 INFO : 127.0.0.1 - - [10/Feb/2024 09:39:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:39:01,070 INFO : 127.0.0.1 - - [10/Feb/2024 09:39:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:43:46,384 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\trello_items.py', reloading
+2024-02-10 09:43:46,827 INFO :  * Restarting with stat
+2024-02-10 09:44:07,327 INFO :  * Restarting with stat
+2024-02-10 09:45:03,097 INFO :  * Restarting with stat
+2024-02-10 09:45:59,899 INFO :  * Restarting with stat
+2024-02-10 09:46:00,130 INFO : DEBUG ON - level 2
+2024-02-10 09:46:00,295 WARNING :  * Debugger is active!
+2024-02-10 09:46:00,297 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 09:46:07,828 INFO : 127.0.0.1 - - [10/Feb/2024 09:46:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 09:46:07,860 INFO : 127.0.0.1 - - [10/Feb/2024 09:46:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 09:46:08,087 INFO : 127.0.0.1 - - [10/Feb/2024 09:46:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 09:46:08,398 INFO : 127.0.0.1 - - [10/Feb/2024 09:46:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:46:08,662 INFO : 127.0.0.1 - - [10/Feb/2024 09:46:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:46:51,005 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\trello_items.py', reloading
+2024-02-10 09:46:51,393 INFO :  * Restarting with stat
+2024-02-10 09:46:51,615 INFO : DEBUG ON - level 2
+2024-02-10 09:46:51,741 WARNING :  * Debugger is active!
+2024-02-10 09:46:51,743 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 09:47:15,931 INFO : 127.0.0.1 - - [10/Feb/2024 09:47:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 09:47:15,959 INFO : 127.0.0.1 - - [10/Feb/2024 09:47:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 09:47:16,191 INFO : 127.0.0.1 - - [10/Feb/2024 09:47:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 09:47:16,501 INFO : 127.0.0.1 - - [10/Feb/2024 09:47:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:47:16,768 INFO : 127.0.0.1 - - [10/Feb/2024 09:47:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 09:50:51,989 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 09:50:52,462 INFO :  * Restarting with stat
+2024-02-10 09:50:52,692 INFO : DEBUG ON - level 2
+2024-02-10 09:50:52,848 WARNING :  * Debugger is active!
+2024-02-10 09:50:52,850 INFO :  * Debugger PIN: 207-926-330
+2024-02-10 10:43:41,031 INFO : DEBUG ON - level 2
+2024-02-10 10:44:40,412 INFO : DEBUG ON - level 2
+2024-02-10 10:58:29,330 INFO : DEBUG ON - level 2
+2024-02-10 10:58:29,467 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-10 10:58:29,467 INFO : [33mPress CTRL+C to quit[0m
+2024-02-10 10:58:29,468 INFO :  * Restarting with stat
+2024-02-10 10:58:29,691 INFO : DEBUG ON - level 2
+2024-02-10 10:58:29,813 WARNING :  * Debugger is active!
+2024-02-10 10:58:29,815 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 10:58:38,532 INFO : 127.0.0.1 - - [10/Feb/2024 10:58:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 10:58:38,566 INFO : 127.0.0.1 - - [10/Feb/2024 10:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 10:58:38,846 INFO : 127.0.0.1 - - [10/Feb/2024 10:58:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 10:58:39,171 INFO : 127.0.0.1 - - [10/Feb/2024 10:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 10:58:39,420 INFO : 127.0.0.1 - - [10/Feb/2024 10:58:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 10:59:31,698 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 10:59:31,896 INFO :  * Restarting with stat
+2024-02-10 10:59:32,122 INFO : DEBUG ON - level 2
+2024-02-10 10:59:32,248 WARNING :  * Debugger is active!
+2024-02-10 10:59:32,250 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 10:59:37,978 INFO : 127.0.0.1 - - [10/Feb/2024 10:59:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 10:59:38,009 INFO : 127.0.0.1 - - [10/Feb/2024 10:59:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 10:59:38,208 INFO : 127.0.0.1 - - [10/Feb/2024 10:59:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 10:59:38,522 INFO : 127.0.0.1 - - [10/Feb/2024 10:59:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 10:59:38,787 INFO : 127.0.0.1 - - [10/Feb/2024 10:59:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:01:35,105 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 11:01:35,411 INFO :  * Restarting with stat
+2024-02-10 11:01:35,638 INFO : DEBUG ON - level 2
+2024-02-10 11:01:35,796 WARNING :  * Debugger is active!
+2024-02-10 11:01:35,798 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 11:01:45,483 INFO : 127.0.0.1 - - [10/Feb/2024 11:01:45] "GET / HTTP/1.1" 200 -
+2024-02-10 11:01:45,636 INFO : 127.0.0.1 - - [10/Feb/2024 11:01:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-10 11:28:03,021 INFO : DEBUG ON - level 2
+2024-02-10 11:28:47,611 INFO : DEBUG ON - level 2
+2024-02-10 11:30:00,939 INFO : DEBUG ON - level 2
+2024-02-10 11:32:04,286 INFO : DEBUG ON - level 2
+2024-02-10 11:32:04,414 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-10 11:32:04,415 INFO : [33mPress CTRL+C to quit[0m
+2024-02-10 11:32:04,416 INFO :  * Restarting with stat
+2024-02-10 11:32:04,640 INFO : DEBUG ON - level 2
+2024-02-10 11:32:04,766 WARNING :  * Debugger is active!
+2024-02-10 11:32:04,768 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 11:32:12,238 INFO : 127.0.0.1 - - [10/Feb/2024 11:32:12] "GET / HTTP/1.1" 200 -
+2024-02-10 11:32:14,696 INFO : 127.0.0.1 - - [10/Feb/2024 11:32:14] "GET / HTTP/1.1" 200 -
+2024-02-10 11:32:16,952 INFO : 127.0.0.1 - - [10/Feb/2024 11:32:16] "GET / HTTP/1.1" 200 -
+2024-02-10 11:32:17,744 INFO : 127.0.0.1 - - [10/Feb/2024 11:32:17] "GET / HTTP/1.1" 200 -
+2024-02-10 11:32:18,259 INFO : 127.0.0.1 - - [10/Feb/2024 11:32:18] "GET / HTTP/1.1" 200 -
+2024-02-10 11:32:18,565 INFO : 127.0.0.1 - - [10/Feb/2024 11:32:18] "GET / HTTP/1.1" 200 -
+2024-02-10 11:32:18,814 INFO : 127.0.0.1 - - [10/Feb/2024 11:32:18] "GET / HTTP/1.1" 200 -
+2024-02-10 11:49:57,554 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\trello_items.py', reloading
+2024-02-10 11:49:57,978 INFO :  * Restarting with stat
+2024-02-10 11:51:40,590 INFO :  * Restarting with stat
+2024-02-10 11:51:41,203 INFO : DEBUG ON - level 2
+2024-02-10 11:51:41,541 WARNING :  * Debugger is active!
+2024-02-10 11:51:41,544 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 11:51:50,685 INFO : 127.0.0.1 - - [10/Feb/2024 11:51:50] "GET / HTTP/1.1" 200 -
+2024-02-10 11:53:26,694 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 11:53:27,201 INFO :  * Restarting with stat
+2024-02-10 11:53:27,782 INFO : DEBUG ON - level 2
+2024-02-10 11:53:28,036 WARNING :  * Debugger is active!
+2024-02-10 11:53:28,040 INFO :  * Debugger PIN: 207-926-330
+2024-02-10 11:55:41,625 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 11:55:42,197 INFO :  * Restarting with stat
+2024-02-10 11:55:42,758 INFO : DEBUG ON - level 2
+2024-02-10 11:55:43,037 WARNING :  * Debugger is active!
+2024-02-10 11:55:43,042 INFO :  * Debugger PIN: 207-926-330
+2024-02-10 11:56:12,147 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 11:56:12,682 INFO :  * Restarting with stat
+2024-02-10 11:56:13,290 INFO : DEBUG ON - level 2
+2024-02-10 11:56:13,590 WARNING :  * Debugger is active!
+2024-02-10 11:56:13,595 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 11:56:19,491 INFO : 127.0.0.1 - - [10/Feb/2024 11:56:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 11:56:19,617 INFO : 127.0.0.1 - - [10/Feb/2024 11:56:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 11:56:19,734 INFO : 127.0.0.1 - - [10/Feb/2024 11:56:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 11:56:20,076 INFO : 127.0.0.1 - - [10/Feb/2024 11:56:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:56:20,324 INFO : 127.0.0.1 - - [10/Feb/2024 11:56:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:57:14,110 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 11:57:14,670 INFO :  * Restarting with stat
+2024-02-10 11:57:15,304 INFO : DEBUG ON - level 2
+2024-02-10 11:57:15,612 WARNING :  * Debugger is active!
+2024-02-10 11:57:15,617 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 11:57:25,796 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 11:57:25,852 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:25] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 11:57:26,045 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 11:57:26,371 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:57:26,639 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:57:41,808 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 11:57:42,334 INFO :  * Restarting with stat
+2024-02-10 11:57:42,922 INFO : DEBUG ON - level 2
+2024-02-10 11:57:43,241 WARNING :  * Debugger is active!
+2024-02-10 11:57:43,244 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 11:57:49,847 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 11:57:49,954 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:49] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 11:57:50,049 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 11:57:50,391 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:57:50,657 INFO : 127.0.0.1 - - [10/Feb/2024 11:57:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:59:03,810 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 11:59:04,408 INFO :  * Restarting with stat
+2024-02-10 11:59:05,030 INFO : DEBUG ON - level 2
+2024-02-10 11:59:05,298 WARNING :  * Debugger is active!
+2024-02-10 11:59:05,301 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 11:59:08,797 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 11:59:08,854 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 11:59:09,017 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 11:59:09,352 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:59:09,616 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:59:51,214 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 11:59:51,444 INFO :  * Restarting with stat
+2024-02-10 11:59:52,084 INFO : DEBUG ON - level 2
+2024-02-10 11:59:52,332 WARNING :  * Debugger is active!
+2024-02-10 11:59:52,335 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 11:59:55,877 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 11:59:55,945 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 11:59:56,119 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 11:59:56,446 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 11:59:56,707 INFO : 127.0.0.1 - - [10/Feb/2024 11:59:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:00:35,118 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:00:35,457 INFO :  * Restarting with stat
+2024-02-10 12:00:36,125 INFO : DEBUG ON - level 2
+2024-02-10 12:00:36,391 WARNING :  * Debugger is active!
+2024-02-10 12:00:36,394 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:00:44,895 INFO : 127.0.0.1 - - [10/Feb/2024 12:00:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:00:45,033 INFO : 127.0.0.1 - - [10/Feb/2024 12:00:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:00:45,143 INFO : 127.0.0.1 - - [10/Feb/2024 12:00:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:00:45,467 INFO : 127.0.0.1 - - [10/Feb/2024 12:00:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:00:45,734 INFO : 127.0.0.1 - - [10/Feb/2024 12:00:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:02:02,805 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:02:03,075 INFO :  * Restarting with stat
+2024-02-10 12:02:03,722 INFO : DEBUG ON - level 2
+2024-02-10 12:02:04,011 WARNING :  * Debugger is active!
+2024-02-10 12:02:04,014 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:02:13,231 INFO : 127.0.0.1 - - [10/Feb/2024 12:02:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:02:13,346 INFO : 127.0.0.1 - - [10/Feb/2024 12:02:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:02:13,465 INFO : 127.0.0.1 - - [10/Feb/2024 12:02:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:02:13,795 INFO : 127.0.0.1 - - [10/Feb/2024 12:02:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:02:14,063 INFO : 127.0.0.1 - - [10/Feb/2024 12:02:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:03:10,891 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-10 12:03:11,217 INFO :  * Restarting with stat
+2024-02-10 12:03:11,788 INFO : DEBUG ON - level 2
+2024-02-10 12:03:12,087 WARNING :  * Debugger is active!
+2024-02-10 12:03:12,090 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:03:16,712 INFO : 127.0.0.1 - - [10/Feb/2024 12:03:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:03:16,782 INFO : 127.0.0.1 - - [10/Feb/2024 12:03:16] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:03:16,951 INFO : 127.0.0.1 - - [10/Feb/2024 12:03:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:03:17,277 INFO : 127.0.0.1 - - [10/Feb/2024 12:03:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:03:17,540 INFO : 127.0.0.1 - - [10/Feb/2024 12:03:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:05:02,920 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:05:03,258 INFO :  * Restarting with stat
+2024-02-10 12:05:03,924 INFO : DEBUG ON - level 2
+2024-02-10 12:05:04,218 WARNING :  * Debugger is active!
+2024-02-10 12:05:04,221 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:05:08,656 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:05:08,725 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:05:08,880 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:05:09,207 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:05:09,475 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:05:36,829 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:05:37,357 INFO :  * Restarting with stat
+2024-02-10 12:05:37,924 INFO : DEBUG ON - level 2
+2024-02-10 12:05:38,187 WARNING :  * Debugger is active!
+2024-02-10 12:05:38,191 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:05:45,748 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:05:45,863 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:05:45,991 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:05:46,316 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:05:46,580 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:05:48,480 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:05:48,781 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:05:48,795 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:05:49,122 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:05:49,386 INFO : 127.0.0.1 - - [10/Feb/2024 12:05:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:08:24,273 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:08:24,403 INFO :  * Restarting with stat
+2024-02-10 12:08:24,943 INFO : DEBUG ON - level 2
+2024-02-10 12:08:25,278 WARNING :  * Debugger is active!
+2024-02-10 12:08:25,283 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:08:29,280 INFO : 127.0.0.1 - - [10/Feb/2024 12:08:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:08:29,345 INFO : 127.0.0.1 - - [10/Feb/2024 12:08:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:08:29,509 INFO : 127.0.0.1 - - [10/Feb/2024 12:08:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:08:29,837 INFO : 127.0.0.1 - - [10/Feb/2024 12:08:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:08:30,105 INFO : 127.0.0.1 - - [10/Feb/2024 12:08:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:19:19,874 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:19:20,424 INFO :  * Restarting with stat
+2024-02-10 12:19:21,050 INFO : DEBUG ON - level 2
+2024-02-10 12:19:21,388 WARNING :  * Debugger is active!
+2024-02-10 12:19:21,391 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:19:28,088 INFO : 127.0.0.1 - - [10/Feb/2024 12:19:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:19:28,220 INFO : 127.0.0.1 - - [10/Feb/2024 12:19:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:19:28,332 INFO : 127.0.0.1 - - [10/Feb/2024 12:19:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:19:28,660 INFO : 127.0.0.1 - - [10/Feb/2024 12:19:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:19:28,924 INFO : 127.0.0.1 - - [10/Feb/2024 12:19:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:21:58,237 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:21:58,641 INFO :  * Restarting with stat
+2024-02-10 12:23:25,158 INFO :  * Restarting with stat
+2024-02-10 12:23:25,779 INFO : DEBUG ON - level 2
+2024-02-10 12:23:26,108 WARNING :  * Debugger is active!
+2024-02-10 12:23:26,111 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:23:31,440 INFO : 127.0.0.1 - - [10/Feb/2024 12:23:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:23:31,558 INFO : 127.0.0.1 - - [10/Feb/2024 12:23:31] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:23:31,669 INFO : 127.0.0.1 - - [10/Feb/2024 12:23:31] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:23:31,999 INFO : 127.0.0.1 - - [10/Feb/2024 12:23:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:23:32,263 INFO : 127.0.0.1 - - [10/Feb/2024 12:23:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:24:13,171 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:24:13,725 INFO :  * Restarting with stat
+2024-02-10 12:24:14,400 INFO : DEBUG ON - level 2
+2024-02-10 12:24:14,695 WARNING :  * Debugger is active!
+2024-02-10 12:24:14,698 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:24:19,221 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:24:19,282 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:24:19,393 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:24:19,717 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:24:19,964 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:24:43,929 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:24:44,431 INFO :  * Restarting with stat
+2024-02-10 12:24:45,037 INFO : DEBUG ON - level 2
+2024-02-10 12:24:45,322 WARNING :  * Debugger is active!
+2024-02-10 12:24:45,325 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:24:48,719 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:24:48,787 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:24:48,943 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:24:49,269 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:24:49,533 INFO : 127.0.0.1 - - [10/Feb/2024 12:24:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:27:21,174 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:27:21,528 INFO :  * Restarting with stat
+2024-02-10 12:27:22,109 INFO : DEBUG ON - level 2
+2024-02-10 12:27:22,499 WARNING :  * Debugger is active!
+2024-02-10 12:27:22,502 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:27:59,949 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:28:00,225 INFO :  * Restarting with stat
+2024-02-10 12:28:00,917 INFO : DEBUG ON - level 2
+2024-02-10 12:28:01,235 WARNING :  * Debugger is active!
+2024-02-10 12:28:01,238 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:28:05,301 INFO : 127.0.0.1 - - [10/Feb/2024 12:28:05] "GET / HTTP/1.1" 200 -
+2024-02-10 12:39:17,358 INFO : DEBUG ON - level 2
+2024-02-10 12:39:17,666 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-10 12:39:17,666 INFO : [33mPress CTRL+C to quit[0m
+2024-02-10 12:39:17,669 INFO :  * Restarting with stat
+2024-02-10 12:39:18,202 INFO : DEBUG ON - level 2
+2024-02-10 12:39:18,503 WARNING :  * Debugger is active!
+2024-02-10 12:39:18,505 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:39:40,379 INFO : 127.0.0.1 - - [10/Feb/2024 12:39:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 12:39:40,514 INFO : 127.0.0.1 - - [10/Feb/2024 12:39:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 12:39:40,625 INFO : 127.0.0.1 - - [10/Feb/2024 12:39:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 12:39:40,983 INFO : 127.0.0.1 - - [10/Feb/2024 12:39:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:39:41,245 INFO : 127.0.0.1 - - [10/Feb/2024 12:39:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 12:41:27,961 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:41:28,286 INFO :  * Restarting with stat
+2024-02-10 12:42:19,961 INFO :  * Restarting with stat
+2024-02-10 12:42:20,500 INFO : DEBUG ON - level 2
+2024-02-10 12:42:20,839 WARNING :  * Debugger is active!
+2024-02-10 12:42:20,842 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 12:42:24,170 INFO : 127.0.0.1 - - [10/Feb/2024 12:42:24] "GET / HTTP/1.1" 200 -
+2024-02-10 12:43:55,442 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-10 12:43:56,007 INFO :  * Restarting with stat
+2024-02-10 12:43:56,633 INFO : DEBUG ON - level 2
+2024-02-10 12:43:56,996 WARNING :  * Debugger is active!
+2024-02-10 12:43:56,999 INFO :  * Debugger PIN: 207-926-330
+2024-02-10 17:47:52,188 INFO : DEBUG ON - level 2
+2024-02-10 18:02:56,467 INFO : DEBUG ON - level 2
+2024-02-10 18:02:56,598 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-10 18:02:56,599 INFO : [33mPress CTRL+C to quit[0m
+2024-02-10 18:02:56,600 INFO :  * Restarting with stat
+2024-02-10 18:02:56,876 INFO : DEBUG ON - level 2
+2024-02-10 18:02:56,999 WARNING :  * Debugger is active!
+2024-02-10 18:02:57,001 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 18:03:03,780 INFO : 127.0.0.1 - - [10/Feb/2024 18:03:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 18:03:03,814 INFO : 127.0.0.1 - - [10/Feb/2024 18:03:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 18:03:04,039 INFO : 127.0.0.1 - - [10/Feb/2024 18:03:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 18:03:04,364 INFO : 127.0.0.1 - - [10/Feb/2024 18:03:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 18:03:04,613 INFO : 127.0.0.1 - - [10/Feb/2024 18:03:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 18:04:07,159 INFO : DEBUG ON - level 2
+2024-02-10 18:04:07,286 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-10 18:04:07,286 INFO : [33mPress CTRL+C to quit[0m
+2024-02-10 18:04:07,287 INFO :  * Restarting with stat
+2024-02-10 18:04:07,550 INFO : DEBUG ON - level 2
+2024-02-10 18:04:07,675 WARNING :  * Debugger is active!
+2024-02-10 18:04:07,677 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 18:04:12,435 INFO : 127.0.0.1 - - [10/Feb/2024 18:04:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-10 18:04:12,470 INFO : 127.0.0.1 - - [10/Feb/2024 18:04:12] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-10 18:04:12,691 INFO : 127.0.0.1 - - [10/Feb/2024 18:04:12] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-10 18:04:13,034 INFO : 127.0.0.1 - - [10/Feb/2024 18:04:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 18:04:13,299 INFO : 127.0.0.1 - - [10/Feb/2024 18:04:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-10 18:05:53,823 INFO : DEBUG ON - level 2
+2024-02-10 18:05:53,949 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-10 18:05:53,949 INFO : [33mPress CTRL+C to quit[0m
+2024-02-10 18:05:53,950 INFO :  * Restarting with stat
+2024-02-10 18:05:54,217 INFO : DEBUG ON - level 2
+2024-02-10 18:05:54,341 WARNING :  * Debugger is active!
+2024-02-10 18:05:54,343 INFO :  * Debugger PIN: 983-857-336
+2024-02-10 18:05:57,962 INFO : 127.0.0.1 - - [10/Feb/2024 18:05:57] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:04,705 INFO : DEBUG ON - level 2
+2024-02-11 07:58:04,917 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-11 07:58:04,917 INFO : [33mPress CTRL+C to quit[0m
+2024-02-11 07:58:04,919 INFO :  * Restarting with stat
+2024-02-11 07:58:05,185 INFO : DEBUG ON - level 2
+2024-02-11 07:58:05,300 WARNING :  * Debugger is active!
+2024-02-11 07:58:05,307 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 07:58:17,280 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:17] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:17,329 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-11 07:58:20,502 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:20] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:21,406 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:21] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:21,852 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:21] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:22,155 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:22] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:22,403 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:22] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:22,682 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:22] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:22,887 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:22] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:23,104 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:23] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:23,323 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:23] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:23,537 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:23] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:23,741 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:23] "GET / HTTP/1.1" 200 -
+2024-02-11 07:58:23,928 INFO : 127.0.0.1 - - [11/Feb/2024 07:58:23] "GET / HTTP/1.1" 200 -
+2024-02-11 07:59:46,988 INFO : 127.0.0.1 - - [11/Feb/2024 07:59:46] "GET / HTTP/1.1" 200 -
+2024-02-11 08:00:59,887 INFO : 127.0.0.1 - - [11/Feb/2024 08:00:59] "GET / HTTP/1.1" 200 -
+2024-02-11 08:08:34,906 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-11 08:08:35,357 INFO :  * Restarting with stat
+2024-02-11 08:08:35,642 INFO : DEBUG ON - level 2
+2024-02-11 08:08:35,794 WARNING :  * Debugger is active!
+2024-02-11 08:08:35,796 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:08:44,351 INFO : 127.0.0.1 - - [11/Feb/2024 08:08:44] "GET / HTTP/1.1" 200 -
+2024-02-11 08:09:15,957 INFO : 127.0.0.1 - - [11/Feb/2024 08:09:15] "[32mPOST /additem HTTP/1.1[0m" 302 -
+2024-02-11 08:09:15,961 INFO : 127.0.0.1 - - [11/Feb/2024 08:09:15] "GET / HTTP/1.1" 200 -
+2024-02-11 08:09:19,070 INFO : 127.0.0.1 - - [11/Feb/2024 08:09:19] "GET / HTTP/1.1" 200 -
+2024-02-11 08:13:43,763 INFO : 127.0.0.1 - - [11/Feb/2024 08:13:43] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:30,451 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 08:16:30,982 INFO :  * Restarting with stat
+2024-02-11 08:16:31,256 INFO : DEBUG ON - level 2
+2024-02-11 08:16:31,406 WARNING :  * Debugger is active!
+2024-02-11 08:16:31,408 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:16:36,418 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:36] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:38,163 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:38] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:39,086 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:39] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:39,399 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:39] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:39,663 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:39] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:39,913 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:39] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:40,162 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:40] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:40,396 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:40] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:40,631 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:40] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:40,851 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:40] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:41,049 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:41] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:41,269 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:41] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:41,502 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:41] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:41,706 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:41] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:41,925 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:41] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:42,143 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:42] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:42,360 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:42] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:42,580 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:42] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:42,815 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:42] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:43,100 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:43] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:43,404 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:43] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:43,666 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:43] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:43,871 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:43] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:44,107 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:44] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:44,305 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:44] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:44,508 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:44] "GET / HTTP/1.1" 200 -
+2024-02-11 08:16:44,711 INFO : 127.0.0.1 - - [11/Feb/2024 08:16:44] "GET / HTTP/1.1" 200 -
+2024-02-11 08:17:19,164 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 08:17:19,605 INFO :  * Restarting with stat
+2024-02-11 08:17:19,880 INFO : DEBUG ON - level 2
+2024-02-11 08:17:20,004 WARNING :  * Debugger is active!
+2024-02-11 08:17:20,006 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:17:25,246 INFO : 127.0.0.1 - - [11/Feb/2024 08:17:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 08:17:25,296 INFO : 127.0.0.1 - - [11/Feb/2024 08:17:25] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 08:17:25,501 INFO : 127.0.0.1 - - [11/Feb/2024 08:17:25] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 08:17:25,834 INFO : 127.0.0.1 - - [11/Feb/2024 08:17:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:17:26,096 INFO : 127.0.0.1 - - [11/Feb/2024 08:17:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:18:51,468 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 08:18:51,617 INFO :  * Restarting with stat
+2024-02-11 08:18:51,886 INFO : DEBUG ON - level 2
+2024-02-11 08:18:52,038 WARNING :  * Debugger is active!
+2024-02-11 08:18:52,040 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:18:56,001 INFO : 127.0.0.1 - - [11/Feb/2024 08:18:56] "GET / HTTP/1.1" 200 -
+2024-02-11 08:21:30,876 INFO : 127.0.0.1 - - [11/Feb/2024 08:21:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 08:21:30,908 INFO : 127.0.0.1 - - [11/Feb/2024 08:21:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 08:21:31,103 INFO : 127.0.0.1 - - [11/Feb/2024 08:21:31] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 08:21:31,426 INFO : 127.0.0.1 - - [11/Feb/2024 08:21:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:21:31,689 INFO : 127.0.0.1 - - [11/Feb/2024 08:21:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:21:55,566 INFO : 127.0.0.1 - - [11/Feb/2024 08:21:55] "GET / HTTP/1.1" 200 -
+2024-02-11 08:22:19,139 INFO : 127.0.0.1 - - [11/Feb/2024 08:22:19] "GET / HTTP/1.1" 200 -
+2024-02-11 08:28:38,694 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 08:28:39,231 INFO :  * Restarting with stat
+2024-02-11 08:28:39,513 INFO : DEBUG ON - level 2
+2024-02-11 08:28:39,687 WARNING :  * Debugger is active!
+2024-02-11 08:28:39,689 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:28:44,921 INFO : 127.0.0.1 - - [11/Feb/2024 08:28:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 08:28:44,954 INFO : 127.0.0.1 - - [11/Feb/2024 08:28:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 08:28:45,182 INFO : 127.0.0.1 - - [11/Feb/2024 08:28:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 08:28:45,493 INFO : 127.0.0.1 - - [11/Feb/2024 08:28:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:28:45,758 INFO : 127.0.0.1 - - [11/Feb/2024 08:28:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:33:53,378 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-11 08:33:53,829 INFO :  * Restarting with stat
+2024-02-11 08:33:54,096 INFO : DEBUG ON - level 2
+2024-02-11 08:33:54,248 WARNING :  * Debugger is active!
+2024-02-11 08:33:54,250 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:34:19,575 INFO : 127.0.0.1 - - [11/Feb/2024 08:34:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 08:34:19,608 INFO : 127.0.0.1 - - [11/Feb/2024 08:34:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 08:34:19,814 INFO : 127.0.0.1 - - [11/Feb/2024 08:34:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 08:34:20,126 INFO : 127.0.0.1 - - [11/Feb/2024 08:34:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:34:20,390 INFO : 127.0.0.1 - - [11/Feb/2024 08:34:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:35:06,326 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-11 08:35:06,849 INFO :  * Restarting with stat
+2024-02-11 08:35:07,118 INFO : DEBUG ON - level 2
+2024-02-11 08:35:07,243 WARNING :  * Debugger is active!
+2024-02-11 08:35:07,245 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:35:10,740 INFO : 127.0.0.1 - - [11/Feb/2024 08:35:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 08:35:10,769 INFO : 127.0.0.1 - - [11/Feb/2024 08:35:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 08:35:11,003 INFO : 127.0.0.1 - - [11/Feb/2024 08:35:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 08:35:11,315 INFO : 127.0.0.1 - - [11/Feb/2024 08:35:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:35:11,579 INFO : 127.0.0.1 - - [11/Feb/2024 08:35:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:36:45,724 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-11 08:36:45,980 INFO :  * Restarting with stat
+2024-02-11 08:36:46,270 INFO : DEBUG ON - level 2
+2024-02-11 08:36:46,424 WARNING :  * Debugger is active!
+2024-02-11 08:36:46,426 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:37:22,976 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-11 08:37:23,508 INFO :  * Restarting with stat
+2024-02-11 08:37:23,785 INFO : DEBUG ON - level 2
+2024-02-11 08:37:23,904 WARNING :  * Debugger is active!
+2024-02-11 08:37:23,906 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:37:27,914 INFO : 127.0.0.1 - - [11/Feb/2024 08:37:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 08:37:27,942 INFO : 127.0.0.1 - - [11/Feb/2024 08:37:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 08:37:28,177 INFO : 127.0.0.1 - - [11/Feb/2024 08:37:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 08:37:28,486 INFO : 127.0.0.1 - - [11/Feb/2024 08:37:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:37:28,753 INFO : 127.0.0.1 - - [11/Feb/2024 08:37:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 08:47:51,195 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 08:47:51,639 INFO :  * Restarting with stat
+2024-02-11 08:47:51,915 INFO : DEBUG ON - level 2
+2024-02-11 08:47:52,066 WARNING :  * Debugger is active!
+2024-02-11 08:47:52,068 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:47:58,246 INFO : 127.0.0.1 - - [11/Feb/2024 08:47:58] "GET / HTTP/1.1" 200 -
+2024-02-11 08:48:45,081 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 08:48:45,174 INFO :  * Restarting with stat
+2024-02-11 08:48:45,442 INFO : DEBUG ON - level 2
+2024-02-11 08:48:45,567 WARNING :  * Debugger is active!
+2024-02-11 08:48:45,569 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 08:48:53,396 INFO : 127.0.0.1 - - [11/Feb/2024 08:48:53] "GET / HTTP/1.1" 200 -
+2024-02-11 10:11:45,517 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 10:11:45,795 INFO :  * Restarting with stat
+2024-02-11 10:11:46,201 INFO : DEBUG ON - level 2
+2024-02-11 10:11:46,430 WARNING :  * Debugger is active!
+2024-02-11 10:11:46,433 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:11:52,585 INFO : 127.0.0.1 - - [11/Feb/2024 10:11:52] "GET / HTTP/1.1" 200 -
+2024-02-11 10:13:13,972 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-11 10:13:14,147 INFO :  * Restarting with stat
+2024-02-11 10:13:14,418 INFO : DEBUG ON - level 2
+2024-02-11 10:13:14,560 WARNING :  * Debugger is active!
+2024-02-11 10:13:14,563 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:13:18,822 INFO : 127.0.0.1 - - [11/Feb/2024 10:13:18] "GET / HTTP/1.1" 200 -
+2024-02-11 10:19:49,300 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 10:19:49,697 INFO :  * Restarting with stat
+2024-02-11 10:19:49,998 INFO : DEBUG ON - level 2
+2024-02-11 10:19:50,174 WARNING :  * Debugger is active!
+2024-02-11 10:19:50,176 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:19:54,073 INFO : 127.0.0.1 - - [11/Feb/2024 10:19:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 10:19:54,107 INFO : 127.0.0.1 - - [11/Feb/2024 10:19:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 10:19:54,321 INFO : 127.0.0.1 - - [11/Feb/2024 10:19:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 10:19:54,649 INFO : 127.0.0.1 - - [11/Feb/2024 10:19:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 10:19:54,897 INFO : 127.0.0.1 - - [11/Feb/2024 10:19:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 10:20:31,858 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 10:20:32,282 INFO :  * Restarting with stat
+2024-02-11 10:20:32,562 INFO : DEBUG ON - level 2
+2024-02-11 10:20:32,699 WARNING :  * Debugger is active!
+2024-02-11 10:20:32,702 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:20:37,736 INFO : 127.0.0.1 - - [11/Feb/2024 10:20:37] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 10:20:37,769 INFO : 127.0.0.1 - - [11/Feb/2024 10:20:37] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 10:20:37,985 INFO : 127.0.0.1 - - [11/Feb/2024 10:20:37] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 10:20:38,309 INFO : 127.0.0.1 - - [11/Feb/2024 10:20:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 10:20:38,572 INFO : 127.0.0.1 - - [11/Feb/2024 10:20:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 10:21:44,821 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 10:21:45,322 INFO :  * Restarting with stat
+2024-02-11 10:21:45,590 INFO : DEBUG ON - level 2
+2024-02-11 10:21:45,719 WARNING :  * Debugger is active!
+2024-02-11 10:21:45,721 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:21:50,364 INFO : 127.0.0.1 - - [11/Feb/2024 10:21:50] "GET / HTTP/1.1" 200 -
+2024-02-11 10:23:18,109 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 10:23:18,339 INFO :  * Restarting with stat
+2024-02-11 10:23:18,610 INFO : DEBUG ON - level 2
+2024-02-11 10:23:18,742 WARNING :  * Debugger is active!
+2024-02-11 10:23:18,744 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:23:23,827 INFO : 127.0.0.1 - - [11/Feb/2024 10:23:23] "GET / HTTP/1.1" 200 -
+2024-02-11 10:23:25,486 INFO : 127.0.0.1 - - [11/Feb/2024 10:23:25] "GET / HTTP/1.1" 200 -
+2024-02-11 10:23:26,079 INFO : 127.0.0.1 - - [11/Feb/2024 10:23:26] "GET / HTTP/1.1" 200 -
+2024-02-11 10:23:26,386 INFO : 127.0.0.1 - - [11/Feb/2024 10:23:26] "GET / HTTP/1.1" 200 -
+2024-02-11 10:23:26,663 INFO : 127.0.0.1 - - [11/Feb/2024 10:23:26] "GET / HTTP/1.1" 200 -
+2024-02-11 10:23:26,911 INFO : 127.0.0.1 - - [11/Feb/2024 10:23:26] "GET / HTTP/1.1" 200 -
+2024-02-11 10:37:16,603 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 10:37:17,053 INFO :  * Restarting with stat
+2024-02-11 10:37:17,334 INFO : DEBUG ON - level 2
+2024-02-11 10:37:17,488 WARNING :  * Debugger is active!
+2024-02-11 10:37:17,490 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:37:22,055 INFO : 127.0.0.1 - - [11/Feb/2024 10:37:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 10:37:22,090 INFO : 127.0.0.1 - - [11/Feb/2024 10:37:22] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 10:37:22,309 INFO : 127.0.0.1 - - [11/Feb/2024 10:37:22] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 10:37:22,636 INFO : 127.0.0.1 - - [11/Feb/2024 10:37:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 10:37:22,884 INFO : 127.0.0.1 - - [11/Feb/2024 10:37:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 10:39:00,180 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 10:39:00,603 INFO :  * Restarting with stat
+2024-02-11 10:39:00,888 INFO : DEBUG ON - level 2
+2024-02-11 10:39:01,038 WARNING :  * Debugger is active!
+2024-02-11 10:39:01,040 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:39:05,871 INFO : 127.0.0.1 - - [11/Feb/2024 10:39:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 10:39:05,900 INFO : 127.0.0.1 - - [11/Feb/2024 10:39:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 10:39:06,122 INFO : 127.0.0.1 - - [11/Feb/2024 10:39:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 10:39:06,434 INFO : 127.0.0.1 - - [11/Feb/2024 10:39:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 10:39:06,699 INFO : 127.0.0.1 - - [11/Feb/2024 10:39:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 10:39:55,905 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 10:39:56,182 INFO :  * Restarting with stat
+2024-02-11 10:39:56,453 INFO : DEBUG ON - level 2
+2024-02-11 10:39:56,578 WARNING :  * Debugger is active!
+2024-02-11 10:39:56,580 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 10:39:59,999 INFO : 127.0.0.1 - - [11/Feb/2024 10:39:59] "GET / HTTP/1.1" 200 -
+2024-02-11 11:35:14,801 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 11:35:15,288 INFO :  * Restarting with stat
+2024-02-11 11:35:15,566 INFO : DEBUG ON - level 2
+2024-02-11 11:35:15,696 WARNING :  * Debugger is active!
+2024-02-11 11:35:15,698 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 11:35:19,699 INFO : 127.0.0.1 - - [11/Feb/2024 11:35:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 11:35:19,732 INFO : 127.0.0.1 - - [11/Feb/2024 11:35:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 11:35:19,944 INFO : 127.0.0.1 - - [11/Feb/2024 11:35:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 11:35:20,257 INFO : 127.0.0.1 - - [11/Feb/2024 11:35:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 11:35:20,520 INFO : 127.0.0.1 - - [11/Feb/2024 11:35:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 11:38:14,107 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 11:38:14,426 INFO :  * Restarting with stat
+2024-02-11 11:38:14,733 INFO : DEBUG ON - level 2
+2024-02-11 11:38:14,901 WARNING :  * Debugger is active!
+2024-02-11 11:38:14,903 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 11:38:54,359 INFO : 127.0.0.1 - - [11/Feb/2024 11:38:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 11:38:54,387 INFO : 127.0.0.1 - - [11/Feb/2024 11:38:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 11:38:54,601 INFO : 127.0.0.1 - - [11/Feb/2024 11:38:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 11:38:54,916 INFO : 127.0.0.1 - - [11/Feb/2024 11:38:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 11:38:55,182 INFO : 127.0.0.1 - - [11/Feb/2024 11:38:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 11:39:44,270 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 11:39:44,643 INFO :  * Restarting with stat
+2024-02-11 11:39:44,944 INFO : DEBUG ON - level 2
+2024-02-11 11:39:45,135 WARNING :  * Debugger is active!
+2024-02-11 11:39:45,137 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 11:39:48,671 INFO : 127.0.0.1 - - [11/Feb/2024 11:39:48] "GET / HTTP/1.1" 200 -
+2024-02-11 12:02:12,834 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:02:13,317 INFO :  * Restarting with stat
+2024-02-11 12:02:13,584 INFO : DEBUG ON - level 2
+2024-02-11 12:02:13,592 WARNING :  * Debugger is active!
+2024-02-11 12:02:13,595 INFO :  * Debugger PIN: 207-926-330
+2024-02-11 12:28:28,888 INFO : DEBUG ON - level 2
+2024-02-11 12:28:29,014 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-11 12:28:29,014 INFO : [33mPress CTRL+C to quit[0m
+2024-02-11 12:28:29,014 INFO :  * Restarting with stat
+2024-02-11 12:28:29,276 INFO : DEBUG ON - level 2
+2024-02-11 12:28:29,395 WARNING :  * Debugger is active!
+2024-02-11 12:28:29,397 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:28:35,544 INFO : 127.0.0.1 - - [11/Feb/2024 12:28:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 12:28:35,581 INFO : 127.0.0.1 - - [11/Feb/2024 12:28:35] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 12:28:35,803 INFO : 127.0.0.1 - - [11/Feb/2024 12:28:35] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 12:28:36,126 INFO : 127.0.0.1 - - [11/Feb/2024 12:28:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:28:36,374 INFO : 127.0.0.1 - - [11/Feb/2024 12:28:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:31:15,895 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:31:15,927 INFO :  * Restarting with stat
+2024-02-11 12:31:16,207 INFO : DEBUG ON - level 2
+2024-02-11 12:31:16,363 WARNING :  * Debugger is active!
+2024-02-11 12:31:16,365 INFO :  * Debugger PIN: 207-926-330
+2024-02-11 12:34:32,637 INFO : 127.0.0.1 - - [11/Feb/2024 12:34:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 12:34:32,669 INFO : 127.0.0.1 - - [11/Feb/2024 12:34:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 12:34:32,904 INFO : 127.0.0.1 - - [11/Feb/2024 12:34:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 12:34:33,215 INFO : 127.0.0.1 - - [11/Feb/2024 12:34:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:34:33,478 INFO : 127.0.0.1 - - [11/Feb/2024 12:34:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:35:28,865 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:35:29,093 INFO :  * Restarting with stat
+2024-02-11 12:35:29,372 INFO : DEBUG ON - level 2
+2024-02-11 12:35:29,520 WARNING :  * Debugger is active!
+2024-02-11 12:35:29,522 INFO :  * Debugger PIN: 207-926-330
+2024-02-11 12:35:39,699 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:35:40,042 INFO :  * Restarting with stat
+2024-02-11 12:35:40,312 INFO : DEBUG ON - level 2
+2024-02-11 12:35:40,462 WARNING :  * Debugger is active!
+2024-02-11 12:35:40,464 INFO :  * Debugger PIN: 207-926-330
+2024-02-11 12:36:28,201 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:36:28,654 INFO :  * Restarting with stat
+2024-02-11 12:36:28,914 INFO : DEBUG ON - level 2
+2024-02-11 12:36:29,035 WARNING :  * Debugger is active!
+2024-02-11 12:36:29,037 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:36:34,420 INFO : 127.0.0.1 - - [11/Feb/2024 12:36:34] "GET / HTTP/1.1" 200 -
+2024-02-11 12:37:04,461 INFO : 127.0.0.1 - - [11/Feb/2024 12:37:04] "[32mPOST /additem HTTP/1.1[0m" 302 -
+2024-02-11 12:37:04,465 INFO : 127.0.0.1 - - [11/Feb/2024 12:37:04] "GET / HTTP/1.1" 200 -
+2024-02-11 12:43:36,047 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:43:36,446 INFO :  * Restarting with stat
+2024-02-11 12:43:36,737 INFO : DEBUG ON - level 2
+2024-02-11 12:43:36,889 WARNING :  * Debugger is active!
+2024-02-11 12:43:36,891 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:45:02,127 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:45:02,550 INFO :  * Restarting with stat
+2024-02-11 12:45:02,820 INFO : DEBUG ON - level 2
+2024-02-11 12:45:02,948 WARNING :  * Debugger is active!
+2024-02-11 12:45:02,950 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:45:31,372 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:45:31,663 INFO :  * Restarting with stat
+2024-02-11 12:45:31,947 INFO : DEBUG ON - level 2
+2024-02-11 12:45:32,067 WARNING :  * Debugger is active!
+2024-02-11 12:45:32,069 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:45:35,634 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 12:45:35,680 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:35] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 12:45:35,878 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:35] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 12:45:36,189 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:45:36,458 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:45:56,474 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:45:56,684 INFO :  * Restarting with stat
+2024-02-11 12:45:56,956 INFO : DEBUG ON - level 2
+2024-02-11 12:45:57,081 WARNING :  * Debugger is active!
+2024-02-11 12:45:57,084 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:45:59,333 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 12:45:59,361 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 12:45:59,574 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 12:45:59,887 INFO : 127.0.0.1 - - [11/Feb/2024 12:45:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:46:00,147 INFO : 127.0.0.1 - - [11/Feb/2024 12:46:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:46:52,017 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:46:52,232 INFO :  * Restarting with stat
+2024-02-11 12:46:52,518 INFO : DEBUG ON - level 2
+2024-02-11 12:46:52,666 WARNING :  * Debugger is active!
+2024-02-11 12:46:52,668 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:46:55,596 INFO : 127.0.0.1 - - [11/Feb/2024 12:46:55] "GET / HTTP/1.1" 200 -
+2024-02-11 12:53:33,818 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:53:34,271 INFO :  * Restarting with stat
+2024-02-11 12:53:34,554 INFO : DEBUG ON - level 2
+2024-02-11 12:53:34,700 WARNING :  * Debugger is active!
+2024-02-11 12:53:34,702 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:53:39,047 INFO : 127.0.0.1 - - [11/Feb/2024 12:53:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 12:53:39,079 INFO : 127.0.0.1 - - [11/Feb/2024 12:53:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 12:53:39,308 INFO : 127.0.0.1 - - [11/Feb/2024 12:53:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 12:53:39,633 INFO : 127.0.0.1 - - [11/Feb/2024 12:53:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:53:39,880 INFO : 127.0.0.1 - - [11/Feb/2024 12:53:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:55:05,150 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:55:05,351 INFO :  * Restarting with stat
+2024-02-11 12:55:05,578 INFO : DEBUG ON - level 2
+2024-02-11 12:55:05,731 WARNING :  * Debugger is active!
+2024-02-11 12:55:05,733 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:55:09,098 INFO : 127.0.0.1 - - [11/Feb/2024 12:55:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 12:55:09,127 INFO : 127.0.0.1 - - [11/Feb/2024 12:55:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 12:55:09,326 INFO : 127.0.0.1 - - [11/Feb/2024 12:55:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 12:55:09,653 INFO : 127.0.0.1 - - [11/Feb/2024 12:55:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:55:09,901 INFO : 127.0.0.1 - - [11/Feb/2024 12:55:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:56:15,798 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:56:16,323 INFO :  * Restarting with stat
+2024-02-11 12:56:16,547 INFO : DEBUG ON - level 2
+2024-02-11 12:56:16,674 WARNING :  * Debugger is active!
+2024-02-11 12:56:16,676 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:56:21,129 INFO : 127.0.0.1 - - [11/Feb/2024 12:56:21] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 12:56:21,157 INFO : 127.0.0.1 - - [11/Feb/2024 12:56:21] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 12:56:21,371 INFO : 127.0.0.1 - - [11/Feb/2024 12:56:21] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 12:56:21,683 INFO : 127.0.0.1 - - [11/Feb/2024 12:56:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:56:21,949 INFO : 127.0.0.1 - - [11/Feb/2024 12:56:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 12:56:49,121 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 12:56:49,271 INFO :  * Restarting with stat
+2024-02-11 12:56:49,495 INFO : DEBUG ON - level 2
+2024-02-11 12:56:49,618 WARNING :  * Debugger is active!
+2024-02-11 12:56:49,620 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 12:56:52,842 INFO : 127.0.0.1 - - [11/Feb/2024 12:56:52] "GET / HTTP/1.1" 200 -
+2024-02-11 13:02:00,929 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:02:01,416 INFO :  * Restarting with stat
+2024-02-11 13:02:01,654 INFO : DEBUG ON - level 2
+2024-02-11 13:02:01,809 WARNING :  * Debugger is active!
+2024-02-11 13:02:01,811 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:02:08,152 INFO : 127.0.0.1 - - [11/Feb/2024 13:02:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 13:02:08,184 INFO : 127.0.0.1 - - [11/Feb/2024 13:02:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 13:02:08,400 INFO : 127.0.0.1 - - [11/Feb/2024 13:02:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 13:02:08,726 INFO : 127.0.0.1 - - [11/Feb/2024 13:02:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 13:02:08,974 INFO : 127.0.0.1 - - [11/Feb/2024 13:02:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 13:06:39,001 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:06:39,560 INFO :  * Restarting with stat
+2024-02-11 13:06:39,836 INFO : DEBUG ON - level 2
+2024-02-11 13:06:40,018 WARNING :  * Debugger is active!
+2024-02-11 13:06:40,020 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:06:44,590 INFO : 127.0.0.1 - - [11/Feb/2024 13:06:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 13:06:44,625 INFO : 127.0.0.1 - - [11/Feb/2024 13:06:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 13:06:44,825 INFO : 127.0.0.1 - - [11/Feb/2024 13:06:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 13:06:45,151 INFO : 127.0.0.1 - - [11/Feb/2024 13:06:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 13:06:45,399 INFO : 127.0.0.1 - - [11/Feb/2024 13:06:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 13:07:41,910 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:07:42,100 INFO :  * Restarting with stat
+2024-02-11 13:07:42,325 INFO : DEBUG ON - level 2
+2024-02-11 13:07:42,459 WARNING :  * Debugger is active!
+2024-02-11 13:07:42,461 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:07:46,983 INFO : 127.0.0.1 - - [11/Feb/2024 13:07:46] "GET / HTTP/1.1" 200 -
+2024-02-11 13:08:26,177 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:08:26,572 INFO :  * Restarting with stat
+2024-02-11 13:08:26,791 INFO : DEBUG ON - level 2
+2024-02-11 13:08:26,916 WARNING :  * Debugger is active!
+2024-02-11 13:08:26,918 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:08:30,944 INFO : 127.0.0.1 - - [11/Feb/2024 13:08:30] "GET / HTTP/1.1" 200 -
+2024-02-11 13:10:02,200 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:10:02,599 INFO :  * Restarting with stat
+2024-02-11 13:10:02,842 INFO : DEBUG ON - level 2
+2024-02-11 13:10:03,005 WARNING :  * Debugger is active!
+2024-02-11 13:10:03,008 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:10:06,515 INFO : 127.0.0.1 - - [11/Feb/2024 13:10:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 13:10:06,547 INFO : 127.0.0.1 - - [11/Feb/2024 13:10:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 13:10:06,753 INFO : 127.0.0.1 - - [11/Feb/2024 13:10:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 13:10:07,066 INFO : 127.0.0.1 - - [11/Feb/2024 13:10:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 13:10:07,330 INFO : 127.0.0.1 - - [11/Feb/2024 13:10:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 13:10:49,635 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:10:50,082 INFO :  * Restarting with stat
+2024-02-11 13:10:50,310 INFO : DEBUG ON - level 2
+2024-02-11 13:10:50,431 WARNING :  * Debugger is active!
+2024-02-11 13:10:50,433 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:10:57,095 INFO : 127.0.0.1 - - [11/Feb/2024 13:10:57] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:08,461 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:12:08,659 INFO :  * Restarting with stat
+2024-02-11 13:12:08,879 INFO : DEBUG ON - level 2
+2024-02-11 13:12:09,031 WARNING :  * Debugger is active!
+2024-02-11 13:12:09,033 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:12:12,678 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:12] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:14,593 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:14] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:15,542 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:15] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:15,850 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:15] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:16,143 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:16] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:16,391 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:16] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:16,623 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:16] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:16,825 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:16] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:39,465 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:12:39,594 INFO :  * Restarting with stat
+2024-02-11 13:12:39,816 INFO : DEBUG ON - level 2
+2024-02-11 13:12:39,940 WARNING :  * Debugger is active!
+2024-02-11 13:12:39,942 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:12:43,733 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:43] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:45,584 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:45] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:48,135 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:48] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:48,448 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:48] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:48,713 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:48] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:48,994 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:48] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:49,254 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:49] "GET / HTTP/1.1" 200 -
+2024-02-11 13:12:49,480 INFO : 127.0.0.1 - - [11/Feb/2024 13:12:49] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:34,698 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:13:35,085 INFO :  * Restarting with stat
+2024-02-11 13:13:35,305 INFO : DEBUG ON - level 2
+2024-02-11 13:13:35,429 WARNING :  * Debugger is active!
+2024-02-11 13:13:35,431 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:13:39,292 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:39] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:41,216 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:41] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:41,822 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:41] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:42,135 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:42] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:42,383 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:42] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:42,616 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:42] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:42,833 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:42] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:43,019 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:43] "GET / HTTP/1.1" 200 -
+2024-02-11 13:13:43,222 INFO : 127.0.0.1 - - [11/Feb/2024 13:13:43] "GET / HTTP/1.1" 200 -
+2024-02-11 13:16:35,961 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:16:36,497 INFO :  * Restarting with stat
+2024-02-11 13:16:36,732 INFO : DEBUG ON - level 2
+2024-02-11 13:16:36,883 WARNING :  * Debugger is active!
+2024-02-11 13:16:36,885 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:16:40,027 INFO : 127.0.0.1 - - [11/Feb/2024 13:16:40] "GET / HTTP/1.1" 200 -
+2024-02-11 13:16:41,865 INFO : 127.0.0.1 - - [11/Feb/2024 13:16:41] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:48,869 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:17:48,993 INFO :  * Restarting with stat
+2024-02-11 13:17:49,211 INFO : DEBUG ON - level 2
+2024-02-11 13:17:49,343 WARNING :  * Debugger is active!
+2024-02-11 13:17:49,345 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:17:51,617 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:51] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:53,482 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:53] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:53,855 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:53] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:54,158 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:54] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:54,450 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:54] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:54,683 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:54] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:54,916 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:54] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:55,151 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:55] "GET / HTTP/1.1" 200 -
+2024-02-11 13:17:55,370 INFO : 127.0.0.1 - - [11/Feb/2024 13:17:55] "GET / HTTP/1.1" 200 -
+2024-02-11 13:25:37,770 INFO : DEBUG ON - level 2
+2024-02-11 13:25:37,899 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-11 13:25:37,899 INFO : [33mPress CTRL+C to quit[0m
+2024-02-11 13:25:37,900 INFO :  * Restarting with stat
+2024-02-11 13:25:38,118 INFO : DEBUG ON - level 2
+2024-02-11 13:25:38,239 WARNING :  * Debugger is active!
+2024-02-11 13:25:38,241 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:25:42,637 INFO : 127.0.0.1 - - [11/Feb/2024 13:25:42] "GET / HTTP/1.1" 200 -
+2024-02-11 13:25:43,512 INFO : 127.0.0.1 - - [11/Feb/2024 13:25:43] "GET / HTTP/1.1" 200 -
+2024-02-11 13:25:44,873 INFO : 127.0.0.1 - - [11/Feb/2024 13:25:44] "GET / HTTP/1.1" 200 -
+2024-02-11 13:28:51,234 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:28:51,442 INFO :  * Restarting with stat
+2024-02-11 13:28:51,674 INFO : DEBUG ON - level 2
+2024-02-11 13:28:51,830 WARNING :  * Debugger is active!
+2024-02-11 13:28:51,832 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:28:56,283 INFO : 127.0.0.1 - - [11/Feb/2024 13:28:56] "GET / HTTP/1.1" 200 -
+2024-02-11 13:32:27,476 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 13:32:28,032 INFO :  * Restarting with stat
+2024-02-11 13:32:28,265 INFO : DEBUG ON - level 2
+2024-02-11 13:32:28,422 WARNING :  * Debugger is active!
+2024-02-11 13:32:28,424 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 13:32:32,147 INFO : 127.0.0.1 - - [11/Feb/2024 13:32:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 13:32:32,179 INFO : 127.0.0.1 - - [11/Feb/2024 13:32:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 13:32:32,391 INFO : 127.0.0.1 - - [11/Feb/2024 13:32:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 13:32:32,717 INFO : 127.0.0.1 - - [11/Feb/2024 13:32:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 13:32:32,965 INFO : 127.0.0.1 - - [11/Feb/2024 13:32:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 14:01:27,757 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:01:28,269 INFO :  * Restarting with stat
+2024-02-11 14:01:28,512 INFO : DEBUG ON - level 2
+2024-02-11 14:01:28,682 WARNING :  * Debugger is active!
+2024-02-11 14:01:28,684 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:01:34,344 INFO : 127.0.0.1 - - [11/Feb/2024 14:01:34] "GET / HTTP/1.1" 200 -
+2024-02-11 14:05:07,185 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:05:07,414 INFO :  * Restarting with stat
+2024-02-11 14:05:07,700 INFO : DEBUG ON - level 2
+2024-02-11 14:05:07,886 WARNING :  * Debugger is active!
+2024-02-11 14:05:07,889 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:05:12,605 INFO : 127.0.0.1 - - [11/Feb/2024 14:05:12] "GET / HTTP/1.1" 200 -
+2024-02-11 14:06:09,766 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:06:09,964 INFO :  * Restarting with stat
+2024-02-11 14:06:10,203 INFO : DEBUG ON - level 2
+2024-02-11 14:06:10,332 WARNING :  * Debugger is active!
+2024-02-11 14:06:10,334 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:06:15,092 INFO : 127.0.0.1 - - [11/Feb/2024 14:06:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 14:06:15,124 INFO : 127.0.0.1 - - [11/Feb/2024 14:06:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 14:06:15,308 INFO : 127.0.0.1 - - [11/Feb/2024 14:06:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 14:06:15,633 INFO : 127.0.0.1 - - [11/Feb/2024 14:06:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 14:06:15,894 INFO : 127.0.0.1 - - [11/Feb/2024 14:06:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 14:06:49,865 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:06:50,398 INFO :  * Restarting with stat
+2024-02-11 14:06:50,668 INFO : DEBUG ON - level 2
+2024-02-11 14:06:50,814 WARNING :  * Debugger is active!
+2024-02-11 14:06:50,817 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:06:54,116 INFO : 127.0.0.1 - - [11/Feb/2024 14:06:54] "GET / HTTP/1.1" 200 -
+2024-02-11 14:09:58,210 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:09:58,556 INFO :  * Restarting with stat
+2024-02-11 14:09:58,803 INFO : DEBUG ON - level 2
+2024-02-11 14:09:58,957 WARNING :  * Debugger is active!
+2024-02-11 14:09:58,960 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:10:03,381 INFO : 127.0.0.1 - - [11/Feb/2024 14:10:03] "GET / HTTP/1.1" 200 -
+2024-02-11 14:10:04,270 INFO : 127.0.0.1 - - [11/Feb/2024 14:10:04] "GET / HTTP/1.1" 200 -
+2024-02-11 14:12:41,101 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:12:41,620 INFO :  * Restarting with stat
+2024-02-11 14:13:21,281 INFO :  * Restarting with stat
+2024-02-11 14:13:21,501 INFO : DEBUG ON - level 2
+2024-02-11 14:13:21,654 WARNING :  * Debugger is active!
+2024-02-11 14:13:21,657 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:13:25,169 INFO : 127.0.0.1 - - [11/Feb/2024 14:13:25] "GET / HTTP/1.1" 200 -
+2024-02-11 14:13:58,215 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:13:58,749 INFO :  * Restarting with stat
+2024-02-11 14:13:58,983 INFO : DEBUG ON - level 2
+2024-02-11 14:13:59,110 WARNING :  * Debugger is active!
+2024-02-11 14:13:59,112 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:14:03,876 INFO : 127.0.0.1 - - [11/Feb/2024 14:14:03] "GET / HTTP/1.1" 200 -
+2024-02-11 14:14:58,934 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:14:59,190 INFO :  * Restarting with stat
+2024-02-11 14:14:59,428 INFO : DEBUG ON - level 2
+2024-02-11 14:14:59,556 WARNING :  * Debugger is active!
+2024-02-11 14:14:59,558 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:15:04,143 INFO : 127.0.0.1 - - [11/Feb/2024 14:15:04] "GET / HTTP/1.1" 200 -
+2024-02-11 14:15:21,841 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 14:15:22,131 INFO :  * Restarting with stat
+2024-02-11 14:15:22,361 INFO : DEBUG ON - level 2
+2024-02-11 14:15:22,487 WARNING :  * Debugger is active!
+2024-02-11 14:15:22,490 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 14:15:26,141 INFO : 127.0.0.1 - - [11/Feb/2024 14:15:26] "GET / HTTP/1.1" 200 -
+2024-02-11 15:04:28,123 INFO : DEBUG ON - level 2
+2024-02-11 15:04:28,254 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-11 15:04:28,255 INFO : [33mPress CTRL+C to quit[0m
+2024-02-11 15:04:28,256 INFO :  * Restarting with stat
+2024-02-11 15:04:28,473 INFO : DEBUG ON - level 2
+2024-02-11 15:04:28,593 WARNING :  * Debugger is active!
+2024-02-11 15:04:28,596 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:04:48,828 INFO : 127.0.0.1 - - [11/Feb/2024 15:04:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 15:04:48,865 INFO : 127.0.0.1 - - [11/Feb/2024 15:04:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 15:04:49,075 INFO : 127.0.0.1 - - [11/Feb/2024 15:04:49] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 15:04:49,416 INFO : 127.0.0.1 - - [11/Feb/2024 15:04:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:04:49,668 INFO : 127.0.0.1 - - [11/Feb/2024 15:04:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:06:03,938 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:06:04,283 INFO :  * Restarting with stat
+2024-02-11 15:06:04,529 INFO : DEBUG ON - level 2
+2024-02-11 15:06:04,689 WARNING :  * Debugger is active!
+2024-02-11 15:06:04,691 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:06:10,441 INFO : 127.0.0.1 - - [11/Feb/2024 15:06:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 15:06:10,470 INFO : 127.0.0.1 - - [11/Feb/2024 15:06:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 15:06:10,686 INFO : 127.0.0.1 - - [11/Feb/2024 15:06:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 15:06:10,997 INFO : 127.0.0.1 - - [11/Feb/2024 15:06:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:06:11,263 INFO : 127.0.0.1 - - [11/Feb/2024 15:06:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:07:08,580 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:07:08,816 INFO :  * Restarting with stat
+2024-02-11 15:07:09,048 INFO : DEBUG ON - level 2
+2024-02-11 15:07:09,178 WARNING :  * Debugger is active!
+2024-02-11 15:07:09,180 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:07:13,307 INFO : 127.0.0.1 - - [11/Feb/2024 15:07:13] "GET / HTTP/1.1" 200 -
+2024-02-11 15:07:46,698 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:07:46,883 INFO :  * Restarting with stat
+2024-02-11 15:07:47,110 INFO : DEBUG ON - level 2
+2024-02-11 15:07:47,234 WARNING :  * Debugger is active!
+2024-02-11 15:07:47,237 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:07:51,447 INFO : 127.0.0.1 - - [11/Feb/2024 15:07:51] "GET / HTTP/1.1" 200 -
+2024-02-11 15:07:51,463 ERROR : Error on request:
+Traceback (most recent call last):
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 328, in execute
+    write(data)
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 296, in write
+    assert isinstance(data, bytes), "applications must write bytes"
+AssertionError: applications must write bytes
+2024-02-11 15:07:53,516 INFO : 127.0.0.1 - - [11/Feb/2024 15:07:53] "GET / HTTP/1.1" 200 -
+2024-02-11 15:07:53,534 ERROR : Error on request:
+Traceback (most recent call last):
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 328, in execute
+    write(data)
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 296, in write
+    assert isinstance(data, bytes), "applications must write bytes"
+AssertionError: applications must write bytes
+2024-02-11 15:08:43,037 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:08:43,403 INFO :  * Restarting with stat
+2024-02-11 15:08:43,656 INFO : DEBUG ON - level 2
+2024-02-11 15:08:43,791 WARNING :  * Debugger is active!
+2024-02-11 15:08:43,794 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:08:47,159 INFO : 127.0.0.1 - - [11/Feb/2024 15:08:47] "GET / HTTP/1.1" 200 -
+2024-02-11 15:08:57,013 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:08:57,401 INFO :  * Restarting with stat
+2024-02-11 15:08:57,628 INFO : DEBUG ON - level 2
+2024-02-11 15:08:57,755 WARNING :  * Debugger is active!
+2024-02-11 15:08:57,758 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:09:06,566 INFO : 127.0.0.1 - - [11/Feb/2024 15:09:06] "GET / HTTP/1.1" 200 -
+2024-02-11 15:09:06,580 ERROR : Error on request:
+Traceback (most recent call last):
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 328, in execute
+    write(data)
+  File "C:\DevOpsCourse\DevOps-Course-Starter\.venv\Lib\site-packages\werkzeug\serving.py", line 296, in write
+    assert isinstance(data, bytes), "applications must write bytes"
+AssertionError: applications must write bytes
+2024-02-11 15:15:50,915 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:15:51,388 INFO :  * Restarting with stat
+2024-02-11 15:17:29,569 INFO :  * Restarting with stat
+2024-02-11 15:17:29,808 INFO : DEBUG ON - level 2
+2024-02-11 15:17:29,967 WARNING :  * Debugger is active!
+2024-02-11 15:17:29,969 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:17:33,213 INFO : 127.0.0.1 - - [11/Feb/2024 15:17:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 15:17:33,242 INFO : 127.0.0.1 - - [11/Feb/2024 15:17:33] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 15:17:33,457 INFO : 127.0.0.1 - - [11/Feb/2024 15:17:33] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 15:17:33,767 INFO : 127.0.0.1 - - [11/Feb/2024 15:17:33] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:17:34,031 INFO : 127.0.0.1 - - [11/Feb/2024 15:17:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:18:51,118 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:18:51,596 INFO :  * Restarting with stat
+2024-02-11 15:18:51,883 INFO : DEBUG ON - level 2
+2024-02-11 15:18:52,040 WARNING :  * Debugger is active!
+2024-02-11 15:18:52,043 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:18:54,356 INFO : 127.0.0.1 - - [11/Feb/2024 15:18:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 15:18:54,384 INFO : 127.0.0.1 - - [11/Feb/2024 15:18:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 15:18:54,598 INFO : 127.0.0.1 - - [11/Feb/2024 15:18:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 15:18:54,925 INFO : 127.0.0.1 - - [11/Feb/2024 15:18:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:18:55,173 INFO : 127.0.0.1 - - [11/Feb/2024 15:18:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:19:37,662 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:19:38,107 INFO :  * Restarting with stat
+2024-02-11 15:19:38,333 INFO : DEBUG ON - level 2
+2024-02-11 15:19:38,457 WARNING :  * Debugger is active!
+2024-02-11 15:19:38,459 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:19:41,508 INFO : 127.0.0.1 - - [11/Feb/2024 15:19:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 15:19:41,540 INFO : 127.0.0.1 - - [11/Feb/2024 15:19:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 15:19:41,752 INFO : 127.0.0.1 - - [11/Feb/2024 15:19:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 15:19:42,063 INFO : 127.0.0.1 - - [11/Feb/2024 15:19:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:19:42,327 INFO : 127.0.0.1 - - [11/Feb/2024 15:19:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 15:20:21,149 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 15:20:21,550 INFO :  * Restarting with stat
+2024-02-11 15:20:21,803 INFO : DEBUG ON - level 2
+2024-02-11 15:20:21,934 WARNING :  * Debugger is active!
+2024-02-11 15:20:21,936 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 15:20:24,707 INFO : 127.0.0.1 - - [11/Feb/2024 15:20:24] "GET / HTTP/1.1" 200 -
+2024-02-11 16:23:49,577 INFO : DEBUG ON - level 2
+2024-02-11 16:23:49,709 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-11 16:23:49,709 INFO : [33mPress CTRL+C to quit[0m
+2024-02-11 16:23:49,710 INFO :  * Restarting with stat
+2024-02-11 16:23:49,929 INFO : DEBUG ON - level 2
+2024-02-11 16:23:50,051 WARNING :  * Debugger is active!
+2024-02-11 16:23:50,053 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 16:23:58,789 INFO : 127.0.0.1 - - [11/Feb/2024 16:23:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 16:23:58,822 INFO : 127.0.0.1 - - [11/Feb/2024 16:23:58] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 16:23:59,029 INFO : 127.0.0.1 - - [11/Feb/2024 16:23:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 16:23:59,368 INFO : 127.0.0.1 - - [11/Feb/2024 16:23:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:23:59,634 INFO : 127.0.0.1 - - [11/Feb/2024 16:23:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:25:21,349 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 16:25:21,660 INFO :  * Restarting with stat
+2024-02-11 16:25:21,911 INFO : DEBUG ON - level 2
+2024-02-11 16:25:22,076 WARNING :  * Debugger is active!
+2024-02-11 16:25:22,078 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 16:25:26,315 INFO : 127.0.0.1 - - [11/Feb/2024 16:25:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 16:25:26,347 INFO : 127.0.0.1 - - [11/Feb/2024 16:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 16:25:26,559 INFO : 127.0.0.1 - - [11/Feb/2024 16:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 16:25:26,869 INFO : 127.0.0.1 - - [11/Feb/2024 16:25:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:25:27,136 INFO : 127.0.0.1 - - [11/Feb/2024 16:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:29:00,889 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 16:29:01,325 INFO :  * Restarting with stat
+2024-02-11 16:29:01,554 INFO : DEBUG ON - level 2
+2024-02-11 16:29:01,708 WARNING :  * Debugger is active!
+2024-02-11 16:29:01,710 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 16:29:05,760 INFO : 127.0.0.1 - - [11/Feb/2024 16:29:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 16:29:05,789 INFO : 127.0.0.1 - - [11/Feb/2024 16:29:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 16:29:06,018 INFO : 127.0.0.1 - - [11/Feb/2024 16:29:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 16:29:06,344 INFO : 127.0.0.1 - - [11/Feb/2024 16:29:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:29:06,594 INFO : 127.0.0.1 - - [11/Feb/2024 16:29:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:31:25,678 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 16:31:25,872 INFO :  * Restarting with stat
+2024-02-11 16:31:26,123 INFO : DEBUG ON - level 2
+2024-02-11 16:31:26,298 WARNING :  * Debugger is active!
+2024-02-11 16:31:26,301 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 16:31:30,313 INFO : 127.0.0.1 - - [11/Feb/2024 16:31:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 16:31:30,342 INFO : 127.0.0.1 - - [11/Feb/2024 16:31:30] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 16:31:30,559 INFO : 127.0.0.1 - - [11/Feb/2024 16:31:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 16:31:30,870 INFO : 127.0.0.1 - - [11/Feb/2024 16:31:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:31:31,137 INFO : 127.0.0.1 - - [11/Feb/2024 16:31:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:32:15,929 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-11 16:32:16,402 INFO :  * Restarting with stat
+2024-02-11 16:32:16,639 INFO : DEBUG ON - level 2
+2024-02-11 16:32:16,768 WARNING :  * Debugger is active!
+2024-02-11 16:32:16,770 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 16:32:21,322 INFO : 127.0.0.1 - - [11/Feb/2024 16:32:21] "GET / HTTP/1.1" 200 -
+2024-02-11 16:42:35,566 INFO : 127.0.0.1 - - [11/Feb/2024 16:42:35] "GET / HTTP/1.1" 200 -
+2024-02-11 16:42:39,242 INFO : 127.0.0.1 - - [11/Feb/2024 16:42:39] "GET / HTTP/1.1" 200 -
+2024-02-11 16:57:15,464 INFO : DEBUG ON - level 2
+2024-02-11 16:57:15,594 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-11 16:57:15,594 INFO : [33mPress CTRL+C to quit[0m
+2024-02-11 16:57:15,595 INFO :  * Restarting with stat
+2024-02-11 16:57:15,821 INFO : DEBUG ON - level 2
+2024-02-11 16:57:15,944 WARNING :  * Debugger is active!
+2024-02-11 16:57:15,946 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 16:57:20,422 INFO : 127.0.0.1 - - [11/Feb/2024 16:57:20] "[33mGET /list HTTP/1.1[0m" 404 -
+2024-02-11 16:57:22,224 INFO : 127.0.0.1 - - [11/Feb/2024 16:57:22] "[33mGET /list HTTP/1.1[0m" 404 -
+2024-02-11 16:57:27,529 INFO : 127.0.0.1 - - [11/Feb/2024 16:57:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-11 16:57:27,865 INFO : 127.0.0.1 - - [11/Feb/2024 16:57:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-11 16:57:27,871 INFO : 127.0.0.1 - - [11/Feb/2024 16:57:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-11 16:57:28,184 INFO : 127.0.0.1 - - [11/Feb/2024 16:57:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 16:57:28,446 INFO : 127.0.0.1 - - [11/Feb/2024 16:57:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-11 17:28:14,168 INFO : DEBUG ON - level 2
+2024-02-11 17:28:14,302 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-11 17:28:14,302 INFO : [33mPress CTRL+C to quit[0m
+2024-02-11 17:28:14,303 INFO :  * Restarting with stat
+2024-02-11 17:28:14,525 INFO : DEBUG ON - level 2
+2024-02-11 17:28:14,646 WARNING :  * Debugger is active!
+2024-02-11 17:28:14,648 INFO :  * Debugger PIN: 983-857-336
+2024-02-11 17:28:17,758 INFO : 127.0.0.1 - - [11/Feb/2024 17:28:17] "GET / HTTP/1.1" 200 -
+2024-02-12 07:41:10,626 INFO : DEBUG ON - level 2
+2024-02-12 07:41:10,859 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-12 07:41:10,859 INFO : [33mPress CTRL+C to quit[0m
+2024-02-12 07:41:10,860 INFO :  * Restarting with stat
+2024-02-12 07:41:11,088 INFO : DEBUG ON - level 2
+2024-02-12 07:41:11,214 WARNING :  * Debugger is active!
+2024-02-12 07:41:11,222 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 07:41:19,212 INFO : 127.0.0.1 - - [12/Feb/2024 07:41:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 07:41:19,267 INFO : 127.0.0.1 - - [12/Feb/2024 07:41:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 07:41:19,412 INFO : 127.0.0.1 - - [12/Feb/2024 07:41:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 07:41:19,756 INFO : 127.0.0.1 - - [12/Feb/2024 07:41:19] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 07:41:20,022 INFO : 127.0.0.1 - - [12/Feb/2024 07:41:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 07:42:07,973 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 07:42:08,404 INFO :  * Restarting with stat
+2024-02-12 07:42:08,645 INFO : DEBUG ON - level 2
+2024-02-12 07:42:08,771 WARNING :  * Debugger is active!
+2024-02-12 07:42:08,773 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 07:42:12,447 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 07:42:12,483 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:12] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 07:42:12,682 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:12] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 07:42:13,007 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 07:42:13,258 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:13] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 07:42:35,115 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 07:42:35,454 INFO :  * Restarting with stat
+2024-02-12 07:42:35,690 INFO : DEBUG ON - level 2
+2024-02-12 07:42:35,822 WARNING :  * Debugger is active!
+2024-02-12 07:42:35,825 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 07:42:40,446 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 07:42:40,479 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 07:42:40,686 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 07:42:41,001 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 07:42:41,268 INFO : 127.0.0.1 - - [12/Feb/2024 07:42:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 07:44:59,855 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 07:45:00,011 INFO :  * Restarting with stat
+2024-02-12 07:45:00,243 INFO : DEBUG ON - level 2
+2024-02-12 07:45:00,372 WARNING :  * Debugger is active!
+2024-02-12 07:45:00,375 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 07:45:03,653 INFO : 127.0.0.1 - - [12/Feb/2024 07:45:03] "GET / HTTP/1.1" 200 -
+2024-02-12 07:45:03,693 INFO : 127.0.0.1 - - [12/Feb/2024 07:45:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-12 07:45:28,746 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 07:45:29,085 INFO :  * Restarting with stat
+2024-02-12 07:45:29,335 INFO : DEBUG ON - level 2
+2024-02-12 07:45:29,466 WARNING :  * Debugger is active!
+2024-02-12 07:45:29,468 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 07:45:33,607 INFO : 127.0.0.1 - - [12/Feb/2024 07:45:33] "GET / HTTP/1.1" 200 -
+2024-02-12 07:48:08,459 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 07:48:08,630 INFO :  * Restarting with stat
+2024-02-12 07:48:08,861 INFO : DEBUG ON - level 2
+2024-02-12 07:48:09,023 WARNING :  * Debugger is active!
+2024-02-12 07:48:09,025 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 07:48:12,255 INFO : 127.0.0.1 - - [12/Feb/2024 07:48:12] "GET / HTTP/1.1" 200 -
+2024-02-12 07:48:15,187 INFO : 127.0.0.1 - - [12/Feb/2024 07:48:15] "GET / HTTP/1.1" 200 -
+2024-02-12 07:48:48,581 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 07:48:49,103 INFO :  * Restarting with stat
+2024-02-12 07:48:49,327 INFO : DEBUG ON - level 2
+2024-02-12 07:48:49,460 WARNING :  * Debugger is active!
+2024-02-12 07:48:49,462 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 07:48:52,953 INFO : 127.0.0.1 - - [12/Feb/2024 07:48:52] "GET / HTTP/1.1" 200 -
+2024-02-12 07:49:50,282 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 07:49:50,592 INFO :  * Restarting with stat
+2024-02-12 07:49:50,821 INFO : DEBUG ON - level 2
+2024-02-12 07:49:50,945 WARNING :  * Debugger is active!
+2024-02-12 07:49:50,947 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 07:49:54,850 INFO : 127.0.0.1 - - [12/Feb/2024 07:49:54] "GET / HTTP/1.1" 200 -
+2024-02-12 08:11:05,562 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:11:06,022 INFO :  * Restarting with stat
+2024-02-12 08:11:06,304 INFO : DEBUG ON - level 2
+2024-02-12 08:11:06,524 WARNING :  * Debugger is active!
+2024-02-12 08:11:06,526 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:11:09,470 INFO : 127.0.0.1 - - [12/Feb/2024 08:11:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 08:11:09,503 INFO : 127.0.0.1 - - [12/Feb/2024 08:11:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 08:11:09,709 INFO : 127.0.0.1 - - [12/Feb/2024 08:11:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 08:11:10,025 INFO : 127.0.0.1 - - [12/Feb/2024 08:11:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:11:10,291 INFO : 127.0.0.1 - - [12/Feb/2024 08:11:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:12:16,514 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:12:16,636 INFO :  * Restarting with stat
+2024-02-12 08:12:16,866 INFO : DEBUG ON - level 2
+2024-02-12 08:12:16,990 WARNING :  * Debugger is active!
+2024-02-12 08:12:16,993 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:12:20,853 INFO : 127.0.0.1 - - [12/Feb/2024 08:12:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 08:12:20,882 INFO : 127.0.0.1 - - [12/Feb/2024 08:12:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 08:12:21,098 INFO : 127.0.0.1 - - [12/Feb/2024 08:12:21] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 08:12:21,409 INFO : 127.0.0.1 - - [12/Feb/2024 08:12:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:12:21,673 INFO : 127.0.0.1 - - [12/Feb/2024 08:12:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:13:54,325 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:13:54,692 INFO :  * Restarting with stat
+2024-02-12 08:13:54,920 INFO : DEBUG ON - level 2
+2024-02-12 08:13:55,045 WARNING :  * Debugger is active!
+2024-02-12 08:13:55,047 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:13:58,510 INFO : 127.0.0.1 - - [12/Feb/2024 08:13:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 08:13:58,539 INFO : 127.0.0.1 - - [12/Feb/2024 08:13:58] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 08:13:58,756 INFO : 127.0.0.1 - - [12/Feb/2024 08:13:58] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 08:13:59,066 INFO : 127.0.0.1 - - [12/Feb/2024 08:13:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:13:59,331 INFO : 127.0.0.1 - - [12/Feb/2024 08:13:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:15:27,208 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:15:27,691 INFO :  * Restarting with stat
+2024-02-12 08:15:27,914 INFO : DEBUG ON - level 2
+2024-02-12 08:15:28,044 WARNING :  * Debugger is active!
+2024-02-12 08:15:28,047 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:15:31,378 INFO : 127.0.0.1 - - [12/Feb/2024 08:15:31] "GET / HTTP/1.1" 200 -
+2024-02-12 08:15:50,365 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:15:50,637 INFO :  * Restarting with stat
+2024-02-12 08:15:50,923 INFO : DEBUG ON - level 2
+2024-02-12 08:15:51,061 WARNING :  * Debugger is active!
+2024-02-12 08:15:51,064 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:15:53,175 INFO : 127.0.0.1 - - [12/Feb/2024 08:15:53] "GET / HTTP/1.1" 200 -
+2024-02-12 08:22:37,301 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:22:37,782 INFO :  * Restarting with stat
+2024-02-12 08:22:38,019 INFO : DEBUG ON - level 2
+2024-02-12 08:22:38,179 WARNING :  * Debugger is active!
+2024-02-12 08:22:38,181 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:22:41,310 INFO : 127.0.0.1 - - [12/Feb/2024 08:22:41] "GET / HTTP/1.1" 200 -
+2024-02-12 08:23:07,603 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:23:07,922 INFO :  * Restarting with stat
+2024-02-12 08:23:08,199 INFO : DEBUG ON - level 2
+2024-02-12 08:23:08,346 WARNING :  * Debugger is active!
+2024-02-12 08:23:08,348 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:23:11,762 INFO : 127.0.0.1 - - [12/Feb/2024 08:23:11] "GET / HTTP/1.1" 200 -
+2024-02-12 08:28:20,336 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:28:20,664 INFO :  * Restarting with stat
+2024-02-12 08:28:20,891 INFO : DEBUG ON - level 2
+2024-02-12 08:28:21,027 WARNING :  * Debugger is active!
+2024-02-12 08:28:21,029 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:28:24,776 INFO : 127.0.0.1 - - [12/Feb/2024 08:28:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 08:28:24,808 INFO : 127.0.0.1 - - [12/Feb/2024 08:28:24] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 08:28:25,021 INFO : 127.0.0.1 - - [12/Feb/2024 08:28:25] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 08:28:25,333 INFO : 127.0.0.1 - - [12/Feb/2024 08:28:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:28:25,598 INFO : 127.0.0.1 - - [12/Feb/2024 08:28:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:29:16,838 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:29:17,191 INFO :  * Restarting with stat
+2024-02-12 08:29:17,430 INFO : DEBUG ON - level 2
+2024-02-12 08:29:17,564 WARNING :  * Debugger is active!
+2024-02-12 08:29:17,567 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:29:20,362 INFO : 127.0.0.1 - - [12/Feb/2024 08:29:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 08:29:20,392 INFO : 127.0.0.1 - - [12/Feb/2024 08:29:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 08:29:20,574 INFO : 127.0.0.1 - - [12/Feb/2024 08:29:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 08:29:20,884 INFO : 127.0.0.1 - - [12/Feb/2024 08:29:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:29:21,150 INFO : 127.0.0.1 - - [12/Feb/2024 08:29:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:30:32,550 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:30:32,752 INFO :  * Restarting with stat
+2024-02-12 08:30:33,027 INFO : DEBUG ON - level 2
+2024-02-12 08:30:33,208 WARNING :  * Debugger is active!
+2024-02-12 08:30:33,211 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:30:35,991 INFO : 127.0.0.1 - - [12/Feb/2024 08:30:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 08:30:36,024 INFO : 127.0.0.1 - - [12/Feb/2024 08:30:36] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 08:30:36,223 INFO : 127.0.0.1 - - [12/Feb/2024 08:30:36] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 08:30:36,535 INFO : 127.0.0.1 - - [12/Feb/2024 08:30:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:30:36,800 INFO : 127.0.0.1 - - [12/Feb/2024 08:30:36] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 08:31:13,823 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:31:14,305 INFO :  * Restarting with stat
+2024-02-12 08:31:14,542 INFO : DEBUG ON - level 2
+2024-02-12 08:31:14,684 WARNING :  * Debugger is active!
+2024-02-12 08:31:14,687 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:31:17,590 INFO : 127.0.0.1 - - [12/Feb/2024 08:31:17] "GET / HTTP/1.1" 200 -
+2024-02-12 08:36:28,973 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:36:29,506 INFO :  * Restarting with stat
+2024-02-12 08:36:29,771 INFO : DEBUG ON - level 2
+2024-02-12 08:36:29,911 WARNING :  * Debugger is active!
+2024-02-12 08:36:29,914 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:36:33,051 INFO : 127.0.0.1 - - [12/Feb/2024 08:36:33] "GET / HTTP/1.1" 200 -
+2024-02-12 08:37:24,679 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:37:25,076 INFO :  * Restarting with stat
+2024-02-12 08:37:25,350 INFO : DEBUG ON - level 2
+2024-02-12 08:37:25,503 WARNING :  * Debugger is active!
+2024-02-12 08:37:25,507 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:37:28,099 INFO : 127.0.0.1 - - [12/Feb/2024 08:37:28] "GET / HTTP/1.1" 200 -
+2024-02-12 08:37:48,833 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:37:49,130 INFO :  * Restarting with stat
+2024-02-12 08:37:49,364 INFO : DEBUG ON - level 2
+2024-02-12 08:37:49,512 WARNING :  * Debugger is active!
+2024-02-12 08:37:49,514 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:37:52,860 INFO : 127.0.0.1 - - [12/Feb/2024 08:37:52] "GET / HTTP/1.1" 200 -
+2024-02-12 08:54:10,684 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 08:54:11,149 INFO :  * Restarting with stat
+2024-02-12 08:54:11,389 INFO : DEBUG ON - level 2
+2024-02-12 08:54:11,554 WARNING :  * Debugger is active!
+2024-02-12 08:54:11,556 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 08:54:16,867 INFO : 127.0.0.1 - - [12/Feb/2024 08:54:16] "GET / HTTP/1.1" 200 -
+2024-02-12 09:14:09,377 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 09:14:09,867 INFO :  * Restarting with stat
+2024-02-12 09:14:10,088 INFO : DEBUG ON - level 2
+2024-02-12 09:14:10,258 WARNING :  * Debugger is active!
+2024-02-12 09:14:10,260 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 09:14:13,475 INFO : 127.0.0.1 - - [12/Feb/2024 09:14:13] "GET / HTTP/1.1" 200 -
+2024-02-12 10:12:40,225 INFO : 127.0.0.1 - - [12/Feb/2024 10:12:40] "GET / HTTP/1.1" 200 -
+2024-02-12 11:17:53,707 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:17:53,985 INFO :  * Restarting with stat
+2024-02-12 11:17:54,222 INFO : DEBUG ON - level 2
+2024-02-12 11:17:54,384 WARNING :  * Debugger is active!
+2024-02-12 11:17:54,387 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:17:59,718 INFO : 127.0.0.1 - - [12/Feb/2024 11:17:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:17:59,752 INFO : 127.0.0.1 - - [12/Feb/2024 11:17:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:17:59,964 INFO : 127.0.0.1 - - [12/Feb/2024 11:17:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:18:00,279 INFO : 127.0.0.1 - - [12/Feb/2024 11:18:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:18:00,541 INFO : 127.0.0.1 - - [12/Feb/2024 11:18:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:20:10,212 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:20:10,548 INFO :  * Restarting with stat
+2024-02-12 11:20:10,775 INFO : DEBUG ON - level 2
+2024-02-12 11:20:10,930 WARNING :  * Debugger is active!
+2024-02-12 11:20:10,932 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:20:14,190 INFO : 127.0.0.1 - - [12/Feb/2024 11:20:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:20:14,222 INFO : 127.0.0.1 - - [12/Feb/2024 11:20:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:20:14,450 INFO : 127.0.0.1 - - [12/Feb/2024 11:20:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:20:14,774 INFO : 127.0.0.1 - - [12/Feb/2024 11:20:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:20:15,023 INFO : 127.0.0.1 - - [12/Feb/2024 11:20:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:21:59,798 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:22:00,126 INFO :  * Restarting with stat
+2024-02-12 11:22:00,365 INFO : DEBUG ON - level 2
+2024-02-12 11:22:00,521 WARNING :  * Debugger is active!
+2024-02-12 11:22:00,524 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:22:04,664 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:22:04,696 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:22:04,896 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:22:05,209 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:22:05,465 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:22:49,200 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:22:49,726 INFO :  * Restarting with stat
+2024-02-12 11:22:49,947 INFO : DEBUG ON - level 2
+2024-02-12 11:22:50,075 WARNING :  * Debugger is active!
+2024-02-12 11:22:50,077 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:22:53,461 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:22:53,493 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:22:53,699 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:22:54,011 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:22:54,276 INFO : 127.0.0.1 - - [12/Feb/2024 11:22:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:23:29,609 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:23:30,134 INFO :  * Restarting with stat
+2024-02-12 11:23:30,360 INFO : DEBUG ON - level 2
+2024-02-12 11:23:30,485 WARNING :  * Debugger is active!
+2024-02-12 11:23:30,487 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:23:34,090 INFO : 127.0.0.1 - - [12/Feb/2024 11:23:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:23:34,117 INFO : 127.0.0.1 - - [12/Feb/2024 11:23:34] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:23:34,332 INFO : 127.0.0.1 - - [12/Feb/2024 11:23:34] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:23:34,643 INFO : 127.0.0.1 - - [12/Feb/2024 11:23:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:23:34,908 INFO : 127.0.0.1 - - [12/Feb/2024 11:23:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:34:03,113 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:34:03,637 INFO :  * Restarting with stat
+2024-02-12 11:34:03,877 INFO : DEBUG ON - level 2
+2024-02-12 11:34:04,034 WARNING :  * Debugger is active!
+2024-02-12 11:34:04,036 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:34:09,600 INFO : 127.0.0.1 - - [12/Feb/2024 11:34:09] "GET / HTTP/1.1" 200 -
+2024-02-12 11:34:33,439 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:34:33,770 INFO :  * Restarting with stat
+2024-02-12 11:34:33,991 INFO : DEBUG ON - level 2
+2024-02-12 11:34:34,114 WARNING :  * Debugger is active!
+2024-02-12 11:34:34,116 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:34:56,402 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:34:56,692 INFO :  * Restarting with stat
+2024-02-12 11:34:56,920 INFO : DEBUG ON - level 2
+2024-02-12 11:34:57,045 WARNING :  * Debugger is active!
+2024-02-12 11:34:57,047 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:35:00,889 INFO : 127.0.0.1 - - [12/Feb/2024 11:35:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:35:00,921 INFO : 127.0.0.1 - - [12/Feb/2024 11:35:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:35:01,149 INFO : 127.0.0.1 - - [12/Feb/2024 11:35:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:35:01,472 INFO : 127.0.0.1 - - [12/Feb/2024 11:35:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:35:01,721 INFO : 127.0.0.1 - - [12/Feb/2024 11:35:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:36:53,500 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:36:53,729 INFO :  * Restarting with stat
+2024-02-12 11:39:34,335 INFO :  * Restarting with stat
+2024-02-12 11:39:34,562 INFO : DEBUG ON - level 2
+2024-02-12 11:39:34,723 WARNING :  * Debugger is active!
+2024-02-12 11:39:34,726 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:39:38,114 INFO : 127.0.0.1 - - [12/Feb/2024 11:39:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:39:38,143 INFO : 127.0.0.1 - - [12/Feb/2024 11:39:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:39:38,342 INFO : 127.0.0.1 - - [12/Feb/2024 11:39:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:39:38,651 INFO : 127.0.0.1 - - [12/Feb/2024 11:39:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:39:38,916 INFO : 127.0.0.1 - - [12/Feb/2024 11:39:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:41:15,077 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 11:41:15,343 INFO :  * Restarting with stat
+2024-02-12 11:41:15,561 INFO : DEBUG ON - level 2
+2024-02-12 11:41:15,715 WARNING :  * Debugger is active!
+2024-02-12 11:41:15,717 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:42:04,395 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 11:42:04,930 INFO :  * Restarting with stat
+2024-02-12 11:42:05,159 INFO : DEBUG ON - level 2
+2024-02-12 11:42:05,283 WARNING :  * Debugger is active!
+2024-02-12 11:42:05,285 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:42:10,870 INFO : 127.0.0.1 - - [12/Feb/2024 11:42:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:42:10,901 INFO : 127.0.0.1 - - [12/Feb/2024 11:42:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:42:11,115 INFO : 127.0.0.1 - - [12/Feb/2024 11:42:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:42:11,426 INFO : 127.0.0.1 - - [12/Feb/2024 11:42:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:42:11,692 INFO : 127.0.0.1 - - [12/Feb/2024 11:42:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:43:34,490 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:43:35,012 INFO :  * Restarting with stat
+2024-02-12 11:43:35,234 INFO : DEBUG ON - level 2
+2024-02-12 11:43:35,386 WARNING :  * Debugger is active!
+2024-02-12 11:43:35,389 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:43:41,656 INFO : 127.0.0.1 - - [12/Feb/2024 11:43:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:43:41,690 INFO : 127.0.0.1 - - [12/Feb/2024 11:43:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:43:41,917 INFO : 127.0.0.1 - - [12/Feb/2024 11:43:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:43:42,241 INFO : 127.0.0.1 - - [12/Feb/2024 11:43:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:43:42,488 INFO : 127.0.0.1 - - [12/Feb/2024 11:43:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:45:10,672 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:45:11,055 INFO :  * Restarting with stat
+2024-02-12 11:45:11,326 INFO : DEBUG ON - level 2
+2024-02-12 11:45:11,502 WARNING :  * Debugger is active!
+2024-02-12 11:45:11,505 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:45:15,298 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:45:15,329 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:15] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:45:15,542 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:15] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:45:15,855 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:45:16,118 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:45:42,967 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:45:43,093 INFO :  * Restarting with stat
+2024-02-12 11:45:43,322 INFO : DEBUG ON - level 2
+2024-02-12 11:45:43,446 WARNING :  * Debugger is active!
+2024-02-12 11:45:43,448 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:45:48,671 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:45:48,706 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:45:48,934 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:45:49,242 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:45:49,509 INFO : 127.0.0.1 - - [12/Feb/2024 11:45:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:45:57,659 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:45:58,077 INFO :  * Restarting with stat
+2024-02-12 11:45:58,297 INFO : DEBUG ON - level 2
+2024-02-12 11:45:58,426 WARNING :  * Debugger is active!
+2024-02-12 11:45:58,429 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:46:01,258 INFO : 127.0.0.1 - - [12/Feb/2024 11:46:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:46:01,286 INFO : 127.0.0.1 - - [12/Feb/2024 11:46:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:46:01,502 INFO : 127.0.0.1 - - [12/Feb/2024 11:46:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:46:01,810 INFO : 127.0.0.1 - - [12/Feb/2024 11:46:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:46:02,073 INFO : 127.0.0.1 - - [12/Feb/2024 11:46:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:47:03,361 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 11:47:03,552 INFO :  * Restarting with stat
+2024-02-12 11:47:03,773 INFO : DEBUG ON - level 2
+2024-02-12 11:47:03,904 WARNING :  * Debugger is active!
+2024-02-12 11:47:03,906 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:48:10,746 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-12 11:48:11,048 INFO :  * Restarting with stat
+2024-02-12 11:48:11,269 INFO : DEBUG ON - level 2
+2024-02-12 11:48:11,399 WARNING :  * Debugger is active!
+2024-02-12 11:48:11,401 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:48:14,498 INFO : 127.0.0.1 - - [12/Feb/2024 11:48:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:48:14,531 INFO : 127.0.0.1 - - [12/Feb/2024 11:48:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:48:14,744 INFO : 127.0.0.1 - - [12/Feb/2024 11:48:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:48:15,057 INFO : 127.0.0.1 - - [12/Feb/2024 11:48:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:48:15,319 INFO : 127.0.0.1 - - [12/Feb/2024 11:48:15] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:49:00,055 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 11:49:00,499 INFO :  * Restarting with stat
+2024-02-12 11:49:00,720 INFO : DEBUG ON - level 2
+2024-02-12 11:49:00,843 WARNING :  * Debugger is active!
+2024-02-12 11:49:00,845 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 11:49:04,326 INFO : 127.0.0.1 - - [12/Feb/2024 11:49:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 11:49:04,355 INFO : 127.0.0.1 - - [12/Feb/2024 11:49:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 11:49:04,582 INFO : 127.0.0.1 - - [12/Feb/2024 11:49:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 11:49:04,892 INFO : 127.0.0.1 - - [12/Feb/2024 11:49:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 11:49:05,157 INFO : 127.0.0.1 - - [12/Feb/2024 11:49:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:02:32,902 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 12:02:33,097 INFO :  * Restarting with stat
+2024-02-12 12:02:33,337 INFO : DEBUG ON - level 2
+2024-02-12 12:02:33,493 WARNING :  * Debugger is active!
+2024-02-12 12:02:33,495 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 12:02:38,338 INFO : 127.0.0.1 - - [12/Feb/2024 12:02:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 12:02:38,371 INFO : 127.0.0.1 - - [12/Feb/2024 12:02:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 12:02:38,579 INFO : 127.0.0.1 - - [12/Feb/2024 12:02:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 12:02:38,894 INFO : 127.0.0.1 - - [12/Feb/2024 12:02:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:02:39,156 INFO : 127.0.0.1 - - [12/Feb/2024 12:02:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:03:32,319 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 12:03:32,700 INFO :  * Restarting with stat
+2024-02-12 12:03:32,926 INFO : DEBUG ON - level 2
+2024-02-12 12:03:33,047 WARNING :  * Debugger is active!
+2024-02-12 12:03:33,049 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 12:06:50,060 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 12:06:50,266 INFO :  * Restarting with stat
+2024-02-12 12:06:50,500 INFO : DEBUG ON - level 2
+2024-02-12 12:06:50,669 WARNING :  * Debugger is active!
+2024-02-12 12:06:50,672 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 12:06:53,688 INFO : 127.0.0.1 - - [12/Feb/2024 12:06:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 12:06:53,719 INFO : 127.0.0.1 - - [12/Feb/2024 12:06:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 12:06:53,932 INFO : 127.0.0.1 - - [12/Feb/2024 12:06:53] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 12:06:54,243 INFO : 127.0.0.1 - - [12/Feb/2024 12:06:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:06:54,508 INFO : 127.0.0.1 - - [12/Feb/2024 12:06:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:07:14,032 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 12:07:14,274 INFO :  * Restarting with stat
+2024-02-12 12:07:14,496 INFO : DEBUG ON - level 2
+2024-02-12 12:07:14,623 WARNING :  * Debugger is active!
+2024-02-12 12:07:14,626 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 12:07:17,937 INFO : 127.0.0.1 - - [12/Feb/2024 12:07:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 12:07:17,965 INFO : 127.0.0.1 - - [12/Feb/2024 12:07:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 12:07:18,179 INFO : 127.0.0.1 - - [12/Feb/2024 12:07:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 12:07:18,489 INFO : 127.0.0.1 - - [12/Feb/2024 12:07:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:07:18,757 INFO : 127.0.0.1 - - [12/Feb/2024 12:07:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:24:41,026 INFO : DEBUG ON - level 2
+2024-02-12 12:24:41,155 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-12 12:24:41,155 INFO : [33mPress CTRL+C to quit[0m
+2024-02-12 12:24:41,156 INFO :  * Restarting with stat
+2024-02-12 12:24:41,376 INFO : DEBUG ON - level 2
+2024-02-12 12:24:41,502 WARNING :  * Debugger is active!
+2024-02-12 12:24:41,505 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 12:24:47,392 INFO : 127.0.0.1 - - [12/Feb/2024 12:24:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 12:24:47,428 INFO : 127.0.0.1 - - [12/Feb/2024 12:24:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 12:24:47,626 INFO : 127.0.0.1 - - [12/Feb/2024 12:24:47] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 12:24:47,937 INFO : 127.0.0.1 - - [12/Feb/2024 12:24:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:24:48,202 INFO : 127.0.0.1 - - [12/Feb/2024 12:24:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:42:32,832 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 12:42:33,158 INFO :  * Restarting with stat
+2024-02-12 12:42:33,396 INFO : DEBUG ON - level 2
+2024-02-12 12:42:33,560 WARNING :  * Debugger is active!
+2024-02-12 12:42:33,562 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 12:42:39,297 INFO : 127.0.0.1 - - [12/Feb/2024 12:42:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 12:42:39,330 INFO : 127.0.0.1 - - [12/Feb/2024 12:42:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 12:42:39,542 INFO : 127.0.0.1 - - [12/Feb/2024 12:42:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 12:42:39,856 INFO : 127.0.0.1 - - [12/Feb/2024 12:42:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:42:40,122 INFO : 127.0.0.1 - - [12/Feb/2024 12:42:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:44:48,500 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 12:44:48,696 INFO :  * Restarting with stat
+2024-02-12 12:44:48,923 INFO : DEBUG ON - level 2
+2024-02-12 12:44:49,055 WARNING :  * Debugger is active!
+2024-02-12 12:44:49,057 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 12:44:54,214 INFO : 127.0.0.1 - - [12/Feb/2024 12:44:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 12:44:54,249 INFO : 127.0.0.1 - - [12/Feb/2024 12:44:54] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 12:44:54,460 INFO : 127.0.0.1 - - [12/Feb/2024 12:44:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 12:44:54,773 INFO : 127.0.0.1 - - [12/Feb/2024 12:44:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:44:55,037 INFO : 127.0.0.1 - - [12/Feb/2024 12:44:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:45:47,850 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 12:45:48,262 INFO :  * Restarting with stat
+2024-02-12 12:45:48,493 INFO : DEBUG ON - level 2
+2024-02-12 12:45:48,624 WARNING :  * Debugger is active!
+2024-02-12 12:45:48,626 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 12:45:51,897 INFO : 127.0.0.1 - - [12/Feb/2024 12:45:51] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 12:45:51,928 INFO : 127.0.0.1 - - [12/Feb/2024 12:45:51] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 12:45:52,141 INFO : 127.0.0.1 - - [12/Feb/2024 12:45:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 12:45:52,455 INFO : 127.0.0.1 - - [12/Feb/2024 12:45:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:45:52,719 INFO : 127.0.0.1 - - [12/Feb/2024 12:45:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 12:46:09,947 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 12:46:10,170 INFO :  * Restarting with stat
+2024-02-12 12:46:10,405 INFO : DEBUG ON - level 2
+2024-02-12 12:46:10,529 WARNING :  * Debugger is active!
+2024-02-12 12:46:10,531 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 14:56:56,342 INFO : DEBUG ON - level 2
+2024-02-12 14:56:56,477 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-12 14:56:56,478 INFO : [33mPress CTRL+C to quit[0m
+2024-02-12 14:56:56,479 INFO :  * Restarting with stat
+2024-02-12 14:56:56,694 INFO : DEBUG ON - level 2
+2024-02-12 14:56:56,819 WARNING :  * Debugger is active!
+2024-02-12 14:56:56,821 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 14:57:00,849 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 14:57:00,883 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 14:57:01,108 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 14:57:01,421 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 14:57:01,685 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 14:57:42,443 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 14:57:42,922 INFO :  * Restarting with stat
+2024-02-12 14:57:43,135 INFO : DEBUG ON - level 2
+2024-02-12 14:57:43,259 WARNING :  * Debugger is active!
+2024-02-12 14:57:43,262 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 14:57:46,586 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 14:57:46,616 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 14:57:46,827 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 14:57:47,138 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 14:57:47,404 INFO : 127.0.0.1 - - [12/Feb/2024 14:57:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 14:58:35,950 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 14:58:36,354 INFO :  * Restarting with stat
+2024-02-12 14:58:36,582 INFO : DEBUG ON - level 2
+2024-02-12 14:58:36,716 WARNING :  * Debugger is active!
+2024-02-12 14:58:36,719 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 14:58:40,305 INFO : 127.0.0.1 - - [12/Feb/2024 14:58:40] "GET / HTTP/1.1" 200 -
+2024-02-12 15:00:49,499 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:00:49,856 INFO :  * Restarting with stat
+2024-02-12 15:00:50,085 INFO : DEBUG ON - level 2
+2024-02-12 15:00:50,236 WARNING :  * Debugger is active!
+2024-02-12 15:00:50,240 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:00:53,782 INFO : 127.0.0.1 - - [12/Feb/2024 15:00:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 15:00:53,810 INFO : 127.0.0.1 - - [12/Feb/2024 15:00:53] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 15:00:54,027 INFO : 127.0.0.1 - - [12/Feb/2024 15:00:54] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 15:00:54,339 INFO : 127.0.0.1 - - [12/Feb/2024 15:00:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:00:54,605 INFO : 127.0.0.1 - - [12/Feb/2024 15:00:54] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:02:14,456 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 15:02:14,831 INFO :  * Restarting with stat
+2024-02-12 15:02:15,057 INFO : DEBUG ON - level 2
+2024-02-12 15:02:15,184 WARNING :  * Debugger is active!
+2024-02-12 15:02:15,187 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:03:44,321 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:03:44,785 INFO :  * Restarting with stat
+2024-02-12 15:04:02,211 INFO :  * Restarting with stat
+2024-02-12 15:04:02,431 INFO : DEBUG ON - level 2
+2024-02-12 15:04:02,584 WARNING :  * Debugger is active!
+2024-02-12 15:04:02,587 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:04:06,055 INFO : 127.0.0.1 - - [12/Feb/2024 15:04:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 15:04:06,084 INFO : 127.0.0.1 - - [12/Feb/2024 15:04:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 15:04:06,296 INFO : 127.0.0.1 - - [12/Feb/2024 15:04:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 15:04:06,607 INFO : 127.0.0.1 - - [12/Feb/2024 15:04:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:04:06,869 INFO : 127.0.0.1 - - [12/Feb/2024 15:04:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:07:27,162 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:07:27,290 INFO :  * Restarting with stat
+2024-02-12 15:07:27,515 INFO : DEBUG ON - level 2
+2024-02-12 15:07:27,670 WARNING :  * Debugger is active!
+2024-02-12 15:07:27,673 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:07:31,067 INFO : 127.0.0.1 - - [12/Feb/2024 15:07:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 15:07:31,100 INFO : 127.0.0.1 - - [12/Feb/2024 15:07:31] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 15:07:31,299 INFO : 127.0.0.1 - - [12/Feb/2024 15:07:31] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 15:07:31,608 INFO : 127.0.0.1 - - [12/Feb/2024 15:07:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:07:31,873 INFO : 127.0.0.1 - - [12/Feb/2024 15:07:31] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:08:16,356 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:08:16,743 INFO :  * Restarting with stat
+2024-02-12 15:08:16,976 INFO : DEBUG ON - level 2
+2024-02-12 15:08:17,101 WARNING :  * Debugger is active!
+2024-02-12 15:08:17,103 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:08:20,606 INFO : 127.0.0.1 - - [12/Feb/2024 15:08:20] "GET / HTTP/1.1" 200 -
+2024-02-12 15:08:39,408 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:08:39,699 INFO :  * Restarting with stat
+2024-02-12 15:08:39,948 INFO : DEBUG ON - level 2
+2024-02-12 15:08:40,076 WARNING :  * Debugger is active!
+2024-02-12 15:08:40,078 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:08:43,514 INFO : 127.0.0.1 - - [12/Feb/2024 15:08:43] "GET / HTTP/1.1" 200 -
+2024-02-12 15:09:10,471 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 15:09:10,633 INFO :  * Restarting with stat
+2024-02-12 15:09:10,852 INFO : DEBUG ON - level 2
+2024-02-12 15:09:10,975 WARNING :  * Debugger is active!
+2024-02-12 15:09:10,977 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:09:14,946 INFO : 127.0.0.1 - - [12/Feb/2024 15:09:14] "GET / HTTP/1.1" 200 -
+2024-02-12 15:24:20,458 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:24:20,831 INFO :  * Restarting with stat
+2024-02-12 15:24:21,060 INFO : DEBUG ON - level 2
+2024-02-12 15:24:21,217 WARNING :  * Debugger is active!
+2024-02-12 15:24:21,219 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:24:26,835 INFO : 127.0.0.1 - - [12/Feb/2024 15:24:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 15:24:26,869 INFO : 127.0.0.1 - - [12/Feb/2024 15:24:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 15:24:27,093 INFO : 127.0.0.1 - - [12/Feb/2024 15:24:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 15:24:27,404 INFO : 127.0.0.1 - - [12/Feb/2024 15:24:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:24:27,670 INFO : 127.0.0.1 - - [12/Feb/2024 15:24:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:45:55,959 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\mongo_items.py', reloading
+2024-02-12 15:45:56,435 INFO :  * Restarting with stat
+2024-02-12 15:45:56,660 INFO : DEBUG ON - level 2
+2024-02-12 15:45:56,816 WARNING :  * Debugger is active!
+2024-02-12 15:45:56,818 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:47:06,678 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:47:06,934 INFO :  * Restarting with stat
+2024-02-12 15:47:07,159 INFO : DEBUG ON - level 2
+2024-02-12 15:47:07,168 WARNING :  * Debugger is active!
+2024-02-12 15:47:07,170 INFO :  * Debugger PIN: 207-926-330
+2024-02-12 15:48:06,733 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:48:06,756 INFO :  * Restarting with stat
+2024-02-12 15:48:06,981 INFO : DEBUG ON - level 2
+2024-02-12 15:48:07,183 WARNING :  * Debugger is active!
+2024-02-12 15:48:07,185 INFO :  * Debugger PIN: 207-926-330
+2024-02-12 15:49:20,260 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\mongo_items.py', reloading
+2024-02-12 15:49:20,778 INFO :  * Restarting with stat
+2024-02-12 15:49:21,004 INFO : DEBUG ON - level 2
+2024-02-12 15:49:21,145 WARNING :  * Debugger is active!
+2024-02-12 15:49:21,147 INFO :  * Debugger PIN: 207-926-330
+2024-02-12 15:50:22,883 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\mongo_items.py', reloading
+2024-02-12 15:50:23,229 INFO :  * Restarting with stat
+2024-02-12 15:50:23,455 INFO : DEBUG ON - level 2
+2024-02-12 15:50:23,608 WARNING :  * Debugger is active!
+2024-02-12 15:50:23,610 INFO :  * Debugger PIN: 207-926-330
+2024-02-12 15:55:24,656 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:55:25,201 INFO :  * Restarting with stat
+2024-02-12 15:55:25,425 INFO : DEBUG ON - level 2
+2024-02-12 15:55:25,577 WARNING :  * Debugger is active!
+2024-02-12 15:55:25,580 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:55:35,732 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:55:36,131 INFO :  * Restarting with stat
+2024-02-12 15:55:36,368 INFO : DEBUG ON - level 2
+2024-02-12 15:55:36,493 WARNING :  * Debugger is active!
+2024-02-12 15:55:36,496 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:56:19,023 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 15:56:19,553 INFO :  * Restarting with stat
+2024-02-12 15:56:19,782 INFO : DEBUG ON - level 2
+2024-02-12 15:56:19,905 WARNING :  * Debugger is active!
+2024-02-12 15:56:19,907 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 15:56:24,573 INFO : 127.0.0.1 - - [12/Feb/2024 15:56:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 15:56:24,607 INFO : 127.0.0.1 - - [12/Feb/2024 15:56:24] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 15:56:24,818 INFO : 127.0.0.1 - - [12/Feb/2024 15:56:24] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 15:56:25,129 INFO : 127.0.0.1 - - [12/Feb/2024 15:56:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 15:56:25,395 INFO : 127.0.0.1 - - [12/Feb/2024 15:56:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 16:09:36,903 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\mongo_items.py', reloading
+2024-02-12 16:09:37,136 INFO :  * Restarting with stat
+2024-02-12 16:09:37,479 INFO : DEBUG ON - level 2
+2024-02-12 16:09:37,724 WARNING :  * Debugger is active!
+2024-02-12 16:09:37,727 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 16:09:45,895 INFO : 127.0.0.1 - - [12/Feb/2024 16:09:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 16:09:45,935 INFO : 127.0.0.1 - - [12/Feb/2024 16:09:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 16:09:46,160 INFO : 127.0.0.1 - - [12/Feb/2024 16:09:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 16:09:46,476 INFO : 127.0.0.1 - - [12/Feb/2024 16:09:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 16:09:46,741 INFO : 127.0.0.1 - - [12/Feb/2024 16:09:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 16:20:55,921 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\mongo_items.py', reloading
+2024-02-12 16:20:56,385 INFO :  * Restarting with stat
+2024-02-12 16:20:56,605 INFO : DEBUG ON - level 2
+2024-02-12 16:20:56,768 WARNING :  * Debugger is active!
+2024-02-12 16:20:56,770 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 16:21:08,085 INFO : 127.0.0.1 - - [12/Feb/2024 16:21:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 16:21:08,116 INFO : 127.0.0.1 - - [12/Feb/2024 16:21:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 16:21:08,348 INFO : 127.0.0.1 - - [12/Feb/2024 16:21:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 16:21:08,672 INFO : 127.0.0.1 - - [12/Feb/2024 16:21:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 16:21:08,921 INFO : 127.0.0.1 - - [12/Feb/2024 16:21:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:27:06,243 INFO : DEBUG ON - level 2
+2024-02-12 18:27:06,375 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-12 18:27:06,375 INFO : [33mPress CTRL+C to quit[0m
+2024-02-12 18:27:06,377 INFO :  * Restarting with stat
+2024-02-12 18:27:06,602 INFO : DEBUG ON - level 2
+2024-02-12 18:27:06,731 WARNING :  * Debugger is active!
+2024-02-12 18:27:06,734 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:27:11,671 INFO : 127.0.0.1 - - [12/Feb/2024 18:27:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:27:11,704 INFO : 127.0.0.1 - - [12/Feb/2024 18:27:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:27:11,935 INFO : 127.0.0.1 - - [12/Feb/2024 18:27:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:27:12,246 INFO : 127.0.0.1 - - [12/Feb/2024 18:27:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:27:12,512 INFO : 127.0.0.1 - - [12/Feb/2024 18:27:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:29:25,494 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\mongo_items.py', reloading
+2024-02-12 18:29:25,929 INFO :  * Restarting with stat
+2024-02-12 18:29:26,161 INFO : DEBUG ON - level 2
+2024-02-12 18:29:26,324 WARNING :  * Debugger is active!
+2024-02-12 18:29:26,327 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:29:29,736 INFO : 127.0.0.1 - - [12/Feb/2024 18:29:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:29:29,765 INFO : 127.0.0.1 - - [12/Feb/2024 18:29:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:29:30,000 INFO : 127.0.0.1 - - [12/Feb/2024 18:29:30] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:29:30,312 INFO : 127.0.0.1 - - [12/Feb/2024 18:29:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:29:30,579 INFO : 127.0.0.1 - - [12/Feb/2024 18:29:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:32:05,771 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\mongo_items.py', reloading
+2024-02-12 18:32:06,091 INFO :  * Restarting with stat
+2024-02-12 18:32:06,334 INFO : DEBUG ON - level 2
+2024-02-12 18:32:06,519 WARNING :  * Debugger is active!
+2024-02-12 18:32:06,521 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:32:10,696 INFO : 127.0.0.1 - - [12/Feb/2024 18:32:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:32:10,724 INFO : 127.0.0.1 - - [12/Feb/2024 18:32:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:32:10,957 INFO : 127.0.0.1 - - [12/Feb/2024 18:32:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:32:11,270 INFO : 127.0.0.1 - - [12/Feb/2024 18:32:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:32:11,537 INFO : 127.0.0.1 - - [12/Feb/2024 18:32:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:33:34,728 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:33:35,197 INFO :  * Restarting with stat
+2024-02-12 18:33:35,420 INFO : DEBUG ON - level 2
+2024-02-12 18:33:35,551 WARNING :  * Debugger is active!
+2024-02-12 18:33:35,553 INFO :  * Debugger PIN: 207-926-330
+2024-02-12 18:33:57,839 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\mongo_items.py', reloading
+2024-02-12 18:33:58,157 INFO :  * Restarting with stat
+2024-02-12 18:33:58,392 INFO : DEBUG ON - level 2
+2024-02-12 18:33:58,526 WARNING :  * Debugger is active!
+2024-02-12 18:33:58,528 INFO :  * Debugger PIN: 207-926-330
+2024-02-12 18:34:10,698 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:34:11,101 INFO :  * Restarting with stat
+2024-02-12 18:34:11,322 INFO : DEBUG ON - level 2
+2024-02-12 18:34:11,449 WARNING :  * Debugger is active!
+2024-02-12 18:34:11,451 INFO :  * Debugger PIN: 207-926-330
+2024-02-12 18:34:36,814 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:34:37,063 INFO :  * Restarting with stat
+2024-02-12 18:34:37,304 INFO : DEBUG ON - level 2
+2024-02-12 18:34:37,433 WARNING :  * Debugger is active!
+2024-02-12 18:34:37,436 INFO :  * Debugger PIN: 207-926-330
+2024-02-12 18:38:34,379 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:38:34,668 INFO :  * Restarting with stat
+2024-02-12 18:38:34,894 INFO : DEBUG ON - level 2
+2024-02-12 18:38:35,053 WARNING :  * Debugger is active!
+2024-02-12 18:38:35,056 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:38:38,590 INFO : 127.0.0.1 - - [12/Feb/2024 18:38:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:38:38,619 INFO : 127.0.0.1 - - [12/Feb/2024 18:38:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:38:38,830 INFO : 127.0.0.1 - - [12/Feb/2024 18:38:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:38:39,145 INFO : 127.0.0.1 - - [12/Feb/2024 18:38:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:38:39,407 INFO : 127.0.0.1 - - [12/Feb/2024 18:38:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:40:58,828 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:40:59,212 INFO :  * Restarting with stat
+2024-02-12 18:40:59,441 INFO : DEBUG ON - level 2
+2024-02-12 18:40:59,599 WARNING :  * Debugger is active!
+2024-02-12 18:40:59,601 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:41:03,287 INFO : 127.0.0.1 - - [12/Feb/2024 18:41:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:41:03,316 INFO : 127.0.0.1 - - [12/Feb/2024 18:41:03] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:41:03,531 INFO : 127.0.0.1 - - [12/Feb/2024 18:41:03] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:41:03,842 INFO : 127.0.0.1 - - [12/Feb/2024 18:41:03] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:41:04,107 INFO : 127.0.0.1 - - [12/Feb/2024 18:41:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:43:28,661 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-12 18:43:28,814 INFO :  * Restarting with stat
+2024-02-12 18:43:29,046 INFO : DEBUG ON - level 2
+2024-02-12 18:43:29,204 WARNING :  * Debugger is active!
+2024-02-12 18:43:29,207 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:43:33,957 INFO : 127.0.0.1 - - [12/Feb/2024 18:43:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:43:33,987 INFO : 127.0.0.1 - - [12/Feb/2024 18:43:33] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:43:34,187 INFO : 127.0.0.1 - - [12/Feb/2024 18:43:34] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:43:34,497 INFO : 127.0.0.1 - - [12/Feb/2024 18:43:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:43:34,765 INFO : 127.0.0.1 - - [12/Feb/2024 18:43:34] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:46:16,539 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:46:16,910 INFO :  * Restarting with stat
+2024-02-12 18:46:17,137 INFO : DEBUG ON - level 2
+2024-02-12 18:46:17,295 WARNING :  * Debugger is active!
+2024-02-12 18:46:17,297 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:47:59,634 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:47:59,916 INFO :  * Restarting with stat
+2024-02-12 18:48:00,146 INFO : DEBUG ON - level 2
+2024-02-12 18:48:00,306 WARNING :  * Debugger is active!
+2024-02-12 18:48:00,309 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:48:06,703 INFO : 127.0.0.1 - - [12/Feb/2024 18:48:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:48:06,737 INFO : 127.0.0.1 - - [12/Feb/2024 18:48:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:48:06,962 INFO : 127.0.0.1 - - [12/Feb/2024 18:48:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:48:07,274 INFO : 127.0.0.1 - - [12/Feb/2024 18:48:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:48:07,540 INFO : 127.0.0.1 - - [12/Feb/2024 18:48:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:49:46,741 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:49:46,993 INFO :  * Restarting with stat
+2024-02-12 18:49:47,215 INFO : DEBUG ON - level 2
+2024-02-12 18:49:47,372 WARNING :  * Debugger is active!
+2024-02-12 18:49:47,374 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:49:50,253 INFO : 127.0.0.1 - - [12/Feb/2024 18:49:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:49:50,282 INFO : 127.0.0.1 - - [12/Feb/2024 18:49:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:49:50,482 INFO : 127.0.0.1 - - [12/Feb/2024 18:49:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:49:50,797 INFO : 127.0.0.1 - - [12/Feb/2024 18:49:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:49:51,053 INFO : 127.0.0.1 - - [12/Feb/2024 18:49:51] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:51:11,442 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:51:11,975 INFO :  * Restarting with stat
+2024-02-12 18:51:12,203 INFO : DEBUG ON - level 2
+2024-02-12 18:51:12,339 WARNING :  * Debugger is active!
+2024-02-12 18:51:12,341 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:51:17,420 INFO : 127.0.0.1 - - [12/Feb/2024 18:51:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:51:17,453 INFO : 127.0.0.1 - - [12/Feb/2024 18:51:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:51:17,662 INFO : 127.0.0.1 - - [12/Feb/2024 18:51:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:51:17,986 INFO : 127.0.0.1 - - [12/Feb/2024 18:51:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:51:18,235 INFO : 127.0.0.1 - - [12/Feb/2024 18:51:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:53:32,436 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:53:32,968 INFO :  * Restarting with stat
+2024-02-12 18:53:33,209 INFO : DEBUG ON - level 2
+2024-02-12 18:53:33,372 WARNING :  * Debugger is active!
+2024-02-12 18:53:33,375 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:53:37,185 INFO : 127.0.0.1 - - [12/Feb/2024 18:53:37] "GET / HTTP/1.1" 200 -
+2024-02-12 18:57:02,436 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:57:02,576 INFO :  * Restarting with stat
+2024-02-12 18:57:02,808 INFO : DEBUG ON - level 2
+2024-02-12 18:57:02,971 WARNING :  * Debugger is active!
+2024-02-12 18:57:02,974 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:57:06,777 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:57:06,810 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:57:07,019 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:57:07,332 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:57:07,598 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:57:35,546 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:57:36,085 INFO :  * Restarting with stat
+2024-02-12 18:57:36,306 INFO : DEBUG ON - level 2
+2024-02-12 18:57:36,435 WARNING :  * Debugger is active!
+2024-02-12 18:57:36,437 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:57:39,252 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 18:57:39,280 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 18:57:39,493 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 18:57:39,806 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:57:40,072 INFO : 127.0.0.1 - - [12/Feb/2024 18:57:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 18:58:04,855 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 18:58:05,203 INFO :  * Restarting with stat
+2024-02-12 18:58:05,442 INFO : DEBUG ON - level 2
+2024-02-12 18:58:05,578 WARNING :  * Debugger is active!
+2024-02-12 18:58:05,581 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 18:58:07,397 INFO : 127.0.0.1 - - [12/Feb/2024 18:58:07] "GET / HTTP/1.1" 200 -
+2024-02-12 19:12:58,412 INFO : 127.0.0.1 - - [12/Feb/2024 19:12:58] "[33mPOST /additem HTTP/1.1[0m" 404 -
+2024-02-12 19:14:32,042 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 19:14:32,422 INFO :  * Restarting with stat
+2024-02-12 19:14:32,645 INFO : DEBUG ON - level 2
+2024-02-12 19:14:32,803 WARNING :  * Debugger is active!
+2024-02-12 19:14:32,806 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 19:14:39,199 INFO : 127.0.0.1 - - [12/Feb/2024 19:14:39] "[32mPOST /additem HTTP/1.1[0m" 302 -
+2024-02-12 19:14:39,209 INFO : 127.0.0.1 - - [12/Feb/2024 19:14:39] "GET / HTTP/1.1" 200 -
+2024-02-12 19:14:43,417 INFO : 127.0.0.1 - - [12/Feb/2024 19:14:43] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:13,524 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:13] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:14,467 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:14] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:14,778 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:14] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:15,044 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:15] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:15,276 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:15] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:15,509 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:15] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:15,722 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:15] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:15,912 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:15] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:16,133 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:16] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:16,351 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:16] "GET / HTTP/1.1" 200 -
+2024-02-12 19:15:16,536 INFO : 127.0.0.1 - - [12/Feb/2024 19:15:16] "GET / HTTP/1.1" 200 -
+2024-02-12 19:20:33,220 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 19:20:33,639 INFO :  * Restarting with stat
+2024-02-12 19:20:33,881 INFO : DEBUG ON - level 2
+2024-02-12 19:20:34,041 WARNING :  * Debugger is active!
+2024-02-12 19:20:34,043 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 19:20:38,132 INFO : 127.0.0.1 - - [12/Feb/2024 19:20:38] "GET / HTTP/1.1" 200 -
+2024-02-12 19:20:47,713 INFO : 127.0.0.1 - - [12/Feb/2024 19:20:47] "GET / HTTP/1.1" 200 -
+2024-02-12 19:22:12,121 INFO : 127.0.0.1 - - [12/Feb/2024 19:22:12] "GET / HTTP/1.1" 200 -
+2024-02-12 19:22:15,992 INFO : 127.0.0.1 - - [12/Feb/2024 19:22:15] "[35m[1mPOST /movedoing HTTP/1.1[0m" 500 -
+2024-02-12 19:22:16,027 INFO : 127.0.0.1 - - [12/Feb/2024 19:22:16] "GET /movedoing?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-02-12 19:22:16,316 INFO : 127.0.0.1 - - [12/Feb/2024 19:22:16] "GET /movedoing?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-02-12 19:22:16,627 INFO : 127.0.0.1 - - [12/Feb/2024 19:22:16] "GET /movedoing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-02-12 19:22:16,893 INFO : 127.0.0.1 - - [12/Feb/2024 19:22:16] "[36mGET /movedoing?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 19:23:11,188 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\data\\item.py', reloading
+2024-02-12 19:23:11,717 INFO :  * Restarting with stat
+2024-02-12 19:23:11,943 INFO : DEBUG ON - level 2
+2024-02-12 19:23:12,100 WARNING :  * Debugger is active!
+2024-02-12 19:23:12,102 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 19:23:17,301 INFO : 127.0.0.1 - - [12/Feb/2024 19:23:17] "GET / HTTP/1.1" 200 -
+2024-02-12 19:23:19,980 INFO : 127.0.0.1 - - [12/Feb/2024 19:23:19] "[33mPOST /movedone HTTP/1.1[0m" 404 -
+2024-02-12 19:24:15,916 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 19:24:16,219 INFO :  * Restarting with stat
+2024-02-12 19:24:16,449 INFO : DEBUG ON - level 2
+2024-02-12 19:24:16,582 WARNING :  * Debugger is active!
+2024-02-12 19:24:16,584 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 19:24:20,574 INFO : 127.0.0.1 - - [12/Feb/2024 19:24:20] "GET / HTTP/1.1" 200 -
+2024-02-12 19:24:22,225 INFO : 127.0.0.1 - - [12/Feb/2024 19:24:22] "[35m[1mPOST /movedone HTTP/1.1[0m" 500 -
+2024-02-12 19:24:22,560 INFO : 127.0.0.1 - - [12/Feb/2024 19:24:22] "GET /movedone?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-02-12 19:24:22,572 INFO : 127.0.0.1 - - [12/Feb/2024 19:24:22] "GET /movedone?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-02-12 19:24:22,887 INFO : 127.0.0.1 - - [12/Feb/2024 19:24:22] "GET /movedone?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-02-12 19:24:23,150 INFO : 127.0.0.1 - - [12/Feb/2024 19:24:23] "[36mGET /movedone?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 19:37:24,907 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 19:37:25,342 INFO :  * Restarting with stat
+2024-02-12 19:39:38,765 INFO :  * Restarting with stat
+2024-02-12 19:39:39,005 INFO : DEBUG ON - level 2
+2024-02-12 19:39:39,166 WARNING :  * Debugger is active!
+2024-02-12 19:39:39,168 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 20:00:44,937 INFO : DEBUG ON - level 2
+2024-02-12 20:01:17,077 INFO : DEBUG ON - level 2
+2024-02-12 20:02:39,802 INFO : DEBUG ON - level 2
+2024-02-12 20:03:34,844 INFO : DEBUG ON - level 2
+2024-02-12 20:03:34,986 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-12 20:03:34,986 INFO : [33mPress CTRL+C to quit[0m
+2024-02-12 20:03:34,987 INFO :  * Restarting with stat
+2024-02-12 20:03:35,210 INFO : DEBUG ON - level 2
+2024-02-12 20:03:35,332 WARNING :  * Debugger is active!
+2024-02-12 20:03:35,339 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 20:03:43,752 INFO : 127.0.0.1 - - [12/Feb/2024 20:03:43] "GET / HTTP/1.1" 200 -
+2024-02-12 20:03:43,799 INFO : 127.0.0.1 - - [12/Feb/2024 20:03:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-12 20:11:45,970 INFO : 127.0.0.1 - - [12/Feb/2024 20:11:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 20:11:46,024 INFO : 127.0.0.1 - - [12/Feb/2024 20:11:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 20:11:46,247 INFO : 127.0.0.1 - - [12/Feb/2024 20:11:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 20:11:46,588 INFO : 127.0.0.1 - - [12/Feb/2024 20:11:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 20:11:46,834 INFO : 127.0.0.1 - - [12/Feb/2024 20:11:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 20:12:49,322 INFO : 127.0.0.1 - - [12/Feb/2024 20:12:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 20:12:49,328 INFO : 127.0.0.1 - - [12/Feb/2024 20:12:49] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 20:12:49,581 INFO : 127.0.0.1 - - [12/Feb/2024 20:12:49] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 20:12:49,905 INFO : 127.0.0.1 - - [12/Feb/2024 20:12:49] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 20:12:50,154 INFO : 127.0.0.1 - - [12/Feb/2024 20:12:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 20:13:52,581 INFO : 127.0.0.1 - - [12/Feb/2024 20:13:52] "GET / HTTP/1.1" 200 -
+2024-02-12 20:15:23,019 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-12 20:15:23,441 INFO :  * Restarting with stat
+2024-02-12 20:15:23,725 INFO : DEBUG ON - level 2
+2024-02-12 20:15:23,886 WARNING :  * Debugger is active!
+2024-02-12 20:15:23,888 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 20:15:26,124 INFO : 127.0.0.1 - - [12/Feb/2024 20:15:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 20:15:26,159 INFO : 127.0.0.1 - - [12/Feb/2024 20:15:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 20:15:26,354 INFO : 127.0.0.1 - - [12/Feb/2024 20:15:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 20:15:26,678 INFO : 127.0.0.1 - - [12/Feb/2024 20:15:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 20:15:26,927 INFO : 127.0.0.1 - - [12/Feb/2024 20:15:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 20:16:32,713 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 20:16:33,117 INFO :  * Restarting with stat
+2024-02-12 20:16:33,339 INFO : DEBUG ON - level 2
+2024-02-12 20:16:33,464 WARNING :  * Debugger is active!
+2024-02-12 20:16:33,466 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 20:16:36,709 INFO : 127.0.0.1 - - [12/Feb/2024 20:16:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-02-12 20:16:36,741 INFO : 127.0.0.1 - - [12/Feb/2024 20:16:36] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-02-12 20:16:36,953 INFO : 127.0.0.1 - - [12/Feb/2024 20:16:36] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-02-12 20:16:37,277 INFO : 127.0.0.1 - - [12/Feb/2024 20:16:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 20:16:37,524 INFO : 127.0.0.1 - - [12/Feb/2024 20:16:37] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-02-12 20:17:52,624 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-12 20:17:53,077 INFO :  * Restarting with stat
+2024-02-12 20:17:53,328 INFO : DEBUG ON - level 2
+2024-02-12 20:17:53,483 WARNING :  * Debugger is active!
+2024-02-12 20:17:53,485 INFO :  * Debugger PIN: 983-857-336
+2024-02-12 20:17:56,981 INFO : 127.0.0.1 - - [12/Feb/2024 20:17:56] "GET / HTTP/1.1" 200 -
+2024-02-13 06:55:15,114 INFO : DEBUG ON - level 2
+2024-02-13 06:55:15,284 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-13 06:55:15,284 INFO : [33mPress CTRL+C to quit[0m
+2024-02-13 06:55:15,285 INFO :  * Restarting with stat
+2024-02-13 06:55:15,518 INFO : DEBUG ON - level 2
+2024-02-13 06:55:15,661 WARNING :  * Debugger is active!
+2024-02-13 06:55:15,668 INFO :  * Debugger PIN: 983-857-336
+2024-02-13 06:55:15,716 INFO : 127.0.0.1 - - [13/Feb/2024 06:55:15] "GET / HTTP/1.1" 200 -
+2024-02-13 06:55:15,757 INFO : 127.0.0.1 - - [13/Feb/2024 06:55:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-13 07:42:03,450 INFO : 127.0.0.1 - - [13/Feb/2024 07:42:03] "GET / HTTP/1.1" 200 -
+2024-02-13 07:54:02,179 INFO : 127.0.0.1 - - [13/Feb/2024 07:54:02] "GET / HTTP/1.1" 200 -
+2024-02-13 07:55:18,216 INFO : 127.0.0.1 - - [13/Feb/2024 07:55:18] "GET / HTTP/1.1" 200 -
+2024-02-13 07:56:38,419 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-13 07:56:38,802 INFO :  * Restarting with stat
+2024-02-13 07:56:39,039 INFO : DEBUG ON - level 2
+2024-02-13 07:56:39,202 WARNING :  * Debugger is active!
+2024-02-13 07:56:39,204 INFO :  * Debugger PIN: 983-857-336
+2024-02-13 07:56:42,597 INFO : 127.0.0.1 - - [13/Feb/2024 07:56:42] "GET / HTTP/1.1" 200 -
+2024-02-13 07:57:27,892 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-13 07:57:28,415 INFO :  * Restarting with stat
+2024-02-13 07:57:28,642 INFO : DEBUG ON - level 2
+2024-02-13 07:57:28,767 WARNING :  * Debugger is active!
+2024-02-13 07:57:28,769 INFO :  * Debugger PIN: 983-857-336
+2024-02-13 07:57:33,884 INFO : 127.0.0.1 - - [13/Feb/2024 07:57:33] "GET / HTTP/1.1" 200 -
+2024-02-13 07:58:48,837 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-13 07:58:49,365 INFO :  * Restarting with stat
+2024-02-13 07:58:49,597 INFO : DEBUG ON - level 2
+2024-02-13 07:58:49,756 WARNING :  * Debugger is active!
+2024-02-13 07:58:49,758 INFO :  * Debugger PIN: 983-857-336
+2024-02-13 07:58:53,120 INFO : 127.0.0.1 - - [13/Feb/2024 07:58:53] "GET / HTTP/1.1" 200 -
+2024-02-13 07:59:17,705 INFO : 127.0.0.1 - - [13/Feb/2024 07:59:17] "GET / HTTP/1.1" 200 -
+2024-02-13 07:59:19,365 INFO : 127.0.0.1 - - [13/Feb/2024 07:59:19] "GET / HTTP/1.1" 200 -
+2024-02-13 08:00:00,672 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\view_model.py', reloading
+2024-02-13 08:00:00,843 INFO :  * Restarting with stat
+2024-02-13 08:00:01,081 INFO : DEBUG ON - level 2
+2024-02-13 08:00:01,222 WARNING :  * Debugger is active!
+2024-02-13 08:00:01,224 INFO :  * Debugger PIN: 983-857-336
+2024-02-13 08:00:06,280 INFO : 127.0.0.1 - - [13/Feb/2024 08:00:06] "GET / HTTP/1.1" 200 -
+2024-02-13 08:02:37,941 INFO : 127.0.0.1 - - [13/Feb/2024 08:02:37] "GET / HTTP/1.1" 200 -
+2024-02-13 08:04:03,141 INFO : 127.0.0.1 - - [13/Feb/2024 08:04:03] "GET / HTTP/1.1" 200 -
+2024-02-13 08:04:48,897 INFO : 127.0.0.1 - - [13/Feb/2024 08:04:48] "GET / HTTP/1.1" 200 -
+2024-02-13 08:07:38,044 INFO : 127.0.0.1 - - [13/Feb/2024 08:07:38] "GET / HTTP/1.1" 200 -
+2024-02-13 08:08:45,140 INFO : 127.0.0.1 - - [13/Feb/2024 08:08:45] "GET / HTTP/1.1" 200 -
+2024-02-13 08:14:39,780 INFO : 127.0.0.1 - - [13/Feb/2024 08:14:39] "GET / HTTP/1.1" 200 -
+2024-02-13 08:15:33,263 INFO : 127.0.0.1 - - [13/Feb/2024 08:15:33] "GET / HTTP/1.1" 200 -
