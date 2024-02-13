@@ -2176,3 +2176,27 @@ AssertionError: applications must write bytes
 2024-02-13 08:08:45,140 INFO : 127.0.0.1 - - [13/Feb/2024 08:08:45] "GET / HTTP/1.1" 200 -
 2024-02-13 08:14:39,780 INFO : 127.0.0.1 - - [13/Feb/2024 08:14:39] "GET / HTTP/1.1" 200 -
 2024-02-13 08:15:33,263 INFO : 127.0.0.1 - - [13/Feb/2024 08:15:33] "GET / HTTP/1.1" 200 -
+2024-02-13 08:29:40,646 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-13 08:29:41,176 INFO :  * Restarting with stat
+2024-02-13 08:29:41,415 INFO : DEBUG ON - level 2
+2024-02-13 08:29:41,577 WARNING :  * Debugger is active!
+2024-02-13 08:29:41,579 INFO :  * Debugger PIN: 207-926-330
+2024-02-13 08:30:56,549 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-13 08:30:56,720 INFO :  * Restarting with stat
+2024-02-13 08:30:56,965 INFO : DEBUG ON - level 2
+2024-02-13 08:30:57,133 WARNING :  * Debugger is active!
+2024-02-13 08:30:57,135 INFO :  * Debugger PIN: 207-926-330
+2024-02-13 08:31:23,477 INFO :  * Detected change in 'C:\\DevOpsCourse\\DevOps-Course-Starter\\todo_app\\app.py', reloading
+2024-02-13 08:31:23,757 INFO :  * Restarting with stat
+2024-02-13 08:31:23,973 INFO : DEBUG ON - level 2
+2024-02-13 08:31:24,101 WARNING :  * Debugger is active!
+2024-02-13 08:31:24,103 INFO :  * Debugger PIN: 983-857-336
+2024-02-13 08:31:32,849 INFO : 127.0.0.1 - - [13/Feb/2024 08:31:32] "GET / HTTP/1.1" 200 -
+2024-02-13 17:09:38,734 INFO : DEBUG ON - level 2
+2024-02-13 17:09:38,957 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-13 17:09:38,957 INFO : [33mPress CTRL+C to quit[0m
+2024-02-13 17:09:38,958 INFO :  * Restarting with stat
+2024-02-13 17:09:39,185 INFO : DEBUG ON - level 2
+2024-02-13 17:09:39,313 WARNING :  * Debugger is active!
+2024-02-13 17:09:39,315 INFO :  * Debugger PIN: 983-857-336
