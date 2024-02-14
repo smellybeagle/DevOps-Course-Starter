@@ -9,11 +9,11 @@ from flask import Flask, redirect, render_template, request
 import pymongo
 from bson.objectid import ObjectId # For ObjectId to work
 
-mongodb_host = os.environ.get('MONGO_HOST', 'localhost')
-mongodb_port = int(os.environ.get('MONGO_PORT', '27017'))
+mongodb_host = os.getenv('MONGO_HOST')
+#mongodb_port = int(os.environ.get('MONGO_PORT', '27017'))
 
 #Configure the connection to the database
-client = pymongo.MongoClient(mongodb_host, mongodb_port) 
+client = pymongo.MongoClient(mongodb_host) 
 #Select the database   
 db = client.todo_app    
 #Select the collection
@@ -30,21 +30,21 @@ def create_app():
         todos = []
         for todo_item in dicttodo:
             todos.append(Item.from_mongo(todo_item))
-            return todos
+        return todos
         
     def doinglists():
             dictdoing=collection.find({"Status" : "In Progress"})
             doing = []
             for doing_item in dictdoing:
                 doing.append(Item.from_mongo(doing_item))
-                return doing
+            return doing
             
     def donelists():
             dictdone=collection.find({"Status" : "Completed"})
             done = []
             for done_item in dictdone:
                 done.append(Item.from_mongo(done_item))
-                return done
+            return done
     
     @app.route('/')
     def index():
@@ -61,26 +61,26 @@ def create_app():
         collection.insert_one({ "name":name, "desc":desc, "Status": "To Do"})
         return redirect('/')   
 
-#        @app.route('/movedoing', methods = ["POST"])
-#        def movedoing():
-#	        id=request.values.get("_id")
-#	        task=collection.find({"_id":ObjectId(id)})
-#	        if(task[0]["Status"]=="To Do"):
-#		        collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
-#	        else:
-#		        collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"Completed"}})
-#	        redirect('/')
+    @app.route('/movedoing', methods = ["POST"])
+    def movedoing():
+	    id=request.values.get("_id")
+	    task=collection.find({"_id":ObjectId(id)})
+	    if(task[0]["Status"]=="To Do"):
+		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
+	    else:
+		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"Completed"}})
+	    return redirect('/')
     
 
-#    @app.route('/movedone', methods = ["POST"])
-#    def movedone():
-#	    id=request.values.get("_id")
-#	    task=collection.find({"_id":ObjectId(id)})
-#	    if(task[0]["Status"]=="In Progress"):
-#		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"Completed"}})
-#	    else:
-#		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
-#	    redirect('/')
+    @app.route('/movedone', methods = ["POST"])
+    def movedone():
+	    id=request.values.get("_id")
+	    task=collection.find({"_id":ObjectId(id)})
+	    if(task[0]["Status"]=="In Progress"):
+		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"Completed"}})
+	    else:
+		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
+	    return redirect('/')
 
 
 

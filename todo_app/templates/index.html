@@ -26,7 +26,7 @@
           {% for item in view_model.todos %}
           <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li>
               <form method="post" action="/movedoing">
-              <input name="id" hidden value= "{{ item._id }}" required>
+              <input name="_id" hidden value= "{{ item._id }}" required>
               <button type="submit" name ="Submit"> Mark as In Progress</button>
             </form>
           {%endfor%}
@@ -38,7 +38,7 @@
           {% for item in view_model.doings %}
           <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li> 
               <form method="post" action="/movedone">
-                <input name="id" hidden value= "{{ item._id }}" required>
+                <input name="_id" hidden value= "{{ item._id }}" required>
                 <button type="submit" name ="Submit"> Mark as Completed</button>
               </form>
           {%endfor%}
@@ -50,7 +50,7 @@
           {% for item in view_model.dones %}
           <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li> 
           <form method="post" action="/delete">
-            <input name="id" hidden value= "{{ item._id }}" required>
+            <input name="_id" hidden value= "{{ item._id }}" required>
             <button type="submit" name ="Submit"> Delete Item</button>
           </form>
           {%endfor%}
