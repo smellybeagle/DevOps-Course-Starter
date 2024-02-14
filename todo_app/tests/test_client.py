@@ -5,19 +5,21 @@ from dotenv import load_dotenv, find_dotenv
 from flask.testing import FlaskClient
 import pytest
 import requests
-from todo_app import app
+import pymongo
 import mongomock
+
+from todo_app.app import create_app
+
 
 @pytest.fixture
 def client():
     file_path = find_dotenv('.env.test')
     load_dotenv(file_path, override=True)
     with mongomock.patch(servers=(('fakemongo.com', 27017),)):
-        test_app = app.create_app()
+        test_app = create_app()
         with test_app.test_client() as client:
             yield client
-#from todo_app.app import create_app
-
+            
 
 class StubResponse():
     def __init__(self, fake_response_data):
@@ -33,14 +35,14 @@ def stub(url, params={}):
     fake_response_data = None
     if url == f'https://localhost:5000':
         fake_response_data = [{
-            'id': '123abc',
+            '_id': '123abc',
             'name': 'To Do',
             'desc': 'A basic To Do item',
             'status': 'To Do'
-        },{'id': '123abcd',
+        },{'_id': '123abcd',
             'name': 'Doing',
             'status': 'In Progress'}
-        ,{'id': '123abcde',
+        ,{'_id': '123abcde',
             'name': 'Done',
             'desc': 'A basic To Do item',
             'status': 'Completed'}]

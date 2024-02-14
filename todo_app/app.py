@@ -1,11 +1,9 @@
 from todo_app import view_model
-from todo_app import mongo_items
-from todo_app.data.item import Item
+from .data.item import Item
 from .flask_config import Config
 import os
 from todo_app.debugger import writelog
 from flask import Flask, redirect, render_template, request
-#from todo_app.mongo_items import init_mongodb
 import pymongo
 from bson.objectid import ObjectId # For ObjectId to work
 
@@ -23,7 +21,6 @@ def create_app():
     app = Flask(__name__)
     app.config.from_object(Config())
     
-    #init_mongodb()
     
     def todolists():
         dicttodo=collection.find({"Status" : "To Do"})
