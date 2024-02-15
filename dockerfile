@@ -10,7 +10,11 @@ ENV PATH="$POETRY_HOME/bin:$PATH"
 
 # Install Dependencies
 RUN pip install pytest
+RUN pip install gunicorn
+RUN pip install pymongo
 
+#RUN poetry add pymongo
+#RUN poetry add bson
 
 # install poetry
 RUN apt-get update \
@@ -40,8 +44,6 @@ WORKDIR /app
 # Copy Dependencies
 COPY poetry.lock pyproject.toml ./
 
-# Install Dependencies
-RUN pip install gunicorn
 
 # Copy Application
 COPY . /app
@@ -52,30 +54,3 @@ EXPOSE 8000
 
 
 CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
-
-
-# Create a new stage from the base python image
-FROM poetry-base as test
-
-ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1 \
-    PATH="/app/.venv/bin:$PATH"
-
-
-WORKDIR /app
-# copy the venv folder from builder image 
-# Copy Dependencies
-COPY poetry.lock pyproject.toml ./
-
-# Install Dependencies
-RUN pip install gunicorn
-
-# Copy Application
-#COPY . /app
-COPY .env.test /app/todo_app
-COPY .env.template /app/todo_app
-
-# Run Application
-EXPOSE 5000
-
-ENTRYPOINT ["poetry", "run", "pytest"]

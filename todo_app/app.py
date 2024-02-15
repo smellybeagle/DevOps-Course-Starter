@@ -1,8 +1,7 @@
 from todo_app import view_model
-from .data.item import Item
+from .data import item
 from .flask_config import Config
 import os
-from todo_app.debugger import writelog
 from flask import Flask, redirect, render_template, request
 import pymongo
 from bson.objectid import ObjectId # For ObjectId to work
@@ -26,21 +25,21 @@ def create_app():
         dicttodo=collection.find({"Status" : "To Do"})
         todos = []
         for todo_item in dicttodo:
-            todos.append(Item.from_mongo(todo_item))
+            todos.append(item.from_mongo(todo_item))
         return todos
         
     def doinglists():
             dictdoing=collection.find({"Status" : "In Progress"})
             doing = []
             for doing_item in dictdoing:
-                doing.append(Item.from_mongo(doing_item))
+                doing.append(item.from_mongo(doing_item))
             return doing
             
     def donelists():
             dictdone=collection.find({"Status" : "Completed"})
             done = []
             for done_item in dictdone:
-                done.append(Item.from_mongo(done_item))
+                done.append(item.from_mongo(done_item))
             return done
     
     @app.route('/')

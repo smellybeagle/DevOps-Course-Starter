@@ -1,14 +1,9 @@
 import json
-import os
-from typing import Any
 from dotenv import load_dotenv, find_dotenv
 from flask.testing import FlaskClient
 import pytest
-import requests
-import pymongo
 import mongomock
-
-from todo_app.app import create_app
+from todo_app import app
 
 
 @pytest.fixture
@@ -16,7 +11,7 @@ def client():
     file_path = find_dotenv('.env.test')
     load_dotenv(file_path, override=True)
     with mongomock.patch(servers=(('fakemongo.com', 27017),)):
-        test_app = create_app()
+        test_app = app.create_app()
         with test_app.test_client() as client:
             yield client
             
@@ -31,7 +26,6 @@ class StubResponse():
 
 # Stub replacement for requests.get(url)
 def stub(url, params={}):
-    #test_board_id = os.environ.get('BOARD_ID')
     fake_response_data = None
     if url == f'https://localhost:5000':
         fake_response_data = [{
@@ -57,4 +51,3 @@ def test_index_page(monkeypatch: pytest.MonkeyPatch, client: FlaskClient):
     response = client.get('/')
 
     assert response.status_code == 200
-    #assert 'Test card' in response.data.decode()
