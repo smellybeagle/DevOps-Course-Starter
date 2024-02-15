@@ -8,7 +8,7 @@ class ViewModel:
     def todos(self) -> list[Item]:
         output: list[Item] = []   
         for item in self._items:
-            if item.status == "To Do":
+            if item.Status == "To Do":
                 output.append(item)
         return output
     
@@ -16,7 +16,7 @@ class ViewModel:
     def doings(self) -> list[Item]:
         output: list[Item] = []   
         for item in self._items:
-            if item.status == "In Progress":
+            if item.Status == "In Progress":
                 output.append(item)
         return output
     
@@ -24,6 +24,6 @@ class ViewModel:
     def dones(self) -> list[Item]:
         output: list[Item] = []   
         for item in self._items:
-            if item.status == "Completed":
+            if item.Status == "Completed":
                 output.append(item)
         return output

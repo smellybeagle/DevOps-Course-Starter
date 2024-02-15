@@ -1,5 +1,5 @@
-from todo_app.data.item import Item
-from todo_app.tests.view_model import ViewModel
+from ..data.item import Item
+from todo_app.view_model import ViewModel
 
 
 def test_view_model_todos_method_only_returns_todo_items_and_not_other_statuses():
