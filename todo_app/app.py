@@ -6,11 +6,11 @@ from flask import Flask, redirect, render_template, request
 import pymongo
 from bson import ObjectId # For ObjectId to work
 
-#mongodb_host = os.getenv('MONGO_HOST','localhost')
+#mongodb_host = os.getenv("MONGODB_HOST")
 #mongodb_port = int(os.environ.get('MONGO_PORT', '27017'))
 
 #Configure the connection to the database
-#client = pymongo.MongoClient(mongodb_host,mongodb_port) 
+#client = pymongo.MongoClient(mongodb_host) 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 #Select the database   
 db = client.todo_app    

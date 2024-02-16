@@ -32,14 +32,15 @@ def stub(url, params={}):
             '_id': '123abc',
             'name': 'To Do',
             'desc': 'A basic To Do item',
-            'status': 'To Do'
+            'Status': 'To Do'
         },{'_id': '123abcd',
             'name': 'Doing',
-            'status': 'In Progress'}
+            'desc': 'A basic To Do item',
+            'Status': 'In Progress'}
         ,{'_id': '123abcde',
             'name': 'Done',
             'desc': 'A basic To Do item',
-            'status': 'Completed'}]
+            'Status': 'Completed'}]
         return StubResponse(fake_response_data)
     raise Exception(f'Integration test did not expect URL "{url}"')
 
