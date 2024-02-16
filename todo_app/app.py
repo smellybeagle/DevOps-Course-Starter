@@ -79,7 +79,15 @@ def create_app():
 		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
 	    return redirect('/')
 
-
+    @app.route('/delete', methods = ["POST"])
+    def remove():
+	    id=request.values.get("_id")
+	    task=collection.find({"_id":ObjectId(id)})
+	    if(task[0]["Status"]=="Completed"):
+		    collection.delete_one({"_id":ObjectId(id)})
+	    else:
+		    collection.delete_one({"_id":ObjectId(id)})
+	    return redirect('/')
 
     return app
 
