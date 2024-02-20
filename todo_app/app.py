@@ -11,7 +11,10 @@ from bson import ObjectId # For ObjectId to work
 
 #Configure the connection to the database
 #client = pymongo.MongoClient(mongodb_host) 
-client = pymongo.MongoClient("mongodb://localhost:27017/")
+#client = pymongo.MongoClient("mongodb://localhost:27017/")
+
+dbconnection = os.getenv("MONGODB_CONN")
+client = pymongo.MongoClient(dbconnection)
 #Select the database   
 db = client.todo_app    
 #Select the collection
