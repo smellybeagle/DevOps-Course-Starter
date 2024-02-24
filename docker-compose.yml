@@ -10,3 +10,14 @@ services:
     working_dir: /todo_app
     volumes:
       - ./:/todo_app
+  mongo:
+    image: mongo
+    build:
+      target: test
+      context: .
+    env_file:
+      - .env.test
+    ports:
+      - 5000:5000
+    environment:
+      - MONGODB_CONN=mongodb://mongo

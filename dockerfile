@@ -8,11 +8,6 @@ ENV POETRY_HOME="/opt/poetry" \
 # to run poetry directly as soon as it's installed
 ENV PATH="$POETRY_HOME/bin:$PATH"
 
-# Install Dependencies
-#RUN pip install pymongo
-#RUN pip install gunicorn
-#RUN pip install bson
-
 # install poetry
 RUN apt-get update \
     && apt-get install -y --no-install-recommends curl \
@@ -26,35 +21,28 @@ COPY . .
 # this will create the folder /app/.venv (might need adjustment depending on which poetry version you are using)
 RUN poetry config virtualenvs.create false --local && poetry install --no-root --no-ansi --without dev
 
-# Create a new stage from the base python image
+########################################################################################################################
+# Create a new stage from the base python image ########################################################################
+########################################################################################################################
 FROM poetry-base as production
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PATH="/app/.venv/bin:$PATH"
 
-
 WORKDIR /app
-# copy the venv folder from builder image 
-#COPY --from=poetry-base /app/.venv ./.venv
+
 # Copy Dependencies
 COPY poetry.lock pyproject.toml ./
-
-# Install Dependencies
-#RUN pip install pytest
-#RUN pip install mongomock
-
-# Copy Application
-COPY . .
-#COPY .env /app/todo_app
 
 # Run Application
 EXPOSE 8000
 
-
 CMD [ "poetry", "run", "python", "-m", "gunicorn","todo_app.app:create_app()" ,"--bind","0.0.0.0"]
 
-# Create a new stage from the base python image
+##########################################################################################################
+# Create a new stage from the base python image ##########################################################
+##########################################################################################################
 FROM poetry-base as test
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
@@ -63,17 +51,14 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 
 WORKDIR /app
-# copy the venv folder from builder image 
-#COPY --from=poetry-base /app/.venv ./.venv
+
 # Copy Dependencies
 COPY poetry.lock pyproject.toml ./
 
 # Install Dependencies
 RUN poetry install --no-root --no-ansi
 
-
 # Copy Application
-#COPY . /app
 COPY .env.test /app/todo_app
 COPY .env.template /app/todo_app
 
