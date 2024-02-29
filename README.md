@@ -1,13 +1,12 @@
 # DevOps Apprenticeship: Project Exercise
 
-> If you are using GitPod for the project exercise (i.e. you cannot use your local machine) then you'll want to launch a VM using the [following link](https://gitpod.io/#https://github.com/CorndelWithSoftwire/DevOps-Course-Starter). Note this VM comes pre-setup with Python & Poetry pre-installed.
 
 ## System Requirements
 Docker Desktop
 Python Docker Image
 Poetry
 Flask
-gunicorn
+Pymongo
 github
 
 ## Dependencies

@@ -1,39 +1,79 @@
-from typing import ItemsView
-from flask import Flask
-from .flask_config import Config
-from todo_app.trello_items import init_trello, todolists, doinglists, donelists,new_card,move_doing,move_done
-from flask import Flask, render_template, request, redirect
 from todo_app.view_model import ViewModel
-from todo_app.debugger import writelog
+from .data.item import Item
+from .flask_config import Config
+import os
+from flask import Flask, redirect, render_template, request
+import pymongo
+from bson import ObjectId # For ObjectId to work
+
+
 
 def create_app():
+    dbconnection = os.getenv("MONGODB_CONN")
+    client = pymongo.MongoClient(dbconnection)   
+    db = client.todo_app    
+    collection = db.todolist
+    
     app = Flask(__name__)
     app.config.from_object(Config())
     
-    init_trello()
-
+    
+    def todolists():
+        dicttodo=collection.find({"Status" : "To Do"})
+        todos = []
+        for todo_item in dicttodo:
+            todos.append(Item.from_mongo(todo_item))
+        return todos
+        
+    def doinglists():
+            dictdoing=collection.find({"Status" : "In Progress"})
+            doing = []
+            for doing_item in dictdoing:
+                doing.append(Item.from_mongo(doing_item))
+            return doing
+            
+    def donelists():
+            dictdone=collection.find({"Status" : "Completed"})
+            done = []
+            for done_item in dictdone:
+                done.append(Item.from_mongo(done_item))
+            return done
+    
     @app.route('/')
     def index():
         todo_items = todolists()
         doing_items = doinglists()
-        done_items = donelists()
-        item_view_model = ViewModel(todo_items, doing_items, done_items)
-        #return render_template('index.html', view_model=item_view_model)
+        done_item = donelists()
+        item_view_model = ViewModel(todo_items, doing_items, done_item)
         return render_template('index.html', view_model = item_view_model)
-
+    
     @app.route('/additem', methods = ["POST"])
     def add_new_item():
-        new_card()
-        return redirect('/')
+        name=request.values.get("name")
+        desc=request.values.get("desc")
+        collection.insert_one({ "name":name, "desc":desc, "Status": "To Do"})
+        return redirect('/')   
 
     @app.route('/movedoing', methods = ["POST"])
     def movedoing():
-        move_doing()
+        id=request.values.get("_id")
+        collection.find({"_id":ObjectId(id)})
+        collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
         return redirect('/')
+    
 
     @app.route('/movedone', methods = ["POST"])
     def movedone():
-        move_done()
+        id=request.values.get("_id")
+        collection.find({"_id":ObjectId(id)})
+        collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"Completed"}})
+        return redirect('/')
+
+    @app.route('/delete', methods = ["POST"])
+    def remove():
+        id=request.values.get("_id")
+        collection.find({"_id":ObjectId(id)})
+        collection.delete_one({"_id":ObjectId(id)})
         return redirect('/')
 
     return app

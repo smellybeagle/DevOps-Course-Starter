@@ -5,27 +5,40 @@
   <div class="jumbotron">
     <h1 class="display-4">To-Do App</h1>
     <p class="lead">Just another to-do app.</p>
-  </div>
+  </div>  
   <div class="row">
-    <div class="col-md-12">
-      <h2>To-Do</h2>
-      <ul class="list-group mb-4">
+    <div class="col-md-14">
+      <h2>Add New Item </h2>
+      <ul class="list-group mb-6">
+          <form method="post" action="/additem">
+            <label for ="name">Title</label>
+            <input name="name" id="name" required>
+            <label for ="desc">Description</label>
+            <input name="desc" id="desc" required>
+            <button type="submit" name ="Submit"> Add New Task</button>
+          </form>
+      </ul>
+    </div>
+  <div class="row">
+    <div class="col-md-14">
+      <h2>To-Do List</h2>
+      <ul class="list-group mb-6">
           {% for item in view_model.todos %}
-            <li>ID: {{ item.id }} -Title: {{ item.name }} - {{ item.status }}  </li>   
+          <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li>
               <form method="post" action="/movedoing">
-              <input name="id" hidden value= "{{ item.id }}" required>
+              <input name="_id" hidden value= "{{ item._id }}" required>
               <button type="submit" name ="Submit"> Mark as In Progress</button>
             </form>
           {%endfor%}
       </ul>
     </div>
-    <div class="col-md-12">
+    <div class="col-md-14">
       <h2>In Progress</h2>
-      <ul class="list-group mb-4">
+      <ul class="list-group mb-6">
           {% for item in view_model.doings %}
-            <li>ID: {{ item.id }} -Title:  {{ item.name }} - {{ item.status }}   </li>
+          <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li> 
               <form method="post" action="/movedone">
-                <input name="id" hidden value= "{{ item.id }}" required>
+                <input name="_id" hidden value= "{{ item._id }}" required>
                 <button type="submit" name ="Submit"> Mark as Completed</button>
               </form>
           {%endfor%}
@@ -35,20 +48,14 @@
       <h2>Completed</h2>
       <ul class="list-group mb-4">
           {% for item in view_model.dones %}
-            <li>ID: {{ item.id }} -Title:  {{ item.name }} - {{ item.status }} </li>
+          <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li> 
+          <form method="post" action="/delete">
+            <input name="_id" hidden value= "{{ item._id }}" required>
+            <button type="submit" name ="Submit"> Delete Item</button>
+          </form>
           {%endfor%}
       </ul>
     </div>
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Add ToDo Item </h2>
-      <ul class="list-group mb-4">
-          <form method="post" action="/additem">
-            <label for ="name">Add New</label>
-            <input name="name" id="name" required>
-            <button type="submit" name ="Submit"> Submit</button>
-          </form>
-      </ul>
-    </div>
+
   </div>
 {% endblock %}
