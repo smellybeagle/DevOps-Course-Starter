@@ -6,21 +6,14 @@ from flask import Flask, redirect, render_template, request
 import pymongo
 from bson import ObjectId # For ObjectId to work
 
-#mongodb_host = os.getenv("MONGODB_HOST")
-#mongodb_port = int(os.environ.get('MONGO_PORT', '27017'))
-
-#Configure the connection to the database
-#client = pymongo.MongoClient(mongodb_host) 
-#client = pymongo.MongoClient("mongodb://localhost:27017/")
 
 
 def create_app():
     dbconnection = os.getenv("MONGODB_CONN")
-    client = pymongo.MongoClient(dbconnection)
-    #Select the database   
+    client = pymongo.MongoClient(dbconnection)   
     db = client.todo_app    
-    #Select the collection
     collection = db.todolist
+    
     app = Flask(__name__)
     app.config.from_object(Config())
     
@@ -63,34 +56,25 @@ def create_app():
 
     @app.route('/movedoing', methods = ["POST"])
     def movedoing():
-	    id=request.values.get("_id")
-	    task=collection.find({"_id":ObjectId(id)})
-	    if(task[0]["Status"]=="To Do"):
-		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
-	    else:
-		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"Completed"}})
-	    return redirect('/')
+        id=request.values.get("_id")
+        collection.find({"_id":ObjectId(id)})
+        collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
+        return redirect('/')
     
 
     @app.route('/movedone', methods = ["POST"])
     def movedone():
-	    id=request.values.get("_id")
-	    task=collection.find({"_id":ObjectId(id)})
-	    if(task[0]["Status"]=="In Progress"):
-		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"Completed"}})
-	    else:
-		    collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"In Progress"}})
-	    return redirect('/')
+        id=request.values.get("_id")
+        collection.find({"_id":ObjectId(id)})
+        collection.update_one({"_id":ObjectId(id)}, {"$set": {"Status":"Completed"}})
+        return redirect('/')
 
     @app.route('/delete', methods = ["POST"])
     def remove():
-	    id=request.values.get("_id")
-	    task=collection.find({"_id":ObjectId(id)})
-	    if(task[0]["Status"]=="Completed"):
-		    collection.delete_one({"_id":ObjectId(id)})
-	    else:
-		    collection.delete_one({"_id":ObjectId(id)})
-	    return redirect('/')
+        id=request.values.get("_id")
+        collection.find({"_id":ObjectId(id)})
+        collection.delete_one({"_id":ObjectId(id)})
+        return redirect('/')
 
     return app
 

@@ -1,23 +1,19 @@
 version: '3'
 services:
   app:
-    image: python:latest
+    build:
+      target: production
+      context: .
     container_name: todo_app
     restart: always
-    command: sh -c "yarn install && yarn start"
     ports:
       - 8000:8000
-    working_dir: /todo_app
-    volumes:
-      - ./:/todo_app
-  mongo:
-    image: mongo
-    build:
-      target: test
-      context: .
-    env_file:
-      - .env.test
-    ports:
-      - 5000:5000
+#    volumes:
+#      - ./:/todo_app
     environment:
       - MONGODB_CONN=mongodb://mongo
+    env_file: .env
+  mongo:
+    image: mongo
+    ports:
+      - 27017:27017
