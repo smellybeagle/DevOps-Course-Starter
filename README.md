@@ -6,7 +6,9 @@ Docker Desktop
 Python Docker Image
 Poetry
 Flask
-Pymongo
+    -Pymongo
+    -FlaskDance
+
 github
 
 ## Dependencies
@@ -42,3 +44,7 @@ Development:[`http://localhost:5000/`](http://localhost:5000/)
 The application is tested in GitHub by GitHub Action workflows whenever the application is commited.
 To view the tests, go to https:\\github.com\<accountname>\<repository>\actions
 
+### Security Considerations
+OAUTH has been enabled to GitHub for both Localhost and the Production site.
+HTTPS is enforced from the deployed Application in Azure, MongoDB is configured to accept SSL connections.
+The MONGODB collection is encrypted at rest by default. Ensure the security keys are not exposed to the wider public.
