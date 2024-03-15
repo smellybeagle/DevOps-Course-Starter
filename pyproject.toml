@@ -13,6 +13,7 @@ pytest = "^7.4.0"
 gunicorn = "^21.2.0"
 pymongo = "^4.6.1"
 flask-dance = "^7.0.1"
+safety = "^3.0.1"
 
 [tool.poetry.dev-dependencies]
 

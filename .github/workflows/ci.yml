@@ -24,8 +24,9 @@ jobs:
                   SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
   
               - run: docker build --target test --tag todo-app:test .
+              - run: docker run  --env-file .env.test -p 5000:5000 --entrypoint poetry todo-app:test run safety check
               - run: docker run --env-file .env.test -p 5000:5000 todo-app:test
-              #continue-on-warning: true
+                continue-on-error: true
   
       deploy:
           name: deploy
