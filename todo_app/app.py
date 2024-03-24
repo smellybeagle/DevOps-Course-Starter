@@ -2,13 +2,12 @@ from todo_app.view_model import ViewModel
 from .data.item import Item
 from .flask_config import Config
 import os
-from flask import Flask, redirect, render_template, request, url_for
+from flask import Flask, redirect, render_template, request, url_for,session
 import pymongo
 from bson import ObjectId # For ObjectId to work
-from todo_app.oauth import blueprint
+from todo_app.oauth import blueprint,get_role_for_user
 from flask_dance.contrib.github import github
 from werkzeug.middleware.proxy_fix import ProxyFix
-
 
 def create_app():
     dbconnection = os.getenv("MONGODB_CONN")
@@ -50,7 +49,13 @@ def create_app():
         doing_items = doinglists()
         done_item = donelists()
         item_view_model = ViewModel(todo_items, doing_items, done_item)
-        return render_template('index.html', view_model = item_view_model)
+        username=session["username"]
+        if username == os.getenv("OAUTHADMIN"):
+        #if username == "smellybeagle":
+            role="ADMIN"
+        else:
+            role="READ ONLY"
+        return render_template('index.html', view_model = item_view_model,username=username,role=role)
     
     @app.route('/additem', methods = ["POST"])
     def add_new_item():

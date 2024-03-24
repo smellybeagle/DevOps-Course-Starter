@@ -5,6 +5,7 @@
   <div class="jumbotron">
     <h1 class="display-4">To-Do App</h1>
     <p class="lead">Just another to-do app.</p>
+    <p class="lead">Welcome {{username}} your access is: {{role}} </p>
   </div>  
   <div class="row">
     <div class="col-md-14">
@@ -15,7 +16,7 @@
             <input name="name" id="name" required>
             <label for ="desc">Description</label>
             <input name="desc" id="desc" required>
-            <button type="submit" name ="Submit"> Add New Task</button>
+            {%if role!="READ ONLY"%}<button type="submit" name ="Submit"> Add New Task</button>{%endif%}
           </form>
       </ul>
     </div>
@@ -27,7 +28,7 @@
           <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li>
               <form method="post" action="/movedoing">
               <input name="_id" hidden value= "{{ item._id }}" required>
-              <button type="submit" name ="Submit"> Mark as In Progress</button>
+              {%if role!="READ ONLY"%}<button type="submit" name ="Submit"> Mark as In Progress</button>{%endif%}
             </form>
           {%endfor%}
       </ul>
@@ -39,7 +40,7 @@
           <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li> 
               <form method="post" action="/movedone">
                 <input name="_id" hidden value= "{{ item._id }}" required>
-                <button type="submit" name ="Submit"> Mark as Completed</button>
+                {%if role!="READ ONLY"%}<button type="submit" name ="Submit"> Mark as Completed</button>{%endif%}
               </form>
           {%endfor%}
       </ul>
@@ -51,7 +52,7 @@
           <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li> 
           <form method="post" action="/delete">
             <input name="_id" hidden value= "{{ item._id }}" required>
-            <button type="submit" name ="Submit"> Delete Item</button>
+            {%if role!="READ ONLY"%}<button type="submit" name ="Submit"> Delete Item</button>{%endif%}
           </form>
           {%endfor%}
       </ul>
