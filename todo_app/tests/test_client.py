@@ -23,6 +23,9 @@ def client(monkeypatch: pytest.MonkeyPatch):
         test_app = app.create_app()
     # Use the app to create a test_client that can be used in our tests.
     with test_app.test_client() as client:
+        with client.session_transaction() as session:
+            session["username"] = "smellybeagle"
+            session["role"] = "ADMIN"
         yield client
 
 def test_index_page(monkeypatch: pytest.MonkeyPatch, client: FlaskClient):

@@ -46,5 +46,6 @@ To view the tests, go to https:\\github.com\<accountname>\<repository>\actions
 
 ### Security Considerations
 OAUTH has been enabled to GitHub for both Localhost and the Production site.
+User and Role memberships have been added to determine access levels.
 HTTPS is enforced from the deployed Application in Azure, MongoDB is configured to accept SSL connections.
 The MONGODB collection is encrypted at rest by default. Ensure the security keys are not exposed to the wider public.

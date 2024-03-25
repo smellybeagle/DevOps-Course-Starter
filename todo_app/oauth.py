@@ -8,16 +8,15 @@ blueprint = make_github_blueprint(
     client_secret = os.getenv('OAUTH_CLIENT_SECRET'),
     
 )
-def get_role_for_user(user_id):
+def get_role_for_user(username):
     # Should return 'writer' if user_id matches your GitHub id
     # And 'reader' if not
-    user_id=session["username"]
-    #username=session["username"]
-    if user_id == os.getenv("OAUTHADMIN"):
+    username=session["username"]
+    if username == os.getenv("OAUTHADMIN"):
         role="ADMIN"
     else:
         role="READ ONLY" 
-    pass
+    return role
 
 @oauth_authorized.connect
 def github_logged_in(blueprint, token):
@@ -26,7 +25,7 @@ def github_logged_in(blueprint, token):
     response = blueprint.session.get("/user")
     user_dict = response.json()
     session["username"]=user_dict.get("login")
-    #session["username"]="smellybeagle1"
+    session["role"] = get_role_for_user(session["username"])
     return session
     # Return False to have Flask-Dance forget the token as we won't use it again
     #return False
