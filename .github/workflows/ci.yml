@@ -26,7 +26,7 @@ jobs:
             - run: terraform init
             - run: terraform validate
               continue-on-error: false
-            - run: terraform plan -lock "false"
+            - run: terraform plan
             - run: terraform apply  -auto-approve -input=false
             - env:
                 GHWEBHOOK: "${{ secrets.GHWEBHOOK }}"
