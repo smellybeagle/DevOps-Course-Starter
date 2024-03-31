@@ -3,7 +3,7 @@ on:
   push:
     branches:    
    # - main
-    - 'Mod/**'
+    - 'Mod**'
     paths-ignore:
     - '**/README.md'
 
