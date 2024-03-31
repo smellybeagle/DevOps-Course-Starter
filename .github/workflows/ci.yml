@@ -1,18 +1,33 @@
 name: Continuous Integration
 on: 
   push:
-   # branches:    
-    #- main
-   # - 'Mod/**'
+    branches:    
+   # - main
+    - 'Mod/**'
     paths-ignore:
     - '**/README.md'
+
 env:
       # Use docker.io for Docker Hub if empty
       REGISTRY: docker.io
       # github.repository as <account>/<repo>
       IMAGE_NAME: ${{ github.repository }}
+
 jobs:
-      test:
+  terraform:
+          runs-on: ubuntu-latest
+
+          steps:
+            - uses: actions/checkout@v3
+            -  uses: hashicorp/setup-terraform@v1
+            - run: terraform --version
+            - run: terraform init
+            - run: terraform validate
+              continue-on-error: false
+            - run: terraform plan  -out "planfile"
+            - run: terraform apply  -auto-approve -input=false "planfile"
+            - run: curl -dH -X POST "$(terraform output -raw cd_webhook)"
+  test:
           name: test
           runs-on: ubuntu-latest
           steps:
@@ -27,8 +42,7 @@ jobs:
               - run: docker run  --env-file .env.test -p 5000:5000 --entrypoint poetry todo-app:test run safety check
               - run: docker run --env-file .env.test -p 5000:5000 todo-app:test
                 continue-on-error: true
-  
-      deploy:
+  deploy:
           name: deploy
           needs: test
           runs-on: ubuntu-latest
