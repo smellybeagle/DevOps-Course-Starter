@@ -12,7 +12,7 @@ env:
       REGISTRY: docker.io
       # github.repository as <account>/<repo>
       IMAGE_NAME: ${{ github.repository }}
-#set
+
 jobs:
   terraform:
           runs-on: ubuntu-latest
