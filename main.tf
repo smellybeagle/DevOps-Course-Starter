@@ -132,7 +132,7 @@ resource "azurerm_linux_web_app" "main" {
     "SECRET_KEY" = "${var.SECRET_KEY}"
     "OAUTH_CLIENT_ID" = "${var.OAUTH_CLIENT_ID}"
     "OAUTH_CLIENT_SECRET" = "${var.OAUTH_CLIENT_SECRET}"
-    "OAUTHADMIN" = "${var.OAUTHADMIN}"
+    "OAUTHADMIN" = "smellybeagle"
     "WEBSITES_ENABLE_APP_SERVICE_STORAGE" = "false"
   }
 }
@@ -240,7 +240,7 @@ resource "azurerm_linux_web_app" "test" {
     "SECRET_KEY" = "${var.TEST_SECRET_KEY}"
     "OAUTH_CLIENT_ID" = "${var.TEST_OAUTH_CLIENT_ID}"
     "OAUTH_CLIENT_SECRET" = "${var.TEST_OAUTH_CLIENT_SECRET}"
-    "OAUTHADMIN" = "${var.TEST_OAUTHADMIN}"
+    "OAUTHADMIN" = "smellybeagle"
     "WEBSITES_ENABLE_APP_SERVICE_STORAGE" = "false"
   }
 }
