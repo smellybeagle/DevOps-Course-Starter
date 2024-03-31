@@ -18,7 +18,7 @@ jobs:
           runs-on: ubuntu-latest
 
           steps:
-#            - run: az account set  --subscription  ${{ secrets.ARM_SUBSCRIPTION_ID }}
+            - run: az account set  --subscription  ${{ secrets.ARM_SUBSCRIPTION_ID }}
             - uses: actions/checkout@v3
             -  uses: hashicorp/setup-terraform@v1
             - run: terraform --version
