@@ -13,7 +13,8 @@ env:
       # github.repository as <account>/<repo>
       IMAGE_NAME: ${{ github.repository }}
 
-terraform:
+jobs:
+  terraform:
           runs-on: ubuntu-latest
 
           steps:
@@ -27,7 +28,6 @@ terraform:
             - run: terraform plan  -out "planfile"
             - run: terraform apply  -auto-approve -input=false "planfile"
             - run: curl -dH -X POST "$(terraform output -raw cd_webhook)"
-
   test:
           name: test
           runs-on: ubuntu-latest
