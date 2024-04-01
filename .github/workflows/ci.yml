@@ -25,8 +25,8 @@ jobs:
             - run: terraform init
             - run: terraform validate
               continue-on-error: false
-            - run: terraform plan  -out "tfplanfile"
-            - run: terraform apply  -auto-approve -input=false "tfplanfile"
+            - run: terraform plan  -out tfplanfile
+            - run: terraform apply  -auto-approve -input=false tfplanfile
             - env:
                 GHWEBHOOK: "${{ secrets.GHWEBHOOK }}"
               run: curl -dH -X POST $GHWEBHOOK
