@@ -27,10 +27,6 @@ jobs:
               continue-on-error: false
             - run: terraform plan  -out tfplanfile
             - run: terraform apply  -auto-approve -input=false tfplanfile
-#            - env:
-#                GHWEBHOOK: "${{ secrets.GHWEBHOOK }}"
-#              run: curl -dH -X POST $GHWEBHOOK
-
   test:
           name: test
           runs-on: ubuntu-latest
@@ -72,6 +68,6 @@ jobs:
               - run: docker build --target production --tag lvarnham/smellybeagle:latest .
               - run: docker push lvarnham/smellybeagle:latest
               - env:
-                  WEBHOOK: "${{ secrets.WEBHOOK_SECRET }}"
-                run: curl -dH -X POST $WEBHOOK
+                GHWEBHOOK: ${{ secrets.WEBHOOK_SECTRET }}
+              run: curl -dH -X POST $GHWEBHOOK
 
