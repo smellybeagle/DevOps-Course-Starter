@@ -125,9 +125,9 @@ resource "azurerm_linux_web_app" "main" {
     "WEBSITES_PORT" = "8000"
     "FLASK_APP" = "todo_app/app."
     "MONGODB_CONN" = "${azurerm_cosmosdb_account.main.primary_mongodb_connection_string};"
-    "SECRET_KEY" = "${{ secrets.SECRET_KEY }}"
-    "OAUTH_CLIENT_ID" = "${{ secrets.OAUTH_CLIENT_ID }}"
-    "OAUTH_CLIENT_SECRET" = "${{ secrets.OAUTH_CLIENT_SECRET }}"
+    "SECRET_KEY" = "${var.SECRET_KEY}"
+    "OAUTH_CLIENT_ID" = "${var.OAUTH_CLIENT_ID}"
+    "OAUTH_CLIENT_SECRET" = "${var.OAUTH_CLIENT_SECRET}"
     "OAUTHADMIN" = "smellybeagle"
     "WEBSITES_ENABLE_APP_SERVICE_STORAGE" = "false"
   }
