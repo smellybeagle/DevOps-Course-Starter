@@ -11,14 +11,19 @@ env:
       # Use docker.io for Docker Hub if empty
       REGISTRY: docker.io
       IMAGE_NAME: ${{ github.repository }}
+      ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
+      ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+      ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
+      ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+
 
 jobs:
   terraform:
           runs-on: ubuntu-latest
 
           steps:
-            - run: az login
-            - run: az account set  --subscription  ${{ secrets.ARM_SUBSCRIPTION_ID }}
+#            - run: az login
+#            - run: az account set  --subscription  ${{ secrets.ARM_SUBSCRIPTION_ID }}
             - uses: actions/checkout@v3
             -  uses: hashicorp/setup-terraform@v1
             - run: terraform --version
