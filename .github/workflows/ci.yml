@@ -22,15 +22,13 @@ jobs:
           runs-on: ubuntu-latest
 
           steps:
-#            - run: az login
-#            - run: az account set  --subscription  ${{ secrets.ARM_SUBSCRIPTION_ID }}
             - uses: actions/checkout@v3
 #            -  uses: hashicorp/setup-terraform@v1
             - run: terraform --version
             - run: terraform init
             - run: terraform validate
               continue-on-error: false
-            - run: terraform plan  -out tfplanfile
+            - run: terraform plan -var-file terraform.tfvars -out tfplanfile
             - run: terraform apply  -auto-approve -input=false tfplanfile
   test:
           name: test
