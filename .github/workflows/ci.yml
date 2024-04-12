@@ -66,8 +66,8 @@ jobs:
 
             - run: docker build --target production --tag lvarnham/smellybeagle:latest .
             - run: docker push lvarnham/smellybeagle:latest
-            - env:
+ #           - env:
               #GHWEBHOOK: $(terraform output production_webhook_url)
               #  GHWEBHOOK: ${{ secrets.WEBHOOK_SECTRET }}
-              run: curl -dH -X POST $(terraform output production_webhook_url)
+            -  run: curl -dH -X POST $(terraform output production_webhook_url)
 
