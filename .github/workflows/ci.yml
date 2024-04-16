@@ -15,6 +15,9 @@ env:
       ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
       ARM_CLIENT_ID: ${{ secrets.ARM_CLIENT_ID }}
       ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET }}
+      TF_VAR_SECRET_KEY: ${{ secrets.SECRET_KEY }}
+      TF_VAR_OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
+      TF_VAR_OAUTH_CLIENT_SECRET: ${{ secrets.OAUTH_CLIENT_SECRET }}
 
 
 jobs:
@@ -74,4 +77,3 @@ jobs:
               #  GHWEBHOOK: ${{ secrets.WEBHOOK_SECTRET }}
             - run: terraform init
             - run: curl -dH -X POST $(terraform output production_webhook_url)
-
