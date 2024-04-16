@@ -76,4 +76,4 @@ jobs:
               #GHWEBHOOK: $(terraform output production_webhook_url)
               #  GHWEBHOOK: ${{ secrets.WEBHOOK_SECTRET }}
             - run: terraform init
-            - run: curl -dH -X POST $(terraform output production_webhook_url)
+            - run: curl -dH -X POST $(terraform output -raw production_webhook_url)
