@@ -31,7 +31,7 @@ jobs:
             - run: terraform init
             - run: terraform validate
               continue-on-error: false
-            - run: terraform plan -var-file terraform.tfvars -out tfplanfile
+            - run: terraform plan -out tfplanfile
             - run: terraform apply  -auto-approve -input=false tfplanfile
   test:
           name: test
