@@ -4,3 +4,10 @@
 **/__pycache__
 **/.pytest_cache
 env
+.tf
+.tfstate
+.tfstate.backup
+.hcl
+.terraform
+test_data.todolist.json
+import-mongo-data.py
