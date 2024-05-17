@@ -28,6 +28,8 @@
           <li>ID: {{ item._id }} -Title:  {{ item.name }} -Desc:  {{ item.desc }}- Status: {{ item.Status }}   </li>
               <form method="post" action="/movedoing">
               <input name="_id" hidden value= "{{ item._id }}" required>
+              <input name="Title" hidden value= "{{ item.name }}" required>
+              <input name="Desc" hidden value= "{{ item.desc }}" required>
               {%if role!="READ ONLY"%}<button type="submit" name ="Submit"> Mark as In Progress</button>{%endif%}
             </form>
           {%endfor%}

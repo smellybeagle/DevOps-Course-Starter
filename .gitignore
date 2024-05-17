@@ -119,7 +119,7 @@ env/
 ### Configuration files ###
 .env
 ### Logging files ###
-.log
+*.log
 
 ### Terraform
 # Local .terraform directories
@@ -160,3 +160,5 @@ terraform.rc
 #test data load files
 test_data.todolist.json
 import-mongo-data.py
+
+logging.py
