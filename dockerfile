@@ -57,7 +57,8 @@ COPY poetry.lock pyproject.toml ./
 
 # Install Dependencies
 RUN poetry install --no-root --no-ansi
-
+RUN poetry add loggly-python-handler
+RUN poetry add python-json-logger
 # Copy Application
 COPY .env.test /app/todo_app
 COPY .env.template /app/todo_app
