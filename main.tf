@@ -15,14 +15,14 @@ data "azurerm_resource_group" "main" {
   name     = "Cohort28_LeeVar_ProjectExercise"
 }
 
-terraform {
-  backend "azurerm" {
-    resource_group_name  = "Cohort28_LeeVar_ProjectExercise"
-    storage_account_name = "beagleblob"
-    container_name       = "tfstate"
-    key                  = "terraform.tfstate"
-    }
-}
+#terraform {
+#  backend "azurerm" {
+#    resource_group_name  = "Cohort28_LeeVar_ProjectExercise"
+#    storage_account_name = "beagleblob"
+#    container_name       = "tfstate"
+#    key                  = "terraform.tfstate"
+#    }
+#}
 
 resource "azurerm_cosmosdb_account" "main" {
   name                = "production-effybeagle"
