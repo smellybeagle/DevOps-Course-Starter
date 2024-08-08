@@ -10,9 +10,9 @@ from flask import Flask, redirect, url_for
 from flask_dance.consumer.storage import MemoryStorage
 from todo_app.oauth import blueprint
 from flask_dance.contrib.github import github
-from todo_app.logging import writelog,logtoconsole
-from loggly.handlers import HTTPSHandler
-from logging import Formatter
+#from todo_app.logging import writelog,logtoconsole
+#from loggly.handlers import HTTPSHandler
+#from logging import Formatter
 
 @pytest.fixture
 def client(monkeypatch: pytest.MonkeyPatch):

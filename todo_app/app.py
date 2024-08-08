@@ -10,7 +10,7 @@ from flask_dance.contrib.github import github
 from werkzeug.middleware.proxy_fix import ProxyFix
 #from todo_app.logging import writelog,logtoconsole
 #from loggly.handlers import HTTPSHandler
-from logging import Formatter
+#from logging import Formatter
 
 
 
@@ -73,7 +73,7 @@ def create_app():
         name=request.values.get("name")
         desc=request.values.get("desc")
         collection.insert_one({ "name":name, "desc":desc, "Status": "To Do"})
-        app.logger.debug({ "name":name, "desc":desc, "Status": "To Do"})
+        #app.logger.debug({ "name":name, "desc":desc, "Status": "To Do"})
         #context = 'app.py add-new-item'
         #function = 'add_new_item'
         #datastring= name + desc
@@ -116,10 +116,10 @@ def create_app():
         id=request.values.get("_id")
         collection.find({"_id":ObjectId(id)})
         collection.delete_one({"_id":ObjectId(id)})
-        context = 'app.py delete'
-        function = 'remove'
-        datastring= id
-        writelog(context, function, 'datastring',datastring)
+        #context = 'app.py delete'
+        #function = 'remove'
+        #datastring= id
+        #writelog(context, function, 'datastring',datastring)
         return redirect('/')
 
     return app
